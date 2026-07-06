@@ -1,3 +1,7 @@
+# ! Burdaki içerikler Coderspace pro sayesinde ve eğitimi ile yapılmıştır. !
+
+---
+
 # Temelden İleri Seviye Projelerle Python 🚀
 
 Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar gerçek senaryolar, pratik uygulamalar ve kapsamlı projelerle öğrenmek amacıyla geliştirilen tüm çalışmaları içermektedir. CoderSpace kapsamında gerçekleştirilen bu eğitim serisinde; veri yapılarından nesne yönelimli programlamaya, mantıksal kontrol yapılarından dosya bazlı kalıcılık sistemlerine kadar geniş bir yelpazede uygulamalar bulunmaktadır.
@@ -92,4 +96,4 @@ python "Temelden-Ileri seviye projelerle Python/2.Bölüm/Bölüm sonu proje 2/D
 ```
 
 ---
-Bu harika projeyi hazırlayan ve dersleri sunan **CoderSpace Pro** ailesine teşekkür ederiz! ⭐
+Bu harika projeyi hazırlayan ve dersleri sunan **CoderSpace Pro** ailesine içtenlikle teşekkür ederim! ⭐
