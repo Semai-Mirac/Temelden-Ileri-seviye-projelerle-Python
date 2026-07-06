@@ -1,0 +1,1543 @@
+Semai Miraç ArıcıSemai Miraç ArıcıPython ve programlama dünyasına sıfırdan adım at. Temel Python kavramlarını adım adım öğren, pratiklerle kod yazma becerisi kazan. Program sonunda kendi başına basit uygulamalar geliştirebilecek ve bir sonraki adımına hazır olacaksın.Python ve programlama dünyasına sıfırdan adım at. Temel Python kavramlarını adım adım öğren, pratiklerle kod yazma becerisi kazan. Program sonunda kendi başına basit uygulamalar geliştirebilecek ve bir sonraki adımına hazır olacaksın.
+Semai Miraç Arıcı
+Semai Miraç Arıcı
+Python ve programlama dünyasına sıfırdan adım at. Temel Python kavramlarını adım adım öğren, pratiklerle kod yazma becerisi kazan. Program sonunda kendi başına basit uygulamalar geliştirebilecek ve bir sonraki adımına hazır olacaksın.
+Python ve programlama dünyasına sıfırdan adım at. Temel Python kavramlarını adım adım öğren, pratiklerle kod yazma becerisi kazan. Program sonunda kendi başına basit uygulamalar geliştirebilecek ve bir sonraki adımına hazır olacaksın.
+Python ile ProgramlamaCoderspace.ioCaner ŞekerciPython ile ProgramlamaCoderspace.ioCaner Şekerci
+Python ile Programlama
+Coderspace.ioCaner Şekerci
+Python ile Programlama
+Coderspace.ioCaner Şekerci
+PYTHONCoderSpace PRO Kişisel Çalışma Özeti {Semai Miraç Arıcı} 
+Python = Soyutlama Dili
+Python  Hızlı Dene / Hızlı Öğren / Hızlı Düzelt
+Python, insan odaklı bir programlama dili olarak tasarlanmıştır. Bu, makineye ne yapacağını söylemek yerine, problemi nasıl düşüneceğinizi teşvik eder. Python'un bu özelliği, veri bilimi, yapay zekâ gibi alanlarda yaygın kullanılmasının sebeplerindendir. Python'da yazılan her şey temelde veri ile ilgilidir ve bu nedenle veri tiplerini anlamak önemlidir.
+Veri Tipleri, bir bilginin bellekte nasıl saklanacağını, hangi işlemlere izin verileceğini ve hangi hataların önleneceğini tanımlar. Yanlış veri tipi seçimi, performans sorunlarına ve güvenlik açıklarına yol açabilir. Python'un Dinamik Tipleme özelliği, değişkenlerin tipini belirtmeden, atanan değere göre tipin çalışma anında belirlenmesini sağlar. Bu esneklik, küçük projelerde avantaj sağlarken, büyük sistemlerde dikkatli kullanılmazsa teknik borçlara neden olabilir.
+Dinamik tipleme = Python sen bir değişken tanımlarken tipini belirtmezsin Python o değişkene atanan değere bakarak tipine karar verebiliyor bu da esneklik sağlıyor. Ama bu esneklik bize bedel olarak yansıyor sistem büyüdükçe esneklik kontrol edilmezse ciddi teknik boşlara dönüşmekte.
+Python'da temel veri tipleri şunlardır:
+Integer: Tam sayıları temsil eder. Kullanıcı sayısı veya işlem sayısı gibi kesirli olmayan veriler için kullanılır.
+Float: Ondalıklı sayıları ifade eder. Ölçüm ve oranlarla ilgili veriler için uygundur.
+String: Metin verilerini temsil eder. Kullanıcıdan gelen bilgiler genellikle string olarak alınır.
+Boolean: Karar mekanizmalarının temelini oluşturan true veya false değerleridir.
+None: Veri eksikliğini belirtir. Sıfır veya boş bir string değildir; veri henüz mevcut değil anlamına gelir.
+Python'da veri tipleri mutable (değiştirilebilir) ve immutable (değiştirilemez) olarak ikiye ayrılır. Immutable tipler (integer, float, string, bool) değiştirilemez; değişiklik yapıldığında yeni bir nesne oluşturulur. Mutable tipler (list, dictionary, set) ise değiştirilebilir ve bu özellik büyük sistemlerde yan etkilere neden olabilir.
+Veri tipleri, sistem tasarımında kritik bir rol oynar. Veri değişecek mi, paylaşılacak mı, karar mekanizmasında mı kullanılacak gibi sorular, veri tipi seçiminde önemli faktörlerdir. Veri tiplerini doğru anlamadan, fonksiyonları ve kontrol yapılarını etkili bir şekilde kullanmak mümkün değildir. Sağlam bir temel oluşturarak, daha temiz ve güvenilir kod yazmak mümkün olacaktır.
+Örnek bir Python kodu:
+# Dinamik tipleme örneği
+veri = 10        # veri şu anda bir integer
+print(type(veri))  # 
+veri = 10.5      # veri şimdi bir float
+print(type(veri))  # 
+veri = "Merhaba" # veri şimdi bir string
+print(type(veri))  #
+Pratik--------------------------------------------------------------------------------------------------------
+print fonksiyonu birden fazla argümanı virgülle alır ve araya otomatik olarak bir boşluk koyarak yazar; bu yüzden string ve sayıyı yan yana değil, arada bir boşlukla görürsün. Cevap aprint fonksiyonu birden fazla argümanı virgülle alır ve araya otomatik olarak bir boşluk koyarak yazar; bu yüzden string ve sayıyı yan yana değil, arada bir boşlukla görürsün. Cevap aprint(‘Ecem’, 22)   Çalışırsa ekranda ne yazar?
+print fonksiyonu birden fazla argümanı virgülle alır ve araya otomatik olarak bir boşluk koyarak yazar; bu yüzden string ve sayıyı yan yana değil, arada bir boşlukla görürsün. Cevap a
+print fonksiyonu birden fazla argümanı virgülle alır ve araya otomatik olarak bir boşluk koyarak yazar; bu yüzden string ve sayıyı yan yana değil, arada bir boşlukla görürsün. Cevap a
+a) Ecem 22
+b) Hata
+c) Ecem22
+d) Ecem,22
+----------------------------------------------------------------------------------------------------------------------------------------------
+type fonksiyonu, verilen değerin tipini bir sınıf (class) olarak döndürür; 3.0 ondalıklı bir sayı olduğundan tipi float sınıfıdır. Cevap ctype fonksiyonu, verilen değerin tipini bir sınıf (class) olarak döndürür; 3.0 ondalıklı bir sayı olduğundan tipi float sınıfıdır. Cevap cprint(type(3.0))   Çıktısı nedir?
+type fonksiyonu, verilen değerin tipini bir sınıf (class) olarak döndürür; 3.0 ondalıklı bir sayı olduğundan tipi float sınıfıdır. Cevap c
+type fonksiyonu, verilen değerin tipini bir sınıf (class) olarak döndürür; 3.0 ondalıklı bir sayı olduğundan tipi float sınıfıdır. Cevap c
+a) <class ‘str’>
+b) Hata
+c) <class ‘float’>
+d) <class ‘int’>
+----------------------------------------------------------------------------------------------------------------------------------------------
+String, tek tırnak veya çift tırnak içinde yazılan metin ifadelerdir; sayı gibi görünen içerik bile tırnak içindeyse string kabul edilir. Cevap aString, tek tırnak veya çift tırnak içinde yazılan metin ifadelerdir; sayı gibi görünen içerik bile tırnak içindeyse string kabul edilir. Cevap aAşağıdakilerden hangisi string bir değere örnektir?
+String, tek tırnak veya çift tırnak içinde yazılan metin ifadelerdir; sayı gibi görünen içerik bile tırnak içindeyse string kabul edilir. Cevap a
+String, tek tırnak veya çift tırnak içinde yazılan metin ifadelerdir; sayı gibi görünen içerik bile tırnak içindeyse string kabul edilir. Cevap a
+a) ’Çanakkale’
+b) 12
+c) True
+d) Çanakkale
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kod parçası çalıştırıldığında Python’un değişkenlere yaklaşımı ile ilgili hangisi doğrudur?
+s = 10
+Python’da isimler (değişkenler) nesnelere bağlanır; e = s dediğinde e, s ile aynı nesneyi gösterir ama e'yi 20 yaptığında artık farklı bir nesneye işaret eder, s olduğu gibi kalır. Cevap cPython’da isimler (değişkenler) nesnelere bağlanır; e = s dediğinde e, s ile aynı nesneyi gösterir ama e'yi 20 yaptığında artık farklı bir nesneye işaret eder, s olduğu gibi kalır. Cevap ce = s
+Python’da isimler (değişkenler) nesnelere bağlanır; e = s dediğinde e, s ile aynı nesneyi gösterir ama e'yi 20 yaptığında artık farklı bir nesneye işaret eder, s olduğu gibi kalır. Cevap c
+Python’da isimler (değişkenler) nesnelere bağlanır; e = s dediğinde e, s ile aynı nesneyi gösterir ama e'yi 20 yaptığında artık farklı bir nesneye işaret eder, s olduğu gibi kalır. Cevap c
+e = 20
+a) Kod hata verir.
+b) s değeri de otomatik olarak 20 olur.
+c) s ve e artık aynı değeri paylaşmaz.
+d) e değişkeni tanımsız hale gelir.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki ifadelerden hangileri Python’da geçerli değişken tanımıdır (birden fazla seçilebilir)?
+a) total_count = 13
+Değişken isimleri sayı ile başlayamaz ve Python anahtar kelimeleri kullanılamaz; alt çizgi ile başlamak ve harf–sayı–alt çizgi kombinasyonları ise geçerlidir. Cevap a-b-cDeğişken isimleri sayı ile başlayamaz ve Python anahtar kelimeleri kullanılamaz; alt çizgi ile başlamak ve harf–sayı–alt çizgi kombinasyonları ise geçerlidir. Cevap a-b-cb) value2 = 4
+Değişken isimleri sayı ile başlayamaz ve Python anahtar kelimeleri kullanılamaz; alt çizgi ile başlamak ve harf–sayı–alt çizgi kombinasyonları ise geçerlidir. Cevap a-b-c
+Değişken isimleri sayı ile başlayamaz ve Python anahtar kelimeleri kullanılamaz; alt çizgi ile başlamak ve harf–sayı–alt çizgi kombinasyonları ise geçerlidir. Cevap a-b-c
+c)_value = 2004
+d) 2nd_value = 10
+----------------------------------------------------------------------------------------------------------------------------------------------
+Python'da sayısal veri türleri, programlama sürecinde oldukça önemli bir rol oynar. Bu türler, verilerin nasıl saklanacağını ve üzerinde nasıl işlemler yapılacağını belirler. Python'da üç ana sayısal veri türü vardır:int (tam sayılar)float (ondalıklı sayılar)complex (karmaşık sayılar)
+----------------------------------------------------------------------------------------------------------------------------------------------
+ Integer (int), negatif ve pozitif tam sayıları ifade eder. Python'da bir integer tanımlamak oldukça basittir ve herhangi bir sınır olmaksızın büyük sayılarla çalışabilir.
+yaş = 28print(yaş)  # Çıktı: 28print(type(yaş))  # Çıktı: <class 'int'>
+----------------------------------------------------------------------------------------------------------------------------------------------
+ Float, ondalıklı sayıları temsil eder. Bu tür, matematiksel işlemler için oldukça kullanışlıdır ve genellikle finansal hesaplamalar veya bilimsel hesaplamalar için kullanılır.
+fiyat = 19.99print(fiyat)  # Çıktı: 19.99print(type(fiyat))  # Çıktı: <class 'float'>
+----------------------------------------------------------------------------------------------------------------------------------------------
+ Bir integer ve bir float toplandığında, sonuç her zaman float olacaktır. Bu, Python'un sayısal işlemler için kullandığı bir kuraldır.
+sayı1 = 4sayı2 = 0.4print(sayı1 + sayı2)  # Çıktı: 4.4
+----------------------------------------------------------------------------------------------------------------------------------------------
+ Complex sayılar ise daha çok özel matematiksel işlemler için kullanılır ve genellikle günlük programlama ihtiyaçlarında karşılaşılmaz. Python'da karmaşık sayılar, reel ve sanal kısımları olan sayılar olarak tanımlanır.
+Python'da sayısal işlemler yaparken, bölme işleminin her zaman float sonuç döndüreceğini unutmamak gerekir. Bu, Python'un değişmez kurallarından biridir.
+z = 15y = 4print(z / y)  # Çıktı: 3.75
+----------------------------------------------------------------------------------------------------------------------------------------------
+--- Son olarak, Python'da float sayılar bazen tam olarak saklanamayabilir, bu da küçük bir yuvarlama hatasına neden olabilir. Bu, bilgisayarların ondalıklı sayıları ikili sistemde saklamasından kaynaklanır.
+Float sayıları belirli bir basamak sayısına yuvarlamak veya formatlamak için format metodunu kullanabilirsiniz. Bu, özellikle finansal işlemler gibi hassas hesaplamalar yaparken faydalıdır. ---
+yeni_bakiye = 12345.6789print("{:.2f}".format(yeni_bakiye))  # Çıktı: 12345.68
+--- Bu temel sayısal veri türleri, Python'da veri işlemenin temel taşlarıdır ve doğru veri türünü seçmek, programların doğru ve verimli çalışması için kritik öneme sahiptir. ---
+Pratik--------------------------------------------------------------------------------------------------------
+// operatörü taban bölme (floor division) yapar; ondalık kısmı atarak en yakın küçük tam sayıyı döndürür. Cevap a// operatörü taban bölme (floor division) yapar; ondalık kısmı atarak en yakın küçük tam sayıyı döndürür. Cevap a7 // 3 işleminin sonucu nedir?
+// operatörü taban bölme (floor division) yapar; ondalık kısmı atarak en yakın küçük tam sayıyı döndürür. Cevap a
+// operatörü taban bölme (floor division) yapar; ondalık kısmı atarak en yakın küçük tam sayıyı döndürür. Cevap a
+a) 2
+b) 3
+c) 2.3
+d) Hata
+----------------------------------------------------------------------------------------------------------------------------------------------
+int fonksiyonu, sadece sayısal karakterlerden oluşan bir string’i tam sayıya dönüştürür; burada '12' metni 12 sayısına çevrilir. Cevap cint fonksiyonu, sadece sayısal karakterlerden oluşan bir string’i tam sayıya dönüştürür; burada '12' metni 12 sayısına çevrilir. Cevap cint(‘12’) ifadesi ne döndürür?
+int fonksiyonu, sadece sayısal karakterlerden oluşan bir string’i tam sayıya dönüştürür; burada '12' metni 12 sayısına çevrilir. Cevap c
+int fonksiyonu, sadece sayısal karakterlerden oluşan bir string’i tam sayıya dönüştürür; burada '12' metni 12 sayısına çevrilir. Cevap c
+a) Hata
+b) 12.0
+c) 12
+d) ‘12’
+----------------------------------------------------------------------------------------------------------------------------------------------
+/ operatörü her zaman float sonuç üretir; iki tam sayı bile bölse, sonuç ondalıklı bir sayı olur. Cevap a/ operatörü her zaman float sonuç üretir; iki tam sayı bile bölse, sonuç ondalıklı bir sayı olur. Cevap a5 / 2 işleminin sonucu nedir?
+/ operatörü her zaman float sonuç üretir; iki tam sayı bile bölse, sonuç ondalıklı bir sayı olur. Cevap a
+/ operatörü her zaman float sonuç üretir; iki tam sayı bile bölse, sonuç ondalıklı bir sayı olur. Cevap a
+a) 2.5
+b) 3
+c) Hata
+d) 2
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki işlemlerden hangileri float sonuç üretir (birden fazla doğru olabilir)?
+Ondalıklı bir sayı ile yapılan işlemler veya / operatörü float döndürür; // operatörü ise tam sayı sonuç üretir. Cevap a-c-dOndalıklı bir sayı ile yapılan işlemler veya / operatörü float döndürür; // operatörü ise tam sayı sonuç üretir. Cevap a-c-da) 9 / 3
+Ondalıklı bir sayı ile yapılan işlemler veya / operatörü float döndürür; // operatörü ise tam sayı sonuç üretir. Cevap a-c-d
+Ondalıklı bir sayı ile yapılan işlemler veya / operatörü float döndürür; // operatörü ise tam sayı sonuç üretir. Cevap a-c-d
+b) 9 // 3
+c) 9 * 3.0
+d) float(9)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki karşılaştırmalardan hangileri True sonucunu verir (birden fazla doğru olabilir)?
+Python’da int ve float sayılar, değerleri aynı olduğunda eşit kabul edilir ve karşılaştırma operatörleri her iki tipte de aynı matematiksel anlamı taşır. Cevap a-c-dPython’da int ve float sayılar, değerleri aynı olduğunda eşit kabul edilir ve karşılaştırma operatörleri her iki tipte de aynı matematiksel anlamı taşır. Cevap a-c-da) 5 == 5.0
+Python’da int ve float sayılar, değerleri aynı olduğunda eşit kabul edilir ve karşılaştırma operatörleri her iki tipte de aynı matematiksel anlamı taşır. Cevap a-c-d
+Python’da int ve float sayılar, değerleri aynı olduğunda eşit kabul edilir ve karşılaştırma operatörleri her iki tipte de aynı matematiksel anlamı taşır. Cevap a-c-d
+b) 7 / 2 == 3
+c) 3 + 2.0 == 5
+d) 7 // 2 == 3
+String veri tipi, Python'da metinsel verileri temsil eder ve birçok farklı kullanım alanına sahiptir. İsimler, adresler, açıklamalar gibi metinsel bilgiler string olarak saklanır. Stringler, tek veya çift tırnak içinde yazılır ve bu tırnaklar arasında boşluklar da dahil olmak üzere her şey bir string olarak kabul edilir.
+Stringler üzerinde matematiksel işlemler yapılamaz çünkü onlar karakterlerden oluşan bir yapıdır. Örneğin, tırnak içinde yazılmış bir sayı bile string olarak kabul edilir ve matematiksel işlemler için uygun değildir.
+Python'da stringler indekslenebilir. Her karakterin bir konumu vardır ve bu konumlar sıfırdan başlayarak numaralandırılır. Ayrıca tersten indeksleme de mümkündür ve bu durumda indeksler -1'den başlayarak geriye doğru gider.
+kelime = "Python"print(kelime[0])  # 'P' harfiprint(kelime[-1]) # 'n' harfi
+Stringlerin uzunluğunu bulmak için len() fonksiyonu kullanılır. Bu fonksiyon, stringin kaç karakterden oluştuğunu döner.
+metin = "Coderspace"print(len(metin))  # 10
+Stringler üzerinde dilimleme yaparak belirli bir kısmını alabiliriz. Dilimleme işlemi, başlangıç ve bitiş indekslerini belirterek yapılır ve bitiş indeksi dahil edilmez.
+kelime = "Coderspace"print(kelime[1:4])  # 'ode'
+Stringlerin tamamını büyük harfe çevirmek için upper(), küçük harfe çevirmek için lower() metotları kullanılır.
+eğitim_adı = "Python Programlama"print(eğitim_adı.upper())  # 'PYTHON PROGRAMLAMA'
+Stringleri birleştirmek için + operatörü kullanılır. Boşluk gibi özel karakterler de bir string olarak eklenebilir.
+kullanıcı_adı = "Ecem"parola = "Terzioğlu"print(kullanıcı_adı + " " + parola)  # 'Ecem Terzioğlu'
+Bir string içinde belirli bir kelimenin olup olmadığını kontrol etmek için in operatörü kullanılır. Bu operatör, Boolean bir değer döner.
+yorum = "Yan yana filmi çok komikli"print("yan" in yorum)  # True
+Bir stringdeki belirli bir kelimeyi başka bir kelime ile değiştirmek için replace() metodu kullanılır.
+cümle = "Coderspace ile Python öğreniyorum"yeni_cümle = cümle.replace("öğreniyorum", "seviyorum")print(yeni_cümle)  # 'Coderspace ile Python seviyorum'
+Stringler, veri analizi, veri temizleme ve diğer birçok programlama görevinde önemli bir rol oynar. Bu temel işlemler, stringlerle çalışırken sıkça kullanılan yöntemlerdir.
+Pratik--------------------------------------------------------------------------------------------------------
+in operatörü string içinde alt string arar; 'on' ifadesi 'python' içinde geçtiği için sonuç True olur. Cevap a in operatörü string içinde alt string arar; 'on' ifadesi 'python' içinde geçtiği için sonuç True olur. Cevap a ‘on’ in ‘python’ ifadesinin sonucu nedir?
+in operatörü string içinde alt string arar; 'on' ifadesi 'python' içinde geçtiği için sonuç True olur. Cevap a 
+in operatörü string içinde alt string arar; 'on' ifadesi 'python' içinde geçtiği için sonuç True olur. Cevap a 
+a) True
+b) Hata
+c) False
+d) None
+----------------------------------------------------------------------------------------------------------------------------------------------
+Slice işlemi başlangıç indeksi dahil, bitiş indeksini hariç alır; 1–4 aralığı 1, 2 ve 3. karakterleri yani 'erh' kısmını döndürür. Cevap bSlice işlemi başlangıç indeksi dahil, bitiş indeksini hariç alır; 1–4 aralığı 1, 2 ve 3. karakterleri yani 'erh' kısmını döndürür. Cevap b‘merhaba’ [1:4] çıktısı nedir?
+Slice işlemi başlangıç indeksi dahil, bitiş indeksini hariç alır; 1–4 aralığı 1, 2 ve 3. karakterleri yani 'erh' kısmını döndürür. Cevap b
+Slice işlemi başlangıç indeksi dahil, bitiş indeksini hariç alır; 1–4 aralığı 1, 2 ve 3. karakterleri yani 'erh' kısmını döndürür. Cevap b
+a) mer
+b) erh
+c) rha
+d) Hata
+----------------------------------------------------------------------------------------------------------------------------------------------
+Negatif indeksler dizinin sonundan sayar; -1 her zaman son karakteri temsil eder. Cevap aNegatif indeksler dizinin sonundan sayar; -1 her zaman son karakteri temsil eder. Cevap as = ‘Ecoski’s[-1]ne döndürür ?
+Negatif indeksler dizinin sonundan sayar; -1 her zaman son karakteri temsil eder. Cevap a
+Negatif indeksler dizinin sonundan sayar; -1 her zaman son karakteri temsil eder. Cevap a
+a) i
+b) E
+c) Hata
+d) o
+----------------------------------------------------------------------------------------------------------------------------------------------
+Yine slice mantığı gereği bitiş indeksi hariç tutulur; 1–5 aralığı 'coderspace' içinden yalnızca 1,2,3,4. karakterleri yani 'oder' kısmını verir. Cevap aYine slice mantığı gereği bitiş indeksi hariç tutulur; 1–5 aralığı 'coderspace' içinden yalnızca 1,2,3,4. karakterleri yani 'oder' kısmını verir. Cevap aAşağıdaki kod çalıştığında ekrana ne yazdırır?
+Yine slice mantığı gereği bitiş indeksi hariç tutulur; 1–5 aralığı 'coderspace' içinden yalnızca 1,2,3,4. karakterleri yani 'oder' kısmını verir. Cevap a
+Yine slice mantığı gereği bitiş indeksi hariç tutulur; 1–5 aralığı 'coderspace' içinden yalnızca 1,2,3,4. karakterleri yani 'oder' kısmını verir. Cevap a
+text = “coderspace”print(text[1:5])
+a) oder
+b) Hata oluşur
+c) code
+d) oders
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki işlemlerden hangileri orijinal string’i değiştirmez, yeni bir string üretir (birden fazla doğru olabilir)?
+Stringler Python'da immutable'dır; upper(), replace() ve strip() gibi metotlar her zaman yeni bir string döndürür ve orijinali dokunmadan bırakır. Cevap a-b-cStringler Python'da immutable'dır; upper(), replace() ve strip() gibi metotlar her zaman yeni bir string döndürür ve orijinali dokunmadan bırakır. Cevap a-b-ca) upper()
+Stringler Python'da immutable'dır; upper(), replace() ve strip() gibi metotlar her zaman yeni bir string döndürür ve orijinali dokunmadan bırakır. Cevap a-b-c
+Stringler Python'da immutable'dır; upper(), replace() ve strip() gibi metotlar her zaman yeni bir string döndürür ve orijinali dokunmadan bırakır. Cevap a-b-c
+b) replace(“a”, “b”)
+c) strip()
+d) append(“x”)
+Boolean veri tipi, bilgisayar bilimlerinde karar verme süreçlerinin temelini oluşturur. Python'da Boolean değerleri yalnızca True ve False olarak ikiye ayrılır. Bu değerler, koşul ifadelerinde ve karşılaştırmalarda kullanılarak programın akışını belirler.
+Python'da Boolean değerleri büyük harfle başlar. Küçük harfle yazılan "true" veya "false" ifadeleri Python tarafından string olarak algılanır ve bu durum hata ile sonuçlanabilir. Bu nedenle, doğru yazım kurallarına dikkat etmek önemlidir.
+Boolean değerleri genellikle karşılaştırma operatörleri ile üretilir. Python'da sık kullanılan karşılaştırma operatörleri şunlardır:==: Eşit mi?!=: Eşit değil mi?>: Büyük mü?<: Küçük mü?>=: Büyük veya eşit mi?<=: Küçük veya eşit mi?
+Bu operatörler, iki değeri karşılaştırarak Boolean sonuçlar döndürür. Örneğin:
+print(5 > 3)  # Çıktı: Trueprint(10 == 8)  # Çıktı: False
+Mantıksal operatörler, birden fazla koşulu birleştirmek için kullanılır:and: Her iki koşul da doğruysa True döner.or: Koşullardan en az biri doğruysa True döner.not: Bir koşulun tersini döndürür.Örnek olarak, iki koşulun birleştirilmesi:
+print((5 > 2) and (10 > 3))  # Çıktı: Trueprint((5 > 2) or (10 < 3))   # Çıktı: Trueprint(not (5 > 2))            # Çıktı: False
+Python'da bazı değerler otomatik olarak Boolean değerlere dönüştürülebilir. Örneğin, boş bir liste veya string False olarak değerlendirilirken, dolu olanlar True olarak değerlendirilir. Sıfır sayısı False iken, diğer tüm sayılar True kabul edilir.
+print(bool([]))  # Çıktı: Falseprint(bool("Hello"))  # Çıktı: Trueprint(bool(0))  # Çıktı: Falseprint(bool(42))  # Çıktı: True
+Bu temel Boolean mantığı, programlama dillerinde koşulların ve döngülerin temelini oluşturur. Doğru kullanımı, programın beklenen şekilde çalışmasını sağlar.
+Pratik--------------------------------------------------------------------------------------------------------
+not operatörü boolean değeri tersine çevirir; True → False, False → True olur. Cevap dnot operatörü boolean değeri tersine çevirir; True → False, False → True olur. Cevap dnot(True)    ifadesinin sonucu nedir?
+not operatörü boolean değeri tersine çevirir; True → False, False → True olur. Cevap d
+not operatörü boolean değeri tersine çevirir; True → False, False → True olur. Cevap d
+a) Hata
+b) True
+c) None
+d) False
+or operatörü kısa devre (short-circuit) çalışır ve ilk True kabul edilen değeri döndürür; 0 Falsey kabul edildiği için 5 sonucu döner. Cevap dor operatörü kısa devre (short-circuit) çalışır ve ilk True kabul edilen değeri döndürür; 0 Falsey kabul edildiği için 5 sonucu döner. Cevap d----------------------------------------------------------------------------------------------------------------------------------------------
+or operatörü kısa devre (short-circuit) çalışır ve ilk True kabul edilen değeri döndürür; 0 Falsey kabul edildiği için 5 sonucu döner. Cevap d
+or operatörü kısa devre (short-circuit) çalışır ve ilk True kabul edilen değeri döndürür; 0 Falsey kabul edildiği için 5 sonucu döner. Cevap d
+0 or 5    ifadesini sonucu nedir (Python’da)?
+a) False
+b) 0
+c) True
+d) 5
+----------------------------------------------------------------------------------------------------------------------------------------------
+and operatörü ilk Falsey değeri bulduğunda onu döndürür; boş string Falsey olduğu için ikinci ifadeye bakmadan '' döner. Cevap band operatörü ilk Falsey değeri bulduğunda onu döndürür; boş string Falsey olduğu için ikinci ifadeye bakmadan '' döner. Cevap b‘’ or ‘y’     ifadesinin sonucu nedir?
+and operatörü ilk Falsey değeri bulduğunda onu döndürür; boş string Falsey olduğu için ikinci ifadeye bakmadan '' döner. Cevap b
+and operatörü ilk Falsey değeri bulduğunda onu döndürür; boş string Falsey olduğu için ikinci ifadeye bakmadan '' döner. Cevap b
+a) Hata
+b) ‘’
+c) ‘y’
+d) False
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki ifadelerden hangisi Python’da short-circuit (kısa devre) davranışına örnektir?
+Short-circuit, gereksiz hesaplamalardan kaçınmak için kullanılır; and/ or ifadeleri sonucu değiştirmeyecek kısma gelince diğer tarafı hiç çalıştırmaz. Cevap dShort-circuit, gereksiz hesaplamalardan kaçınmak için kullanılır; and/ or ifadeleri sonucu değiştirmeyecek kısma gelince diğer tarafı hiç çalıştırmaz. Cevap da) (10 / 0) == 0
+Short-circuit, gereksiz hesaplamalardan kaçınmak için kullanılır; and/ or ifadeleri sonucu değiştirmeyecek kısma gelince diğer tarafı hiç çalıştırmaz. Cevap d
+Short-circuit, gereksiz hesaplamalardan kaçınmak için kullanılır; and/ or ifadeleri sonucu değiştirmeyecek kısma gelince diğer tarafı hiç çalıştırmaz. Cevap d
+b) True and (10 / 0)
+c) not (10 / 0)
+d) False and (10 / 0)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangileri Python tarafından False olarak değerlendirilir (birden fazla doğru olabilir)?
+Boş koleksiyonlar ve sıfır sayısı Falsey kabul edilir; içi dolu listeler veya '0' gibi stringler ise Truey sayılır. Cevap b-cBoş koleksiyonlar ve sıfır sayısı Falsey kabul edilir; içi dolu listeler veya '0' gibi stringler ise Truey sayılır. Cevap b-ca) ”0”
+Boş koleksiyonlar ve sıfır sayısı Falsey kabul edilir; içi dolu listeler veya '0' gibi stringler ise Truey sayılır. Cevap b-c
+Boş koleksiyonlar ve sıfır sayısı Falsey kabul edilir; içi dolu listeler veya '0' gibi stringler ise Truey sayılır. Cevap b-c
+b) []
+c) 0
+d) [0]
+Python programlama dilinde veri yapıları, bellek düzeni, hız, esneklik ve problem çözme kabiliyeti üzerinde doğrudan etkisi olan temel yapılardır. Python'da veri yapıları iki ana kategoriye ayrılır: yerleşik (built-in) ve kullanıcı tanımlı (user-defined) veri yapıları.
+Yerleşik veri yapıları, Python'ın doğrudan içinden gelen ve ekstra bir şey tanımlamadan kullanılabilen yapılardır. Bu yapılar günlük veri manipülasyonu, makine öğrenmesi öncesi veri hazırlığı, API'den gelen veri işlemleri veya log analizleri gibi birçok işlemde kullanılır. Python'daki yerleşik veri yapıları dört ana kategoriden oluşur:Listeler: En temel sıralı koleksiyonlardır. Dinamik bir dizi yapısına karşılık gelir ve elemanların sırası korunur. İstenildiği anda eleman eklenebilir veya çıkarılabilir. Farklı tipleri aynı listede tutabilir.Tuple: Değiştirilemeyen sıralı yapılardır. Sabit kalması gereken veriyi saklamak için idealdir. Tuple'lar, listeye benzer ancak değiştirilemez oldukları için güvenlik ve performans sağlar.Dictionary: Anahtar-değer eşleşmesi sunan hash tabanlı bir veri yapısıdır. JSON formatının Python'daki karşılığıdır ve API'den gelen veriler genellikle dictionary'e dönüştürülür.Set: Benzersiz elemanlardan oluşan küme yapısıdır. Elemanların sırası yoktur ve bir elemanın sette olup olmadığını kontrol etmek çok hızlıdır.
+Kullanıcı tanımlı veri yapıları, daha karmaşık problemler için kendi yapılarınızı tasarlamanızı sağlar. Bu yapılar arasında Stack, Queue, Tree, Linked List, HashMap ve Graph gibi yapılar bulunur. Örneğin, Stack son giren ilk çıkar kuralına dayanırken, Queue ilk giren ilk çıkar mantığına dayanır.
+Python'da veri yapıları ile çalışırken, her yapı belli bir problem türünü doğal olarak çözer. Basit veri işlemleri için yerleşik yapılar, karmaşık algoritmik problemler içinse kullanıcı tanımlı yapılar kullanılır.
+# Örnek: Dictionary kullanarak bir kişinin bilgilerini saklamaperson = {    "isim": "Ecem",    "yaş": 22,    "şehir": "Çanakkale"}
+# Dictionary elemanlarına erişimprint(person["isim"])    # Çıktı: Ecemprint(person.get("yaş"))    # Çıktı: 22
+# Yeni bir anahtar-değer çifti eklemeperson["meslek"] = "Tapu"print(person)
+Veri yapıları, Python'un esnek ve genişletilebilir mimarisinin temelini oluşturur. Bu yapıları etkili bir şekilde kullanarak, veri bilimcileri ve yazılım geliştiricileri daha performanslı ve ölçeklenebilir çözümler üretebilir.
+Pratik--------------------------------------------------------------------------------------------------------
+Key–value (anahtar–değer) yapıları, bir anahtar üzerinden hızlı erişim sağlar; Python’da bu yapı dictionary (sözlük) ile temsil edilir. Cevap cKey–value (anahtar–değer) yapıları, bir anahtar üzerinden hızlı erişim sağlar; Python’da bu yapı dictionary (sözlük) ile temsil edilir. Cevap cKey-value mantığı ile çalışan yapı hangisidir?
+Key–value (anahtar–değer) yapıları, bir anahtar üzerinden hızlı erişim sağlar; Python’da bu yapı dictionary (sözlük) ile temsil edilir. Cevap c
+Key–value (anahtar–değer) yapıları, bir anahtar üzerinden hızlı erişim sağlar; Python’da bu yapı dictionary (sözlük) ile temsil edilir. Cevap c
+a) List
+b) Tuple
+c) Dictionary
+d) Set
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki veri yapılarından hangileri iterable’dir (birden fazla doğru olabilir)?
+Iterable yapılar üzerinde for döngüsü ile gezinebilirsin; list, tuple, string ve set bu özelliktedir. Tek bir tam sayı (int) üzerinde doğrudan döngü kuramazsın. Cevap a-b-cIterable yapılar üzerinde for döngüsü ile gezinebilirsin; list, tuple, string ve set bu özelliktedir. Tek bir tam sayı (int) üzerinde doğrudan döngü kuramazsın. Cevap a-b-ca) List
+Iterable yapılar üzerinde for döngüsü ile gezinebilirsin; list, tuple, string ve set bu özelliktedir. Tek bir tam sayı (int) üzerinde doğrudan döngü kuramazsın. Cevap a-b-c
+Iterable yapılar üzerinde for döngüsü ile gezinebilirsin; list, tuple, string ve set bu özelliktedir. Tek bir tam sayı (int) üzerinde doğrudan döngü kuramazsın. Cevap a-b-c
+b) String
+c) Set
+d) Integer
+----------------------------------------------------------------------------------------------------------------------------------------------
+İndekslenebilir yapılar, sıralı bir yapıya sahiptir; set ve dict üzerinde doğrudan sayısal indeks kullanamazsın. Cevap dİndekslenebilir yapılar, sıralı bir yapıya sahiptir; set ve dict üzerinde doğrudan sayısal indeks kullanamazsın. Cevap dİndeksle erişilebilen yapılar hangileridir?
+İndekslenebilir yapılar, sıralı bir yapıya sahiptir; set ve dict üzerinde doğrudan sayısal indeks kullanamazsın. Cevap d
+İndekslenebilir yapılar, sıralı bir yapıya sahiptir; set ve dict üzerinde doğrudan sayısal indeks kullanamazsın. Cevap d
+a) Set ve Dict
+b) Sadece Set
+c) Sadece Dict
+d) List ve Tuple
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki senaryolardan hangisi için set veri yapısı daha uygundur?
+Set, aynı elemanı birden fazla kez tutmaz ve üyelik kontrolü hızlıdır; benzersiz olması gereken değerleri saklamak için idealdir. Cevap dSet, aynı elemanı birden fazla kez tutmaz ve üyelik kontrolü hızlıdır; benzersiz olması gereken değerleri saklamak için idealdir. Cevap da) Kullanıcı bilgilerine anahtar-değer şeklinde erişim.
+Set, aynı elemanı birden fazla kez tutmaz ve üyelik kontrolü hızlıdır; benzersiz olması gereken değerleri saklamak için idealdir. Cevap d
+Set, aynı elemanı birden fazla kez tutmaz ve üyelik kontrolü hızlıdır; benzersiz olması gereken değerleri saklamak için idealdir. Cevap d
+b) Değiştirilemeyen sabit ayarların saklanması.
+c) Siparişlerin tarih sırasıyla tutulması.
+d) Kullanıcı adlarının benzersiz olmasının sağlanması.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki veri yapılarından hangilerinde eleman sırası korunur (birden fazla doğru olabilir)?
+Modern Python sürümlerinde list, tuple ve dict ekleme sırasını korur; set ise sırasız bir koleksiyondur. Cevap b-c-dModern Python sürümlerinde list, tuple ve dict ekleme sırasını korur; set ise sırasız bir koleksiyondur. Cevap b-c-da) set
+Modern Python sürümlerinde list, tuple ve dict ekleme sırasını korur; set ise sırasız bir koleksiyondur. Cevap b-c-d
+Modern Python sürümlerinde list, tuple ve dict ekleme sırasını korur; set ise sırasız bir koleksiyondur. Cevap b-c-d
+b) list
+c) tuple
+d) dict
+Python'da listeler, veri koleksiyonları oluşturmak için kullanılan en temel veri yapılarından biridir. Listeler, diğer programlama dillerindeki dizilerden farklı olarak dinamik bir yapıya sahiptir. Bu, listelerin boyutunun otomatik olarak büyüyebilmesi anlamına gelir. Python, liste dolduğunda arka planda daha büyük bir alan ayırarak ve mevcut elemanları bu yeni alana kopyalayarak listeyi büyütür. Bu süreç, yeniden alan ayırma ve over allocation (ihtiyacın ötesinde yer ayırma) işlemleriyle gerçekleştirilir.
+Listelerin dinamik yapısı, onları esnek ve kullanışlı kılar. Ancak, bu esneklik performans maliyetleri de getirir. Özellikle büyük veri setleriyle çalışırken, liste büyütme işlemleri arka planda taşınma ve kopyalama gerektirdiği için pahalı olabilir. Bu nedenle, performansın kritik olduğu durumlarda, sabit tipte veri yapıları (örneğin NumPy dizileri) tercih edilebilir.
+Python listelerinin bir diğer önemli özelliği, heterojen yapıda olmalarıdır. Yani, bir liste içinde farklı türde veriler (sayılar, metinler, objeler vb.) saklanabilir. Bu esneklik, listeleri çok yönlü kılar, ancak her elemanın tipini ayrı ayrı yönetmek gerektiğinden, bu durum hızdan ödün vermemize neden olabilir.
+Listeler, elemanları referans olarak sakladıkları için, referans tuzağı adı verilen bir duruma da yol açabilir. Bu, listede saklanan bir objenin başka bir yerde değiştirildiğinde, listenin de bu değişiklikten etkilenmesi anlamına gelir. Bu nedenle, listelerle çalışırken bu davranışın farkında olmak önemlidir.
+# Basit bir Python listesi oluşturma ve eleman ekleme
+my_list = [1, 2, 3]
+my_list.append(4)    # Listeye yeni bir eleman ekleme
+print(my_list)     # Çıktı: [1, 2, 3, 4]
+Bu örnekte, bir liste oluşturulmuş ve append() metodu kullanılarak listeye yeni bir eleman eklenmiştir. Bu işlem, Python'un listeyi gerekirse büyüterek yeni bir alan ayırması sayesinde anlık ve hızlı bir şekilde gerçekleşir.
+Pratik--------------------------------------------------------------------------------------------------------
+Liste elemanına indeks ile erişip atama yaparak doğrudan değeri güncelleyebilirsin; fonksiyon isimleriyle yazılmış örnekler Python sözdizimine uymaz. Cevap aListe elemanına indeks ile erişip atama yaparak doğrudan değeri güncelleyebilirsin; fonksiyon isimleriyle yazılmış örnekler Python sözdizimine uymaz. Cevap aListe elemanı güncelleme hangisidir?
+Liste elemanına indeks ile erişip atama yaparak doğrudan değeri güncelleyebilirsin; fonksiyon isimleriyle yazılmış örnekler Python sözdizimine uymaz. Cevap a
+Liste elemanına indeks ile erişip atama yaparak doğrudan değeri güncelleyebilirsin; fonksiyon isimleriyle yazılmış örnekler Python sözdizimine uymaz. Cevap a
+a) lst[0] = 5
+b) add(lst,5)
+c) update(lst)
+d) lst(0) = 5
+----------------------------------------------------------------------------------------------------------------------------------------------
+Listeler sıfırdan indekslenir; 0. eleman 'a', 1. eleman 'b' değeridir. Cevap a Listeler sıfırdan indekslenir; 0. eleman 'a', 1. eleman 'b' değeridir. Cevap a [‘a’, ’b’] [1] sonucu nedir?
+Listeler sıfırdan indekslenir; 0. eleman 'a', 1. eleman 'b' değeridir. Cevap a 
+Listeler sıfırdan indekslenir; 0. eleman 'a', 1. eleman 'b' değeridir. Cevap a 
+a) ‘b’
+b) ‘a’
+c) Hata
+d) ‘ab’
+----------------------------------------------------------------------------------------------------------------------------------------------
+Boş köşeli parantez [] Python’da boş liste literalidir; diğer parantez tipleri farklı veri yapılarını temsil eder. Cevap cBoş köşeli parantez [] Python’da boş liste literalidir; diğer parantez tipleri farklı veri yapılarını temsil eder. Cevap cBoş liste nasıl oluşturulur?
+Boş köşeli parantez [] Python’da boş liste literalidir; diğer parantez tipleri farklı veri yapılarını temsil eder. Cevap c
+Boş köşeli parantez [] Python’da boş liste literalidir; diğer parantez tipleri farklı veri yapılarını temsil eder. Cevap c
+a) <>
+b) {}
+c) []
+d) ()
+----------------------------------------------------------------------------------------------------------------------------------------------
+append listenin sonuna yeni bir eleman ekler; indeksler kaymaz, 1. indeks hâlâ ikinci elemanı yani 20’yi gösterir. Cevap cappend listenin sonuna yeni bir eleman ekler; indeksler kaymaz, 1. indeks hâlâ ikinci elemanı yani 20’yi gösterir. Cevap cAşağıdaki kod çalıştırıldığında ekrana ne yazdırılır?items = [10, 20, 30]items.append(40)print(items[1])
+append listenin sonuna yeni bir eleman ekler; indeksler kaymaz, 1. indeks hâlâ ikinci elemanı yani 20’yi gösterir. Cevap c
+append listenin sonuna yeni bir eleman ekler; indeksler kaymaz, 1. indeks hâlâ ikinci elemanı yani 20’yi gösterir. Cevap c
+a) 40
+b) 30
+c) 20
+d) 10
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki işlemlerden hangileri list üzerinde geçerlidir (Birden fazla doğru olabilir)?
+Listeler üzerinde eleman ekleme, çıkarma ve genişletme için append, pop ve extend gibi yerleşik metotlar bulunur; add() ise list'e ait bir metot değildir. Cevap a-b-cListeler üzerinde eleman ekleme, çıkarma ve genişletme için append, pop ve extend gibi yerleşik metotlar bulunur; add() ise list'e ait bir metot değildir. Cevap a-b-ca) append()
+Listeler üzerinde eleman ekleme, çıkarma ve genişletme için append, pop ve extend gibi yerleşik metotlar bulunur; add() ise list'e ait bir metot değildir. Cevap a-b-c
+Listeler üzerinde eleman ekleme, çıkarma ve genişletme için append, pop ve extend gibi yerleşik metotlar bulunur; add() ise list'e ait bir metot değildir. Cevap a-b-c
+b) pop()
+c) extends()
+d) add()
+Python'da listelerle çalışırken, ileri seviye işlemler yapmak, dilin esnekliğini ve gücünü tam anlamıyla kullanabilmek için önemlidir. Bu işlemlerden bazıları slice (dilimleme), list comprehension (liste anlama) ve performans kıyaslamalarıdır.
+Slice işlemi, bir listenin belirli bir bölümünü seçip kullanmanıza olanak tanır. Python'da dilimleme işlemi, köşeli parantezler içinde başlangıç ve bitiş indeksleri belirtilerek yapılır. Örneğin, bir listenin ilk üç elemanını almak için:
+shopping_list = ["ekmek", "süt", "yumurta", "peynir", "zeytin"]ilk_elemanlar = shopping_list[0:3]print(ilk_elemanlar)  # Çıktı: ['ekmek', 'süt', 'yumurta']
+Burada, shopping_list[0:3] ifadesi, listenin 0. indeksinden başlayıp 3. indekse kadar olan elemanları (3. indeks hariç) seçer.
+Benzer şekilde, bir listenin son iki elemanını almak için negatif indeksleme kullanılabilir:
+to_do_list = ["mail at", "toplantı", "sunum hazırlığı", "rapor yaz"]son_gorevler = to_do_list[-2:]print(son_gorevler)  # Çıktı: ['sunum hazırlığı', 'rapor yaz']
+List comprehension ise, bir listeyi daha kısa ve okunabilir bir şekilde oluşturmanın Python'a özgü bir yoludur. Örneğin, bir listenin elemanlarını iki katına çıkarmak için:
+prices = [10, 20, 30, 40]double_prices = [price * 2 for price in prices]print(double_prices)  # Çıktı: [20, 40, 60, 80]
+Bu yapı, liste elemanlarını tek tek dolaşarak her birini ikiyle çarpar ve yeni bir liste oluşturur.
+List comprehension ayrıca koşullu ifadelerle de kullanılabilir. Örneğin, bir listeden sadece çift sayıları seçmek:
+numbers = [1, 2, 3, 4, 5, 6]even_numbers = [x for x in numbers if x % 2 == 0]print(even_numbers)  # Çıktı: [2, 4, 6]
+Bu örnekte, if x % 2 == 0 koşulu, sadece çift olan sayıları seçer ve yeni bir liste oluşturur.
+Python'da listelerle çalışırken bu tür ileri seviye işlemler, kodunuzu daha etkili ve okunabilir hale getirir. Bu yöntemler, özellikle büyük veri kümeleriyle çalışırken performansı artırabilir.
+Pratik--------------------------------------------------------------------------------------------------------
+Listeyi bir sayı ile çarpmak, içeriğini tekrarlayarak yeni bir liste oluşturur; elemanların değerini matematiksel olarak çarpmaz. Cevap cListeyi bir sayı ile çarpmak, içeriğini tekrarlayarak yeni bir liste oluşturur; elemanların değerini matematiksel olarak çarpmaz. Cevap clst * 2 işlemi ne yapar?
+Listeyi bir sayı ile çarpmak, içeriğini tekrarlayarak yeni bir liste oluşturur; elemanların değerini matematiksel olarak çarpmaz. Cevap c
+Listeyi bir sayı ile çarpmak, içeriğini tekrarlayarak yeni bir liste oluşturur; elemanların değerini matematiksel olarak çarpmaz. Cevap c
+a) Elemanları ikiyle çarpar.
+b) Hata.
+c) Listeyi tekrarlar.
+d) Siler.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Liste comprehension, yeni bir liste üretmek için sık kullanılan; hem kısa hem de okunabilir bir söz dizimidir; map gibi fonksiyonlara göre çoğu zaman daha okunaklıdır. Cevap dListe comprehension, yeni bir liste üretmek için sık kullanılan; hem kısa hem de okunabilir bir söz dizimidir; map gibi fonksiyonlara göre çoğu zaman daha okunaklıdır. Cevap dListe comprehension ne yapar?
+Liste comprehension, yeni bir liste üretmek için sık kullanılan; hem kısa hem de okunabilir bir söz dizimidir; map gibi fonksiyonlara göre çoğu zaman daha okunaklıdır. Cevap d
+Liste comprehension, yeni bir liste üretmek için sık kullanılan; hem kısa hem de okunabilir bir söz dizimidir; map gibi fonksiyonlara göre çoğu zaman daha okunaklıdır. Cevap d
+a) (x for x in lst)
+b) map(x, lst)
+c) for x in lst
+d) [x for x in lst]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki ifadelerden hangisi bir listeyi ters çevirerek yeni bir liste döndürür? 
+lst[::-1] adım değeri -1 olan bir slice ile yeni ve ters çevrilmiş bir liste döndürür. list(reversed(lst)) de yeni liste üretir; ancak lst.reverse() listeyi yerinde değiştirir ve None döner. Cevap alst[::-1] adım değeri -1 olan bir slice ile yeni ve ters çevrilmiş bir liste döndürür. list(reversed(lst)) de yeni liste üretir; ancak lst.reverse() listeyi yerinde değiştirir ve None döner. Cevap aa) lst[::-1]
+lst[::-1] adım değeri -1 olan bir slice ile yeni ve ters çevrilmiş bir liste döndürür. list(reversed(lst)) de yeni liste üretir; ancak lst.reverse() listeyi yerinde değiştirir ve None döner. Cevap a
+lst[::-1] adım değeri -1 olan bir slice ile yeni ve ters çevrilmiş bir liste döndürür. list(reversed(lst)) de yeni liste üretir; ancak lst.reverse() listeyi yerinde değiştirir ve None döner. Cevap a
+b) lst.reverse()
+c) lst.sort()
+d) reversed(lst)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Slice işlemi yeni bir liste döndürür ve bitiş indeksini hariç tutar; 1–4 aralığı [2, 3, 4] listesini üretir. Cevap aSlice işlemi yeni bir liste döndürür ve bitiş indeksini hariç tutar; 1–4 aralığı [2, 3, 4] listesini üretir. Cevap aAşağıdaki kodun çıktısı nedir?nums = [1, 2, 3, 4, 5]print(nums[1:4])
+Slice işlemi yeni bir liste döndürür ve bitiş indeksini hariç tutar; 1–4 aralığı [2, 3, 4] listesini üretir. Cevap a
+Slice işlemi yeni bir liste döndürür ve bitiş indeksini hariç tutar; 1–4 aralığı [2, 3, 4] listesini üretir. Cevap a
+a) [2, 3, 4]
+b) [2, 3, 4, 5]
+c) [1, 2, 3]
+d) [3, 4, 5]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki list comprehension ifadelerinden hangileri geçerlidir (birden fazla doğru olabilir)?
+Liste comprehension söz dizimi [ifade for öğe in koleksiyon if koşul] şeklindedir; parantez kullanımı veya yanlış sıralama sözdizimi hatasına yol açar. Cevap a-dListe comprehension söz dizimi [ifade for öğe in koleksiyon if koşul] şeklindedir; parantez kullanımı veya yanlış sıralama sözdizimi hatasına yol açar. Cevap a-da) [x*x for x in range(5)]
+Liste comprehension söz dizimi [ifade for öğe in koleksiyon if koşul] şeklindedir; parantez kullanımı veya yanlış sıralama sözdizimi hatasına yol açar. Cevap a-d
+Liste comprehension söz dizimi [ifade for öğe in koleksiyon if koşul] şeklindedir; parantez kullanımı veya yanlış sıralama sözdizimi hatasına yol açar. Cevap a-d
+b) [for x in range(5) x*x]
+c) (x*x for x in range(5))
+d) [x for x in range(5) if x % 2 == 0]
+Python'da listeler, birden fazla veriyi tek bir yapı içerisinde tutabilen, değiştirilebilir ve genişletilebilir veri yapılarıdır. Listeler üzerinde çeşitli işlemler yaparak verileri yönetmek mümkündür. İşte bu işlemlerden bazıları:
+Liste Tanımlama: Listeler köşeli parantezler içinde tanımlanır ve elemanlar virgülle ayrılır. Örneğin, Türkiye'nin en büyük üç şehrini içeren bir liste şu şekilde tanımlanabilir:şehirler = ["Çanakkale", "Biga", "Abdidağ"]
+Liste Uzunluğunu Bulma: Bir listenin kaç eleman içerdiğini öğrenmek için len() fonksiyonu kullanılır.uzunluk = len(şehirler)  # Çıktı: 3
+İndeksleme: Listelerde indeksleme sıfırdan başlar. Belirli bir indeksteki elemanı almak için köşeli parantezler kullanılır.ilk_sehir = şehirler[0]  # Çıktı: "Çanakkale"
+Eleman Değiştirme: Listeler değiştirilebilir (mutable) yapıda olduğu için belirli bir indeksteki elemanı değiştirebilirsiniz.şehirler[1] = "Bursa"  # "Biga" yerine "Bursa" gelir
+Eleman Ekleme: Listenin sonuna eleman eklemek için append() metodu, belirli bir indekse eklemek için insert() metodu kullanılır.şehirler.append("Antalya")  # Listenin sonuna "Antalya" eklenirşehirler.insert(1, "Adana")  # İkinci sıraya "Adana" eklenir
+Eleman Silme: Belirli bir elemanı silmek için remove(), belirli bir indeksten eleman silmek için pop() metodu kullanılır.şehirler.remove("Abdidağ")  # "Abdidağ" listeden silinirsilinen = şehirler.pop(0)   # İlk eleman listeden silinir ve "silinen" değişkenine atanır
+Sıralama: Liste elemanlarını alfabetik veya sayısal sıraya göre sıralamak için sort() metodu, tersine çevirmek için reverse() metodu kullanılır.şehirler.sort()  # Alfabetik sıraya göre sıralarşehirler.reverse()  # Listeyi tersine çevirir
+Alt Liste Oluşturma (Slice): Belirli bir aralıktaki elemanları almak için dilimleme (slice) işlemi yapılabilir.alt_liste = şehirler[1:3]  # 1. ve 2. indeksler arasındaki elemanları alır
+Listeler, veri analizi ve uygulama geliştirmede sıkça kullanılır. Ekleme, silme ve sıralama gibi işlemlerle verileri etkili bir şekilde yönetmek mümkündür.
+Pratik--------------------------------------------------------------------------------------------------------
+Slice içindeki üçüncü parametre adım değeridir; [::3] ifadesi 0’dan başlayıp her 3 elemanda bir öğe seçer. Cevap aSlice içindeki üçüncü parametre adım değeridir; [::3] ifadesi 0’dan başlayıp her 3 elemanda bir öğe seçer. Cevap aAşağıdaki kod çalıştırıldığında result değişkeninin değeri ne olur?numbers = list(range(10))result = numbers[::3]
+Slice içindeki üçüncü parametre adım değeridir; [::3] ifadesi 0’dan başlayıp her 3 elemanda bir öğe seçer. Cevap a
+Slice içindeki üçüncü parametre adım değeridir; [::3] ifadesi 0’dan başlayıp her 3 elemanda bir öğe seçer. Cevap a
+a) [0, 3, 6, 9]
+b) [0, 1, 2]
+c) [3, 6, 9]
+d) [0, 2, 4, 6, 8]
+----------------------------------------------------------------------------------------------------------------------------------------------
+List comprehension; dönüşecek değeri, döngüyü ve isteğe bağlı koşulu tek satırda birleştirir; if kısmı her zaman en sonda yer alır. Cevap b-c-dList comprehension; dönüşecek değeri, döngüyü ve isteğe bağlı koşulu tek satırda birleştirir; if kısmı her zaman en sonda yer alır. Cevap b-c-dAşağıdaki list comprehension ifadelerinden hangileri geçerli ve doğru bir kullanım örneğidir? (Birden fazla doğru olabilir)?
+List comprehension; dönüşecek değeri, döngüyü ve isteğe bağlı koşulu tek satırda birleştirir; if kısmı her zaman en sonda yer alır. Cevap b-c-d
+List comprehension; dönüşecek değeri, döngüyü ve isteğe bağlı koşulu tek satırda birleştirir; if kısmı her zaman en sonda yer alır. Cevap b-c-d
+a) [if x % 2 == 0 for x in range(10)]
+b) [x.upper() for x in ['a', 'b', 'c']]
+c) [x*x for x in range(5) if x > 2]
+d) [x for x in range(10) if x % 3 == 0]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Sağ tarafta data[::-1] ters çevrilmiş yeni bir liste üretir, data[:] ise mevcut listenin tüm aralığını bu yeni değerlerle günceller. Cevap bSağ tarafta data[::-1] ters çevrilmiş yeni bir liste üretir, data[:] ise mevcut listenin tüm aralığını bu yeni değerlerle günceller. Cevap bAşağıdaki kod çalıştırıldığında ekrana ne yazdırılır?data = [1, 2, 3, 4]data[:] = data[::-1]print(data)
+Sağ tarafta data[::-1] ters çevrilmiş yeni bir liste üretir, data[:] ise mevcut listenin tüm aralığını bu yeni değerlerle günceller. Cevap b
+Sağ tarafta data[::-1] ters çevrilmiş yeni bir liste üretir, data[:] ise mevcut listenin tüm aralığını bu yeni değerlerle günceller. Cevap b
+a) [1, 3]
+b) [4, 3, 2, 1]
+c) [1, 2, 3, 4]
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki işlemlerden hangileri orijinal listeyi değiştirmeden yeni bir liste oluşturur? (Birden fazla doğru olabilir)?
+Slice kullanarak alınan kopyalar yeni liste döndürürken, sort ve reverse gibi metotlar listeyi yerinde (in-place) değiştirir. Cevap a-dSlice kullanarak alınan kopyalar yeni liste döndürürken, sort ve reverse gibi metotlar listeyi yerinde (in-place) değiştirir. Cevap a-da) new = old_list[:]
+Slice kullanarak alınan kopyalar yeni liste döndürürken, sort ve reverse gibi metotlar listeyi yerinde (in-place) değiştirir. Cevap a-d
+Slice kullanarak alınan kopyalar yeni liste döndürürken, sort ve reverse gibi metotlar listeyi yerinde (in-place) değiştirir. Cevap a-d
+b) old_list.sort()
+c) old_list.reverse()
+d) new = old_list[::-1]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Büyük bir listede belirli koşulu sağlayan elemanları seçmek için aşağıdakilerden hangisi hem okunabilirlik hem de performans açısından en uygun yaklaşımdır?
+Koşullu list comprehension, gereksiz ara kopyalardan kaçınarak hem daha hızlı hem de daha okunaklı bir çözüm sunar. Cevap aKoşullu list comprehension, gereksiz ara kopyalardan kaçınarak hem daha hızlı hem de daha okunaklı bir çözüm sunar. Cevap aa) Koşullu list comprehension kullanmak
+Koşullu list comprehension, gereksiz ara kopyalardan kaçınarak hem daha hızlı hem de daha okunaklı bir çözüm sunar. Cevap a
+Koşullu list comprehension, gereksiz ara kopyalardan kaçınarak hem daha hızlı hem de daha okunaklı bir çözüm sunar. Cevap a
+b) Uzun bir for döngüsü içinde append kullanmak
+c) Gereksiz ara listeler oluşturmak
+d) Listeyi string'e çevirip tekrar parse etmek
+Python'da veri yapıları arasında doğru seçim yapmak, yazılımın performansı ve okunabilirliği açısından kritik öneme sahiptir. Bu bağlamda, dictionary, tuple ve set yapılarını anlamak, hangi durumlarda hangi yapının kullanılacağını bilmek, daha etkili ve verimli kod yazmayı sağlar.
+Dictionary, anahtar-değer çiftleri ile çalışan bir veri yapısıdır. Bu yapı, bir veriyi başka bir veri üzerinden anlamlandırarak saklamayı mümkün kılar. Anahtarlar, veriyi tanımlamada kritik rol oynar ve bu da dictionary’yi okunabilirliği yüksek bir yapı haline getirir. Özellikle büyük sistemlerde, okunabilirlik performans kadar önemlidir. Dictionary'nin en büyük avantajlarından biri, anahtar bazlı erişimin O(1) zaman karmaşıklığında gerçekleşmesidir. Ancak bu hız, daha fazla bellek kullanımı gerektirir.
+kullanici = {'id': 1, 'isim': 'Ecem', 'rol': 'admin', 'aktif': True}print(kullanici['isim'])  # Çıktı: Ecem
+Tuple, değiştirilemez bir veri yapısıdır. Bu özelliği, tuple'ı yazılımcının sisteme verdiği bir söz gibi kılar: "Bu veri değişmeyecek." Tuple, genellikle yanlışlıkla değişmesini istemediğiniz veriler için kullanılır. Ayrıca, fonksiyonlardan birden fazla değer döndürmek için de yaygın olarak tercih edilir. Tuple, listeye göre daha az bellek kullanır ve biraz daha hızlıdır. Ancak, verinin zamanla değişmesi gerekiyorsa veya alan isimleri önemliyse, tuple yerine dictionary tercih edilmelidir.
+config = ('192.168.1.1', 8080, 'production')print(config[0])  # Çıktı: 192.168.1.1
+Set, benzersiz elemanlar içeren bir veri yapısıdır. Aynı veri birden fazla kez bulunamaz ve bu özellik, set'i veri temizleme ve kontrol işlemlerinde güçlü kılar. Set, membership testleri (eleman var mı?) için de oldukça etkilidir ve bu testler O(1) hızında gerçekleştirilir. Ancak set sırasızdır, bu yüzden sıralı veri gerektiren yerlerde kullanmak hatalı bir tercih olur.
+emails = {'ali@example.com', 'veli@example.com', 'ali@example.com'}print(emails)  # Çıktı: {'ali@example.com', 'veli@example.com'}
+Veri yapılarının seçimi, sistemin büyüdüğünde de doğru davranmasını sağlamak açısından önemlidir. Yanlış veri yapısı seçimi, performans düşüşlerine ve güvenlik açıklarına yol açabilir. Bu yüzden, profesyonel bir geliştirici, kod yazmadan önce hangi veri yapısını kullanacağına karar vermelidir.
+Pratik--------------------------------------------------------------------------------------------------------
+Küme parantezi içinde yalnız değerler varsa set, anahtar:değer çiftleri varsa dictionary tanımlanır. Cevap aKüme parantezi içinde yalnız değerler varsa set, anahtar:değer çiftleri varsa dictionary tanımlanır. Cevap a{1, 2, 3} hangi yapıdadır?
+Küme parantezi içinde yalnız değerler varsa set, anahtar:değer çiftleri varsa dictionary tanımlanır. Cevap a
+Küme parantezi içinde yalnız değerler varsa set, anahtar:değer çiftleri varsa dictionary tanımlanır. Cevap a
+a) Set
+b) Dict
+c) List
+d) Tuple
+----------------------------------------------------------------------------------------------------------------------------------------------
+Sözlükler (dict), anahtar:değer çiftleri ile tanımlanır; burada 'a' anahtar, 1 ise değerdir. Cevap bSözlükler (dict), anahtar:değer çiftleri ile tanımlanır; burada 'a' anahtar, 1 ise değerdir. Cevap b{'a':1} hangi yapıdır?
+Sözlükler (dict), anahtar:değer çiftleri ile tanımlanır; burada 'a' anahtar, 1 ise değerdir. Cevap b
+Sözlükler (dict), anahtar:değer çiftleri ile tanımlanır; burada 'a' anahtar, 1 ise değerdir. Cevap b
+a) Tuple
+b) Dictionary
+c) List
+d) Set
+----------------------------------------------------------------------------------------------------------------------------------------------
+Set, matematiksel küme gibi çalışır; aynı eleman birden fazla kez bulundurulmaz, tekrar eklemeye çalıştığında yapı değişmez. Cevap cSet, matematiksel küme gibi çalışır; aynı eleman birden fazla kez bulundurulmaz, tekrar eklemeye çalıştığında yapı değişmez. Cevap cSet e tekrar eden yapı eklenirse ne olur?
+Set, matematiksel küme gibi çalışır; aynı eleman birden fazla kez bulundurulmaz, tekrar eklemeye çalıştığında yapı değişmez. Cevap c
+Set, matematiksel küme gibi çalışır; aynı eleman birden fazla kez bulundurulmaz, tekrar eklemeye çalıştığında yapı değişmez. Cevap c
+a) Hata verir
+b) İki kez tutulur
+c) Tekrar tutulmaz
+d) Otomatik Sıralar
+----------------------------------------------------------------------------------------------------------------------------------------------
+Set, elemanların benzersiz olmasını garanti eder; list, dict ve tuple tekrar eden öğeler içerebilir. Cevap bSet, elemanların benzersiz olmasını garanti eder; list, dict ve tuple tekrar eden öğeler içerebilir. Cevap bAşağıdaki veri yapılarından hangisi benzersiz eleman tutar?
+Set, elemanların benzersiz olmasını garanti eder; list, dict ve tuple tekrar eden öğeler içerebilir. Cevap b
+Set, elemanların benzersiz olmasını garanti eder; list, dict ve tuple tekrar eden öğeler içerebilir. Cevap b
+a) list
+b) set
+c) dict
+d) tuple
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki eşleştirmelerden hangileri doğrudur (birden fazla doğru olabilir)?
+Veri yapılarının sıralılık, değiştirilebilirlik ve benzersizlik özelliklerini bilmek doğru yapıyı seçmeyi kolaylaştırır. Cevap a-b-cVeri yapılarının sıralılık, değiştirilebilirlik ve benzersizlik özelliklerini bilmek doğru yapıyı seçmeyi kolaylaştırır. Cevap a-b-ca) list → sıralı, değiştirilebilir
+Veri yapılarının sıralılık, değiştirilebilirlik ve benzersizlik özelliklerini bilmek doğru yapıyı seçmeyi kolaylaştırır. Cevap a-b-c
+Veri yapılarının sıralılık, değiştirilebilirlik ve benzersizlik özelliklerini bilmek doğru yapıyı seçmeyi kolaylaştırır. Cevap a-b-c
+b) tuple → sıralı, değiştirilemez
+c) set → sırasız, benzersiz
+d) dict → indeks ile erişim
+Python'da Dictionary (sözlük) yapısı, verileri anahtar-değer çiftleri şeklinde saklayan bir veri yapısıdır. Bu yapı, veriye erişim ve yönetim açısından oldukça esneklik ve hız sağlar. Anahtarlar, verinin anlamını belirlerken, değerler ise bu anahtarlara karşılık gelen bilgileri içerir.
+Dictionary'ler, veriye erişim sırasında sıralı bir yapı yerine anlamlı bir yapı sunar. Bu, veriye erişimi daha anlaşılır hale getirir. Örneğin, bir kullanıcının yaşını veya ülkesini depolarken, doğrudan bu bilgilerin anlamlarına göre erişim sağlanabilir:
+user_info = {    "name": "Ahmet",    "age": 30,    "country": "Türkiye"}print(user_info["age"])  # Çıktı: 30
+Dictionary'ler, hash tabanlı bir yapı kullanarak hızlı veri erişimi sağlar. Anahtarlar, hash fonksiyonları kullanılarak bellekte belirli bir konuma yerleştirilir. Bu nedenle, anahtarlar genellikle değiştirilemez yapılar (string veya sayı gibi) olmalıdır. Değiştirilebilir yapılar, örneğin listeler, anahtar olarak kullanılamaz.
+Modern sistemlerde, özellikle JSON formatındaki verilerle çalışırken, Python dictionary'leri sıkça kullanılır. JSON, anahtar-değer çiftleriyle yapılandırılmış bir metin formatıdır ve Python'da bu veriler otomatik olarak dictionary'lere dönüştürülür.
+Veri bilimi ve analitik uygulamalarında, dictionary'ler, verinin özelliklerini ve değerlerini bir arada tutmak için ideal bir yapı sunar. Bu esneklik, gerçek hayattaki verilerin düzensiz doğasına uyum sağlamayı kolaylaştırır. Ancak, bu esneklik kontrol edilmezse, veri kalitesi sorunlarına yol açabilir. Bu nedenle, hangi anahtarların zorunlu olduğu ve eksik bilgilerle nasıl başa çıkılacağı gibi konulara dikkat edilmelidir.
+Dictionary'ler ayrıca program ayarlarını saklamak için de yaygın olarak kullanılır. Ayarların tek bir yapı içinde toplanması, kodun daha düzenli ve okunabilir olmasını sağlar. Bu, gelecekte yapılacak değişiklikleri ve başka geliştiricilerin projeye katılımını da kolaylaştırır.
+Pratik--------------------------------------------------------------------------------------------------------
+Key yoksa hata vermeyen erişim hangisidir?
+Dictionary üzerinde get metodu kullanıldığında, verilen key mevcut değilse None ya da belirttiğin varsayılan değeri döndürür; köşeli parantez ile erişim ise KeyError hatası fırlatır. Cevap aDictionary üzerinde get metodu kullanıldığında, verilen key mevcut değilse None ya da belirttiğin varsayılan değeri döndürür; köşeli parantez ile erişim ise KeyError hatası fırlatır. Cevap aa) d.get('x')
+Dictionary üzerinde get metodu kullanıldığında, verilen key mevcut değilse None ya da belirttiğin varsayılan değeri döndürür; köşeli parantez ile erişim ise KeyError hatası fırlatır. Cevap a
+Dictionary üzerinde get metodu kullanıldığında, verilen key mevcut değilse None ya da belirttiğin varsayılan değeri döndürür; köşeli parantez ile erişim ise KeyError hatası fırlatır. Cevap a
+b) d['x']
+c) d.key('x')
+d) d.find('x')
+----------------------------------------------------------------------------------------------------------------------------------------------
+d.items() ne verir?
+d.items() bir dictionary içindeki tüm anahtar–değer çiftlerini (key, value) tuple'ları olarak dönen bir görünüm (view) nesnesi üretir; sadece key veya value döndürmez. Cevap ad.items() bir dictionary içindeki tüm anahtar–değer çiftlerini (key, value) tuple'ları olarak dönen bir görünüm (view) nesnesi üretir; sadece key veya value döndürmez. Cevap aa) (key, value) çiftleri
+d.items() bir dictionary içindeki tüm anahtar–değer çiftlerini (key, value) tuple'ları olarak dönen bir görünüm (view) nesnesi üretir; sadece key veya value döndürmez. Cevap a
+d.items() bir dictionary içindeki tüm anahtar–değer çiftlerini (key, value) tuple'ları olarak dönen bir görünüm (view) nesnesi üretir; sadece key veya value döndürmez. Cevap a
+b) Sadece key
+c) Sadece value
+d) Sıralı liste (her zaman)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Dict’e yeni eleman ekleme hangisidir?
+Dictionary'e yeni bir anahtar–değer çifti eklemek için en temel yol doğrudan atamadır; d['yeni'] = 5 ifadesi yoksa yeni bir key ekler, varsa değeri günceller.Cevap aDictionary'e yeni bir anahtar–değer çifti eklemek için en temel yol doğrudan atamadır; d['yeni'] = 5 ifadesi yoksa yeni bir key ekler, varsa değeri günceller.Cevap aa) d['yeni'] = 5
+Dictionary'e yeni bir anahtar–değer çifti eklemek için en temel yol doğrudan atamadır; d['yeni'] = 5 ifadesi yoksa yeni bir key ekler, varsa değeri günceller.Cevap a
+Dictionary'e yeni bir anahtar–değer çifti eklemek için en temel yol doğrudan atamadır; d['yeni'] = 5 ifadesi yoksa yeni bir key ekler, varsa değeri günceller.Cevap a
+b) d.add('yeni', 5)
+c) d.add('yeni', 5)
+d) d.insert('yeni':5)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kod parçası çalıştırıldığında ekrana ne yazdırır?
+user = {"name": "Ayşe", "age": 30}print(user.get("city", "Bilinmiyor"))
+get metoduna ikinci argüman olarak verilen değer, key bulunamazsa dönecek varsayılan değerdir; burada city anahtarı olmadığı için 'Bilinmiyor' yazdırılır. Cevap bget metoduna ikinci argüman olarak verilen değer, key bulunamazsa dönecek varsayılan değerdir; burada city anahtarı olmadığı için 'Bilinmiyor' yazdırılır. Cevap ba) None
+get metoduna ikinci argüman olarak verilen değer, key bulunamazsa dönecek varsayılan değerdir; burada city anahtarı olmadığı için 'Bilinmiyor' yazdırılır. Cevap b
+get metoduna ikinci argüman olarak verilen değer, key bulunamazsa dönecek varsayılan değerdir; burada city anahtarı olmadığı için 'Bilinmiyor' yazdırılır. Cevap b
+b) Bilinmiyor
+c) Hata Oluşur
+d) “city”
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki senaryolardan hangileri için dictionary kullanımı uygundur (birden fazla doğru olabilir)?
+Dictionary, bir anahtar üzerinden hızlı erişim gerektiğinde idealdir; ürün kodu → fiyat veya kullanıcı ID → kullanıcı adı eşlemesi buna iyi örneklerdir. Cevap a-b-cDictionary, bir anahtar üzerinden hızlı erişim gerektiğinde idealdir; ürün kodu → fiyat veya kullanıcı ID → kullanıcı adı eşlemesi buna iyi örneklerdir. Cevap a-b-ca) Kullanıcı ID  Kullanıcı adı eşleşmesi
+Dictionary, bir anahtar üzerinden hızlı erişim gerektiğinde idealdir; ürün kodu → fiyat veya kullanıcı ID → kullanıcı adı eşlemesi buna iyi örneklerdir. Cevap a-b-c
+Dictionary, bir anahtar üzerinden hızlı erişim gerektiğinde idealdir; ürün kodu → fiyat veya kullanıcı ID → kullanıcı adı eşlemesi buna iyi örneklerdir. Cevap a-b-c
+b) Ürün kodu  Fiyat eşleşmesi
+c) Ürünlerin fiyatlarını tutmak
+d) Benzersiz etiketlerin tutulması
+Sözlük (dictionary), Python'da anahtar-değer çiftleri ile veri saklamaya yarayan bir veri yapısıdır. Sözlükler, veri manipülasyonu ve veri yönetimi için oldukça kullanışlıdır. Bir sözlük oluşturmak için süslü parantezler ({}) kullanılır ve her bir anahtar-değer çifti iki nokta üst üste (:) ile ayrılır. Örneğin, bir kişinin bilgilerini saklayan bir sözlük şu şekilde tanımlanabilir:
+kişi = {    "ad": "Janer",    "yaş": 28}
+Sözlükte belirli bir anahtarın değerine erişmek için anahtar adı köşeli parantezler içinde belirtilir:
+print(kişi["ad"])  # Çıktı: Janer
+Sözlükler üzerinde çeşitli işlemler gerçekleştirilebilir:
+Yeni Eleman Ekleme: Sözlüğe yeni bir anahtar-değer çifti eklemek için, sözlük ismi ve köşeli parantezler içinde yeni anahtar yazılır, ardından eşittir işareti ile değeri atanır.
+kişi["şehir"] = "Kocaeli"print(kişi)
+Var Olan Elemanı Güncelleme: Mevcut bir anahtarın değerini güncellemek için aynı yöntem kullanılır.
+kişi["yaş"] = 32print(kişi)
+Güvenli Okuma: get() metodu, sözlükte olmayan bir anahtara erişim sırasında hata almamak için kullanılır. Eğer anahtar yoksa, None döner ya da belirtilirse varsayılan bir değer döner.
+şehir = kişi.get("şehir", "Bilinmiyor")print(şehir)  # Çıktı: Kocaeli
+Bu yapılar, veri manipülasyonu ve erişimi için güçlü araçlar sunar. Sözlükler, veri analizi ve işleme süreçlerinde sıkça kullanılır ve Python'un esnek veri yapılarından biridir.
+Pratik--------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi key’leri sıralı halde döndürür (Genel)?
+d.keys() dictionary'nin anahtarlarını döndürür; bunları alfabetik veya sayısal olarak sıralamak için sorted(d.keys()) kullanılır, dict üzerinde doğrudan sort() metodu yoktur. Cevap ad.keys() dictionary'nin anahtarlarını döndürür; bunları alfabetik veya sayısal olarak sıralamak için sorted(d.keys()) kullanılır, dict üzerinde doğrudan sort() metodu yoktur. Cevap aa) sorted(d.keys())
+d.keys() dictionary'nin anahtarlarını döndürür; bunları alfabetik veya sayısal olarak sıralamak için sorted(d.keys()) kullanılır, dict üzerinde doğrudan sort() metodu yoktur. Cevap a
+d.keys() dictionary'nin anahtarlarını döndürür; bunları alfabetik veya sayısal olarak sıralamak için sorted(d.keys()) kullanılır, dict üzerinde doğrudan sort() metodu yoktur. Cevap a
+b) d.sort()
+c) sort(d)
+d) d.keys().sort()
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki ifadelerden hangisi bir dict comprehension’dır?
+Dict comprehension söz dizimi {anahtar: değer for ...} şeklindedir; köşeli parantez list, yuvarlak parantez generator oluşturur. Cevap aDict comprehension söz dizimi {anahtar: değer for ...} şeklindedir; köşeli parantez list, yuvarlak parantez generator oluşturur. Cevap aa) {k: v for k, v in pairs}
+Dict comprehension söz dizimi {anahtar: değer for ...} şeklindedir; köşeli parantez list, yuvarlak parantez generator oluşturur. Cevap a
+Dict comprehension söz dizimi {anahtar: değer for ...} şeklindedir; köşeli parantez list, yuvarlak parantez generator oluşturur. Cevap a
+b) [k: v for k, v in pairs]
+c) (k: v for k, v in pairs)
+d) dict(k: v for k, v in pairs)
+----------------------------------------------------------------------------------------------------------------------------------------------
+d = {'a': 1, 'b': 2}; d.update({'b': 5}) sonrası d['b'] nedir?
+update metodu, verilen anahtarlar zaten varsa değerlerini günceller; burada 'b' key'i 2'den 5'e güncellenir.Cevap cupdate metodu, verilen anahtarlar zaten varsa değerlerini günceller; burada 'b' key'i 2'den 5'e güncellenir.Cevap ca) Hata
+update metodu, verilen anahtarlar zaten varsa değerlerini günceller; burada 'b' key'i 2'den 5'e güncellenir.Cevap c
+update metodu, verilen anahtarlar zaten varsa değerlerini günceller; burada 'b' key'i 2'den 5'e güncellenir.Cevap c
+b) 2
+c) 5
+d) None
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kod çalıştırıldığında product sözlüğünün son hali hangisidir?
+product = {"name": "Laptop", "price": 30000}product.update({"price": 28000, "stock": 5})
+update hem yeni anahtarlar ekler hem de var olanları günceller; price güncellenirken stock anahtarı eklenir ve her ikisi de sözlükte yer alır. Cevap cupdate hem yeni anahtarlar ekler hem de var olanları günceller; price güncellenirken stock anahtarı eklenir ve her ikisi de sözlükte yer alır. Cevap ca) {"name": "Laptop", "price": 30000, "stock": 5}
+update hem yeni anahtarlar ekler hem de var olanları günceller; price güncellenirken stock anahtarı eklenir ve her ikisi de sözlükte yer alır. Cevap c
+update hem yeni anahtarlar ekler hem de var olanları günceller; price güncellenirken stock anahtarı eklenir ve her ikisi de sözlükte yer alır. Cevap c
+b) {"name": "Laptop", "price": 28000}
+c) {"name": "Laptop", "price": 28000, "stock": 5}
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki işlemlerden hangileri sözlüğün içeriğini değiştirir (Birden fazla doğru olabilir)?
+Atama ve pop işlemleri dictionary'nin durumunu değiştirir; get ve in operatörleri ise yalnızca okuma/üyelik kontrolü yapar. Cevap a-bAtama ve pop işlemleri dictionary'nin durumunu değiştirir; get ve in operatörleri ise yalnızca okuma/üyelik kontrolü yapar. Cevap a-ba) product["price"] = 25000
+Atama ve pop işlemleri dictionary'nin durumunu değiştirir; get ve in operatörleri ise yalnızca okuma/üyelik kontrolü yapar. Cevap a-b
+Atama ve pop işlemleri dictionary'nin durumunu değiştirir; get ve in operatörleri ise yalnızca okuma/üyelik kontrolü yapar. Cevap a-b
+b) product.pop("name")
+c) product.get("price")
+d) "price" in product
+Python'da tuple yapısı, bir kez oluşturulduktan sonra değiştirilemeyen, yani immutable bir veri yapısıdır. Bu özellik, tuple'ları belirli türdeki verilerin güvenli bir şekilde saklanması için ideal hale getirir. Örneğin, bir kullanıcının doğum tarihi veya bir ürünün kodu gibi değişmemesi gereken veriler tuple içinde saklanabilir.
+Tuple'lar, listelere benzer şekilde sıralı bir yapı sunar ve indeksleme ile elemanlarına erişilebilir. Ancak, listelerden farklı olarak, tuple'lar daha az hafıza kullanır ve daha hızlı çalışır. Bu da onları performans açısından avantajlı kılar.
+Tuple'lar parantez içinde tanımlanır ve birden fazla türde veri içerebilir. Örneğin:
+öğrenci = ("Ali", "Veli", 2025)
+Bu örnekte, bir öğrencinin adı, soyadı ve kayıt tarihi bir tuple içinde saklanmıştır.
+Tuple'lar değiştirilemez olduğundan, bir elemanını değiştirmeye çalışmak bir TypeError ile sonuçlanır:
+meyveler = ("elma", "muz", "çilek")meyveler[0] = "armut"  # TypeError: 'tuple' object does not support item assignment
+Tuple'lar ayrıca unpacking işlemi ile birden fazla değeri bir seferde değişkenlere atamak için kullanılabilir:
+konum = (40.1, 29.0)enlem, boylam = konumprint("Enlem:", enlem, "Boylam:", boylam)
+Tuple'lar arasında toplama işlemi yaparak yeni bir tuple oluşturulabilir:
+a = (1, 2)b = (3, 4)c = a + bprint(c)  # Çıktı: (1, 2, 3, 4)
+Tuple'lar içinde count ve index metodları ile eleman sayımı ve indeks arama işlemleri yapılabilir:
+harfler = ("a", "b", "c", "a", "b", "c")print(harfler.count("a"))  # Çıktı: 2print(harfler.index("c"))  # Çıktı: 2
+Son olarak, tuple'lar çoğaltılabilir ve bu işlem yeni bir tuple oluşturur:
+tekrarla = ("Python",) * 3print(tekrarla)  # Çıktı: ('Python', 'Python', 'Python')
+Tuple'lar, değişmezlik ve performans avantajları sayesinde, sabit ve güvenli veri saklama gereksinimleri için ideal bir veri yapısıdır.
+Pratik--------------------------------------------------------------------------------------------------------
+t = (1, 2); t.append(3) ne olur?
+Tuple immutable bir tiptir ve listelerde bulunan append gibi metotlara sahip değildir; bu yüzden t.append(3) çağrısı AttributeError/TypeError ile sonuçlanır. Cevap aTuple immutable bir tiptir ve listelerde bulunan append gibi metotlara sahip değildir; bu yüzden t.append(3) çağrısı AttributeError/TypeError ile sonuçlanır. Cevap aa) Hata
+Tuple immutable bir tiptir ve listelerde bulunan append gibi metotlara sahip değildir; bu yüzden t.append(3) çağrısı AttributeError/TypeError ile sonuçlanır. Cevap a
+Tuple immutable bir tiptir ve listelerde bulunan append gibi metotlara sahip değildir; bu yüzden t.append(3) çağrısı AttributeError/TypeError ile sonuçlanır. Cevap a
+b) t = (1, 2, 3)
+c) None döndürür
+d) 3 ekler
+----------------------------------------------------------------------------------------------------------------------------------------------
+Tuple neden tercih edilir?
+Tuple'lar değiştirilemez (immutable) oldukları ve listelere göre biraz daha hafif oldukları için sabit veri koleksiyonlarını temsil etmekte sıklıkla tercih edilir. Cevap aTuple'lar değiştirilemez (immutable) oldukları ve listelere göre biraz daha hafif oldukları için sabit veri koleksiyonlarını temsil etmekte sıklıkla tercih edilir. Cevap aa) Değişmezlik ve hafiflik
+Tuple'lar değiştirilemez (immutable) oldukları ve listelere göre biraz daha hafif oldukları için sabit veri koleksiyonlarını temsil etmekte sıklıkla tercih edilir. Cevap a
+Tuple'lar değiştirilemez (immutable) oldukları ve listelere göre biraz daha hafif oldukları için sabit veri koleksiyonlarını temsil etmekte sıklıkla tercih edilir. Cevap a
+b) İndeks yok
+c) Key-value tutar
+d) Her zaman daha hızlı sorgu
+----------------------------------------------------------------------------------------------------------------------------------------------
+Tuple içinde list varsa değişebilir mi?
+Tuple'ın kendisi immutable'dır ama içinde mutable (değişebilir) bir nesne referansı varsa, o nesnenin içeriği değiştirilebilir; dolayısıyla içteki liste üzerinde değişiklik yapılabilir. Cevap aTuple'ın kendisi immutable'dır ama içinde mutable (değişebilir) bir nesne referansı varsa, o nesnenin içeriği değiştirilebilir; dolayısıyla içteki liste üzerinde değişiklik yapılabilir. Cevap aa) Evet, içindeki liste değişebilir
+Tuple'ın kendisi immutable'dır ama içinde mutable (değişebilir) bir nesne referansı varsa, o nesnenin içeriği değiştirilebilir; dolayısıyla içteki liste üzerinde değişiklik yapılabilir. Cevap a
+Tuple'ın kendisi immutable'dır ama içinde mutable (değişebilir) bir nesne referansı varsa, o nesnenin içeriği değiştirilebilir; dolayısıyla içteki liste üzerinde değişiklik yapılabilir. Cevap a
+b) Hayır, asla
+c) Sadece int ise
+d) Hep hata
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kod parçası çalıştırıldığında ne olur?coordinates = (40.7, 29.9)coordinates[0] = 41.0
+Tuple elemanları indeks üzerinden değiştirilemez; atama denemesi yaptığında Python, tuple nesnesinin atamaya izin vermediğini belirten bir TypeError fırlatır. Cevap cTuple elemanları indeks üzerinden değiştirilemez; atama denemesi yaptığında Python, tuple nesnesinin atamaya izin vermediğini belirten bir TypeError fırlatır. Cevap ca) Tuple güncellenir
+Tuple elemanları indeks üzerinden değiştirilemez; atama denemesi yaptığında Python, tuple nesnesinin atamaya izin vermediğini belirten bir TypeError fırlatır. Cevap c
+Tuple elemanları indeks üzerinden değiştirilemez; atama denemesi yaptığında Python, tuple nesnesinin atamaya izin vermediğini belirten bir TypeError fırlatır. Cevap c
+b) Sadece ilk elaman değişir
+c) TypeError oluşur
+d) Kod sessizce çalışır
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki senaryolardan hangilerinde tuple kullanımı daha uygundur (birden fazla doğru olabilir)?
+Tuple, değişmemesi gereken verileri temsil etmek için tercih edilir; coğrafi koordinatlar veya sabit yapıdaki ayar değerleri buna iyi örneklerdir. Cevap a-bTuple, değişmemesi gereken verileri temsil etmek için tercih edilir; coğrafi koordinatlar veya sabit yapıdaki ayar değerleri buna iyi örneklerdir. Cevap a-ba) Değişmeyecek coğrafi koordinatların tutulması.
+Tuple, değişmemesi gereken verileri temsil etmek için tercih edilir; coğrafi koordinatlar veya sabit yapıdaki ayar değerleri buna iyi örneklerdir. Cevap a-b
+Tuple, değişmemesi gereken verileri temsil etmek için tercih edilir; coğrafi koordinatlar veya sabit yapıdaki ayar değerleri buna iyi örneklerdir. Cevap a-b
+b) Sabit yapıdaki ayar değerleri.
+c) Zamanla elaman eklenecek alışveriş listesi.
+d) Sık sık güncellenen kullanıcı puanları.
+Set yapısı, Python'da matematiksel kümelerin programlama karşılığı olarak düşünülebilir ve iki temel özelliği ile dikkat çeker: benzersizlik ve sırasızlık. Bir set içinde aynı değer birden fazla kez bulunamaz, yani tekrar eden kayıtlar otomatik olarak silinir. Bu özellik, veri temizleme süreçlerinde büyük kolaylık sağlar. Örneğin, bir veri setinde tekrar eden değerleri set yapısına dönüştürerek hızlıca benzersiz değerler elde edilebilir.
+Setler sırasız bir veri yapısıdır; bu nedenle elemanları indeks numarası ile erişilemez. Python, set içindeki elemanları hafızasında verimli bir şekilde saklar, ancak bu saklama sıralı olmak zorunda değildir. Bu sırasızlık, setlerin çok hızlı çalışmasına olanak tanır. Özellikle bir değerin set içinde olup olmadığını kontrol etmek, listeye göre çok daha hızlıdır.
+Setler, ayrıca kümeler arasında işlem yapma becerisine sahiptir. Bu işlemler arasında birleşim, kesişim, fark ve tam fark gibi operasyonlar bulunur:Birleşim: İki kümenin tüm benzersiz elemanlarını birleştirir.Kesişim: İki kümede ortak olan değerleri bulur.Fark: Bir kümede olup diğerinde olmayanları bulur.Tam Fark: Sadece bir tanesinde olanları gösterir.
+Setlerin kullanımı oldukça basittir. Süslü parantezler içinde elemanlar belirtilerek tanımlanır:
+renkler = {'kırmızı', 'mavi', 'yeşil'}
+Setler üzerinde çeşitli işlemler yapılabilir. Örneğin, bir sete eleman eklemek için add() metodu kullanılır:
+markalar = {'Volkswagen', 'Audi', 'Bentley'}markalar.add('Mercedes')
+Birden fazla eleman eklemek için update() metodu kullanılabilir:
+markalar.update(['Ford', 'Jaguar'])
+Eleman silmek için remove() veya discard() metodları kullanılabilir. remove() metodu, belirtilen eleman set içinde yoksa hata verirken, discard() metodu sessizce işlemine devam eder.
+Setler ayrıca rastgele bir elemanı pop() metodu ile silebilir:
+silinen = markalar.pop()
+Kümeler arasında kesişim bulmak için intersection() metodu, fark bulmak için difference() metodu ve birleşim için union() metodu kullanılabilir:
+avrupa = {'İtalya', 'Fransa', 'İspanya'}balkan = {'Türkiye', 'Yunanistan', 'İtalya'}kesisim = avrupa.intersection(balkan)fark = avrupa.difference(balkan)birlesim = avrupa.union(balkan)
+Setler, benzersizlik ve hızlı arama gibi özellikleriyle veri bilimi ve analizlerinde önemli bir araçtır.
+Pratik--------------------------------------------------------------------------------------------------------
+Boş set nasıl oluşturulur?
+Python'da {} ifadesi boş bir dict oluşturur; boş bir set tanımlamak için mutlaka set() fonksiyonu kullanılmalıdır. Cevap aPython'da {} ifadesi boş bir dict oluşturur; boş bir set tanımlamak için mutlaka set() fonksiyonu kullanılmalıdır. Cevap aa) set()
+Python'da {} ifadesi boş bir dict oluşturur; boş bir set tanımlamak için mutlaka set() fonksiyonu kullanılmalıdır. Cevap a
+Python'da {} ifadesi boş bir dict oluşturur; boş bir set tanımlamak için mutlaka set() fonksiyonu kullanılmalıdır. Cevap a
+b) {}
+c) []
+d) ()
+----------------------------------------------------------------------------------------------------------------------------------------------
+Set’in temel özelliği hangisidir?
+Set yapıları matematiksel kümeler gibi çalışır ve aynı elemanı birden fazla kez tutmaz; sıralı değildir ve indeksle erişim desteklemez. Cevap aSet yapıları matematiksel kümeler gibi çalışır ve aynı elemanı birden fazla kez tutmaz; sıralı değildir ve indeksle erişim desteklemez. Cevap aa) Benzersiz eleman tutar.
+Set yapıları matematiksel kümeler gibi çalışır ve aynı elemanı birden fazla kez tutmaz; sıralı değildir ve indeksle erişim desteklemez. Cevap a
+Set yapıları matematiksel kümeler gibi çalışır ve aynı elemanı birden fazla kez tutmaz; sıralı değildir ve indeksle erişim desteklemez. Cevap a
+b) İndeksle erişilir.
+c) Sıralı olur.
+d) Key-value tutar
+----------------------------------------------------------------------------------------------------------------------------------------------
+Set üzerinde üyelik kontrolü neden hızlıdır?
+Set'ler hash tabanlı bir yapı kullandıkları için x in my_set sorguları ortalama O(1) zamanda çalışır; bu da üyelik kontrollerini çok hızlı yapmalarını sağlar. Cevap aSet'ler hash tabanlı bir yapı kullandıkları için x in my_set sorguları ortalama O(1) zamanda çalışır; bu da üyelik kontrollerini çok hızlı yapmalarını sağlar. Cevap aa) Hash tabanlı arama
+Set'ler hash tabanlı bir yapı kullandıkları için x in my_set sorguları ortalama O(1) zamanda çalışır; bu da üyelik kontrollerini çok hızlı yapmalarını sağlar. Cevap a
+Set'ler hash tabanlı bir yapı kullandıkları için x in my_set sorguları ortalama O(1) zamanda çalışır; bu da üyelik kontrollerini çok hızlı yapmalarını sağlar. Cevap a
+b) Sıralı olduğu için
+c) Index olduğu için
+d) Küçük veri için
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kodun çıktısı hangisidir?emails = {"a@mail.com", "b@mail.com", "a@mail.com"}print(len(emails))
+Set içinde aynı eleman birden fazla kez yer alamaz; "a@mail.com" iki kez yazılsa da kümede tek kez tutulur, bu yüzden toplam eleman sayısı 2'dir. Cevap bSet içinde aynı eleman birden fazla kez yer alamaz; "a@mail.com" iki kez yazılsa da kümede tek kez tutulur, bu yüzden toplam eleman sayısı 2'dir. Cevap ba) 3
+Set içinde aynı eleman birden fazla kez yer alamaz; "a@mail.com" iki kez yazılsa da kümede tek kez tutulur, bu yüzden toplam eleman sayısı 2'dir. Cevap b
+Set içinde aynı eleman birden fazla kez yer alamaz; "a@mail.com" iki kez yazılsa da kümede tek kez tutulur, bu yüzden toplam eleman sayısı 2'dir. Cevap b
+b) 2
+c) 1
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Set veri yapısının diğer veri yapılarından ayıran özellikler hangileridir (birden fazla doğru olabilir)?
+Set'ler benzersiz eleman tutar, hash tabanlı arama sayesinde üyelik kontrolü hızlıdır ve kesişim/birleşim gibi küme işlemlerini destekler; sıralı değildir ve indeksle erişim sağlanamaz. Cevap a-bSet'ler benzersiz eleman tutar, hash tabanlı arama sayesinde üyelik kontrolü hızlıdır ve kesişim/birleşim gibi küme işlemlerini destekler; sıralı değildir ve indeksle erişim sağlanamaz. Cevap a-ba) Benzersiz eleman tutar.
+Set'ler benzersiz eleman tutar, hash tabanlı arama sayesinde üyelik kontrolü hızlıdır ve kesişim/birleşim gibi küme işlemlerini destekler; sıralı değildir ve indeksle erişim sağlanamaz. Cevap a-b
+Set'ler benzersiz eleman tutar, hash tabanlı arama sayesinde üyelik kontrolü hızlıdır ve kesişim/birleşim gibi küme işlemlerini destekler; sıralı değildir ve indeksle erişim sağlanamaz. Cevap a-b
+b) Kesişim (&) ve birleşim (|) işlemlerini destekler.
+c) İndeks ile elemana erişilir.
+d) Elemanların eklenme sırasını korur.
+Programlamada koşullu yapılar, bir programın belirli durumlara göre farklı yollar izlemesini sağlar. Bu yapıların temelinde, programın belirli bir durumu kontrol etmesi ve bu duruma göre bir karar vermesi yatar. Python'da bu tür karar verme işlemleri için if, elif ve else yapıları kullanılır.
+If yapısı, bir koşulun doğru olup olmadığını kontrol eder. Eğer koşul doğruysa, if bloğu içerisindeki kod çalıştırılır. Aksi takdirde, program bir sonraki koşula veya else bloğuna geçer. Örneğin, bir kullanıcının yaşını kontrol ederek belirli bir işlemi gerçekleştirebiliriz:
+age = 20if age >= 18:    print("Reşitsiniz.")else:    print("Reşit değilsiniz.")
+Yukarıdaki örnekte, eğer age değişkeni 18 veya daha büyükse, program "Reşitsiniz." mesajını yazdırır. Aksi takdirde, "Reşit değilsiniz." mesajı gösterilir.
+Elif yapısı, birden fazla koşulun kontrol edilmesi gerektiğinde kullanılır. İlk if koşulu doğru değilse, elif ile belirtilen diğer koşullar kontrol edilir. Eğer hiçbir koşul doğru değilse, else bloğu çalıştırılır. Örneğin, bir öğrencinin notunu değerlendirerek harf notu belirleyebiliriz:
+score = 85if score >= 90:    print("Notunuz: A")elif score >= 80:    print("Notunuz: B")elif score >= 70:    print("Notunuz: C")else:    print("Notunuz: D")
+Bu örnekte, score değişkeni 85 olduğu için "Notunuz: B" mesajı yazdırılır. Program, koşulları sırasıyla kontrol eder ve ilk doğru koşulda ilgili bloğu çalıştırır.
+Koşullu yapılar yalnızca sayısal karşılaştırmalarla sınırlı değildir; metinlerle de kararlar verilebilir. Örneğin, bir kullanıcının rolünü kontrol ederek farklı işlemler yapabiliriz:
+user_role = "admin"if user_role == "admin":    print("Yönetici paneline erişim sağlandı.")else:    print("Normal kullanıcı erişimi.")
+Bu örnekte, user_role değişkeni "admin" olduğunda, yönetici paneline erişim sağlanır. Aksi takdirde, normal kullanıcı erişimi sağlanır.
+Sonuç olarak, koşullu yapılar programların esnek ve dinamik bir şekilde çalışmasını sağlar. Programın belirli durumlara göre farklı yollar izlemesi, kullanıcı deneyimini ve programın işlevselliğini artırır.
+Pratik--------------------------------------------------------------------------------------------------------
+Koşul hiç tutmazsa hangi blok çalışır?
+if ve varsa elif koşullarının hiçbiri sağlanmadığında, tanımlanmışsa else bloğu çalışır; bu blok, "hiçbir koşul sağlanmadı" durumunu yakalamak için kullanılır. Cevap aif ve varsa elif koşullarının hiçbiri sağlanmadığında, tanımlanmışsa else bloğu çalışır; bu blok, "hiçbir koşul sağlanmadı" durumunu yakalamak için kullanılır. Cevap aa) else
+if ve varsa elif koşullarının hiçbiri sağlanmadığında, tanımlanmışsa else bloğu çalışır; bu blok, "hiçbir koşul sağlanmadı" durumunu yakalamak için kullanılır. Cevap a
+if ve varsa elif koşullarının hiçbiri sağlanmadığında, tanımlanmışsa else bloğu çalışır; bu blok, "hiçbir koşul sağlanmadı" durumunu yakalamak için kullanılır. Cevap a
+b) elif
+c) for
+d) return
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki yazımlardan hangisi doğrudur?
+Python'da if bloğu iki nokta : ile biter ve gövde alt satırda girintili yazılır; then anahtar kelimesi veya süslü parantez kullanılmaz. Cevap aPython'da if bloğu iki nokta : ile biter ve gövde alt satırda girintili yazılır; then anahtar kelimesi veya süslü parantez kullanılmaz. Cevap aa) if x>0: print(x)
+Python'da if bloğu iki nokta : ile biter ve gövde alt satırda girintili yazılır; then anahtar kelimesi veya süslü parantez kullanılmaz. Cevap a
+Python'da if bloğu iki nokta : ile biter ve gövde alt satırda girintili yazılır; then anahtar kelimesi veya süslü parantez kullanılmaz. Cevap a
+b) if (x>0) then print(x)
+c) if x>0 {print(x)}
+d) if x>0 => print(x)
+----------------------------------------------------------------------------------------------------------------------------------------------
+elif ne zaman kullanılır?
+elif, birbirini dışlayan birden fazla koşulu sırayla kontrol etmek istediğinde kullanılır; ilk if bloğu sağlanmazsa, sıradaki elif şartları kontrol edilir. Cevap aelif, birbirini dışlayan birden fazla koşulu sırayla kontrol etmek istediğinde kullanılır; ilk if bloğu sağlanmazsa, sıradaki elif şartları kontrol edilir. Cevap aa) Birden fazla alternatif koşulda.
+elif, birbirini dışlayan birden fazla koşulu sırayla kontrol etmek istediğinde kullanılır; ilk if bloğu sağlanmazsa, sıradaki elif şartları kontrol edilir. Cevap a
+elif, birbirini dışlayan birden fazla koşulu sırayla kontrol etmek istediğinde kullanılır; ilk if bloğu sağlanmazsa, sıradaki elif şartları kontrol edilir. Cevap a
+b) Sadece döngüde.
+c) Sadece try/except’te.
+d) Sadece fonksiyonda.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Önce score >= 85 kontrol edilir (False), sonra score >= 70elif bloğu çalışır ve "İyi" yazdırılır; else çalışmaz. Cevap bÖnce score >= 85 kontrol edilir (False), sonra score >= 70elif bloğu çalışır ve "İyi" yazdırılır; else çalışmaz. Cevap bAşağıdaki kod çalıştırıldığında ekrana ne yazar?score = 72if score >= 85:    print("Pekiyi")elif score >= 70:    print("İyi")else:    print("Geçer")
+Önce score >= 85 kontrol edilir (False), sonra score >= 70elif bloğu çalışır ve "İyi" yazdırılır; else çalışmaz. Cevap b
+Önce score >= 85 kontrol edilir (False), sonra score >= 70elif bloğu çalışır ve "İyi" yazdırılır; else çalışmaz. Cevap b
+a) Pekiyi
+b) İyi
+c) Geçer
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangileri geçerli bir Python if koşuludur (birden fazla doğru olabilir)?
+Python'da if koşulunda herhangi bir ifade kullanılabilir; x > 0, x != 0 ve len(lst) > 0 gibi karşılaştırmalar açık ve geçerli koşullardır. Cevap a-b-cPython'da if koşulunda herhangi bir ifade kullanılabilir; x > 0, x != 0 ve len(lst) > 0 gibi karşılaştırmalar açık ve geçerli koşullardır. Cevap a-b-ca) if x > 0:
+Python'da if koşulunda herhangi bir ifade kullanılabilir; x > 0, x != 0 ve len(lst) > 0 gibi karşılaştırmalar açık ve geçerli koşullardır. Cevap a-b-c
+Python'da if koşulunda herhangi bir ifade kullanılabilir; x > 0, x != 0 ve len(lst) > 0 gibi karşılaştırmalar açık ve geçerli koşullardır. Cevap a-b-c
+b) if x != 0:
+c) if len(1st) > 0:
+d) if x = 5:
+Karar yapıları, programlamada belirli koşullara göre farklı işlemler yapmamıza olanak tanır. Python'da bu yapılar, özellikle if ifadeleri ile gerçekleştirilir. If yapısı, bir koşulun doğru olup olmadığını kontrol eder ve bu koşul doğruysa belirli bir kod bloğunu çalıştırır.
+Örneğin, bir kullanıcı giriş kontrolü senaryosunda, kullanıcı giriş yapmışsa bir hoş geldiniz mesajı göstermek için if yapısı kullanılabilir:
+kullanici_giris_yapti = Trueif kullanici_giris_yapti:    print("Coderspace'e hoş geldiniz!")
+Bu örnekte, kullanici_giris_yapti değişkeni True olduğunda, if bloğundaki print ifadesi çalışır ve kullanıcıya bir karşılama mesajı gösterilir.
+Python'da if yapıları ile birlikte mantıksal operatörler de kullanılarak daha karmaşık koşullar oluşturulabilir. Örneğin, bir kullanıcının yaşını kontrol ederek belirli bir yaş sınırını geçtiğinde bir mesaj göstermek mümkündür:
+yas = 19if yas >= 18:    print("Platformu kullanabilirsiniz.")
+Bu örnekte, yaş 18 veya daha büyükse, kullanıcıya platformu kullanabileceği bilgisi verilir.
+If yapıları, ayrıca listeler gibi veri yapıları ile de kontrol mekanizmaları kurabilir. Örneğin, bir kurs listesinin belirli bir dersi içerip içermediğini kontrol etmek için:
+alinan_kurslar = ["Python", "Veri Bilimi"]if "Veri Bilimi" in alinan_kurslar:    print("Python Veri Bilimi eğitimi alınmış.")
+Bu kod, "Veri Bilimi" kursunun alinan_kurslar listesinde olup olmadığını kontrol eder ve varsa bir mesaj gösterir.
+Bir başka yaygın kullanım, bir sayının tek mi çift mi olduğunu kontrol etmektir. Bu, modül operatörü (%) kullanılarak yapılabilir:
+sayi = 4if sayi % 2 == 0:    print("Sayı çifttir.")else:    print("Sayı tektir.")
+Bu örnekte, sayının 2 ile bölümünden kalan 0 ise sayı çifttir, aksi halde tektir.
+Son olarak, metinlerin belirli bir uzunlukta olup olmadığını veya belirli bir kelimeyle başlayıp başlamadığını kontrol etmek için de if yapıları kullanılabilir. Örneğin, bir e-posta adresinin belirli bir kelimeyle başlayıp başlamadığını kontrol etmek için:
+email = “caner@coderspace.io”if email.startswith("caner"):    print("Eğitmen e-mail'i")
+Bu örnek, e-posta adresinin "caner" ile başlayıp başlamadığını kontrol eder ve doğruysa bir mesaj gösterir.
+Bu tür kontrol yapıları, programların daha dinamik ve kullanıcı etkileşimli olmasını sağlar. If yapıları, koşullu işlemler için temel bir araçtır ve programlama dillerinin çoğunda benzer şekilde kullanılır.
+Pratik--------------------------------------------------------------------------------------------------------
+Python’da kısa koşullu ifade (ternary) nasıl yazılır?
+Python'da tek satırlık koşullu ifade değer_if_true if koşul else değer_if_false şeklinde yazılır; diğer dillerdeki ? : sözdizimi Python'da yoktur. Cevap aPython'da tek satırlık koşullu ifade değer_if_true if koşul else değer_if_false şeklinde yazılır; diğer dillerdeki ? : sözdizimi Python'da yoktur. Cevap aa) ‘A’ if x > 0 else ‘B’
+Python'da tek satırlık koşullu ifade değer_if_true if koşul else değer_if_false şeklinde yazılır; diğer dillerdeki ? : sözdizimi Python'da yoktur. Cevap a
+Python'da tek satırlık koşullu ifade değer_if_true if koşul else değer_if_false şeklinde yazılır; diğer dillerdeki ? : sözdizimi Python'da yoktur. Cevap a
+b) if x > 0: ‘A’ else ‘B’
+c) x > 0 ? ‘A’ : ‘B’
+d) Ternary(x, ‘A’, ‘B’)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi kullanıcı girdisi boş ise uyar, değilse devam: en temiz kontrol için uygundur?
+Boş string, liste vb. yapılar Python'da Falsey kabul edilir; bu yüzden kullanıcı girdisinin boş olup olmadığını kontrol etmek için if not text: ifadesi hem okunaklı hem de pythonic bir çözümdür. Cevap aBoş string, liste vb. yapılar Python'da Falsey kabul edilir; bu yüzden kullanıcı girdisinin boş olup olmadığını kontrol etmek için if not text: ifadesi hem okunaklı hem de pythonic bir çözümdür. Cevap aa) if not text:
+Boş string, liste vb. yapılar Python'da Falsey kabul edilir; bu yüzden kullanıcı girdisinin boş olup olmadığını kontrol etmek için if not text: ifadesi hem okunaklı hem de pythonic bir çözümdür. Cevap a
+Boş string, liste vb. yapılar Python'da Falsey kabul edilir; bu yüzden kullanıcı girdisinin boş olup olmadığını kontrol etmek için if not text: ifadesi hem okunaklı hem de pythonic bir çözümdür. Cevap a
+b) if text == 0:
+c) if text is True:
+d) if len(text) < 0:
+----------------------------------------------------------------------------------------------------------------------------------------------
+Fonksiyon içinde erken return kullanmak ne zaman tercih edilebilir?
+Fonksiyon içinde hatalı ya da istenmeyen durumları başta return ile sonlandırmak (guard clause), iç içe if–else bloklarını azaltarak akışı sadeleştirir ve okunabilirliği artırır. Cevap aFonksiyon içinde hatalı ya da istenmeyen durumları başta return ile sonlandırmak (guard clause), iç içe if–else bloklarını azaltarak akışı sadeleştirir ve okunabilirliği artırır. Cevap aa) İç içe if-else bloklarını azaltmak ve akışı sadeleştirmek için.
+Fonksiyon içinde hatalı ya da istenmeyen durumları başta return ile sonlandırmak (guard clause), iç içe if–else bloklarını azaltarak akışı sadeleştirir ve okunabilirliği artırır. Cevap a
+Fonksiyon içinde hatalı ya da istenmeyen durumları başta return ile sonlandırmak (guard clause), iç içe if–else bloklarını azaltarak akışı sadeleştirir ve okunabilirliği artırır. Cevap a
+b) Her zaman else yerine kullanılmalıdır.
+c) Sadece döngülerde gereklidir.
+d) Sadece print ifadelerinden önce kullanılır.
+----------------------------------------------------------------------------------------------------------------------------------------------
+age değeri 17 olduğu için age >= 18 koşulu False olur ve else bloğu çalışarak "Reşit değil" yazdırılır. Cevap bage değeri 17 olduğu için age >= 18 koşulu False olur ve else bloğu çalışarak "Reşit değil" yazdırılır. Cevap bAşağıdaki kod parçası çalıştırıldığında hangi çıktı üretilir?age = 17if age >= 18:    print(“Yetişkin”)else:    print(“Reşit Değil”)
+age değeri 17 olduğu için age >= 18 koşulu False olur ve else bloğu çalışarak "Reşit değil" yazdırılır. Cevap b
+age değeri 17 olduğu için age >= 18 koşulu False olur ve else bloğu çalışarak "Reşit değil" yazdırılır. Cevap b
+a) Yetişkin
+b) Reşit Değil
+c) None
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki senaryolardan hangileri if-else yapısına uygun örneklerdir (birden fazla doğru olabilir)?
+İki ya da birkaç net durumdan birini seçmen gereken karar problemleri if–else için uygundur; yaşa göre ehliyet kontrolü veya stokta ürün olup olmaması buna güzel örneklerdir. Cevap a-cİki ya da birkaç net durumdan birini seçmen gereken karar problemleri if–else için uygundur; yaşa göre ehliyet kontrolü veya stokta ürün olup olmaması buna güzel örneklerdir. Cevap a-ca) Kullanıcının yaşına göre ehliyet alıp alamayacağını kontrol etmek.
+İki ya da birkaç net durumdan birini seçmen gereken karar problemleri if–else için uygundur; yaşa göre ehliyet kontrolü veya stokta ürün olup olmaması buna güzel örneklerdir. Cevap a-c
+İki ya da birkaç net durumdan birini seçmen gereken karar problemleri if–else için uygundur; yaşa göre ehliyet kontrolü veya stokta ürün olup olmaması buna güzel örneklerdir. Cevap a-c
+b) Bir listedeki tüm elamanları tek tek yazdırmak.
+c) Bir siparişin stokta olup olmadığını kontrol etmek
+d) Bir metindeki kelime sayısını hesaplamak.
+if-else yapısı, programlama dillerinde bir akış kontrol mekanizması olarak önemli bir rol oynar. Bu yapı, belirli bir koşulun değerlendirilmesi sonucunda programın iki farklı yoldan birini izlemesini sağlar. Koşulun sonucu True veya False olarak değerlendirilir ve bu değerlere göre ya if bloğu ya da else bloğu çalışır.
+Python'da if-else yapısının temel amacı, programın belirli bir durumda nasıl davranması gerektiğine karar vermektir. Bu yapı, programın daha tutarlı ve öngörülebilir olmasını sağlar çünkü aynı anda hem if hem de else blokları çalışamaz. Bu, programın karar noktalarında sadece bir yolun seçilmesini ve diğer yolun devre dışı bırakılmasını garantiler.
+Python'da if-else yapısının kullanımı sırasında dikkat edilmesi gereken bir diğer önemli nokta ise girinti (indentation) yapısıdır. Python, kod bloklarını girintilerle tanımlar ve bu girintiler sadece görsel değil, aynı zamanda semantik bir anlam taşır. Yanlış bir girinti, programın beklenmedik bir şekilde çalışmasına neden olabilir.
+İşte basit bir if-else yapısının Python'da nasıl tanımlandığına dair bir örnek:
+x = 10if x > 5:    print("x, 5'ten büyüktür.")else:    print("x, 5'ten büyük değildir.")
+Bu örnekte, x değişkeninin değeri 5'ten büyükse, if bloğu çalışır ve "x, 5'ten büyüktür." mesajı ekrana yazdırılır. Aksi takdirde, else bloğu çalışır ve "x, 5'ten büyük değildir." mesajı ekrana yazdırılır.
+if-else yapısı, veri doğrulama, yetkilendirme, iş kuralları uygulamaları ve durum geçişleri gibi birçok alanda yaygın olarak kullanılır. Ancak, aşırı kullanımı kodun karmaşık ve bakımı zor hale gelmesine neden olabilir. Bu yüzden if-else yapıları, sadece gerekli durumlarda ve minimal seviyede kullanılmalıdır.
+Pratik--------------------------------------------------------------------------------------------------------
+Aşağıdaki ifadelerden hangisi Python’da geçerli bir if koşuludur?
+Python'da karşılaştırma için == kullanılır; tek eşittir = atama operatörüdür ve if koşulunda kullanılamaz, === veya equals gibi sözdizimleri de Python'a ait değildir. Cevap APython'da karşılaştırma için == kullanılır; tek eşittir = atama operatörüdür ve if koşulunda kullanılamaz, === veya equals gibi sözdizimleri de Python'a ait değildir. Cevap Aa) if x = 5:
+Python'da karşılaştırma için == kullanılır; tek eşittir = atama operatörüdür ve if koşulunda kullanılamaz, === veya equals gibi sözdizimleri de Python'a ait değildir. Cevap A
+Python'da karşılaştırma için == kullanılır; tek eşittir = atama operatörüdür ve if koşulunda kullanılamaz, === veya equals gibi sözdizimleri de Python'a ait değildir. Cevap A
+b) if x == 5:
+c) if x === 5:
+d) if (x equals 5):
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki değerlerden hangileri Python’da False olarak değerlendirilir (Birden fazla doğru olabilir)?
+Sayısal olarak sıfır (0, 0.0) ve boş koleksiyonlar ([], {}, ()) Falsey kabul edilir; ancak '0' gibi boş olmayan stringler Truey'dir. Cevap a-b-dSayısal olarak sıfır (0, 0.0) ve boş koleksiyonlar ([], {}, ()) Falsey kabul edilir; ancak '0' gibi boş olmayan stringler Truey'dir. Cevap a-b-da) 0
+Sayısal olarak sıfır (0, 0.0) ve boş koleksiyonlar ([], {}, ()) Falsey kabul edilir; ancak '0' gibi boş olmayan stringler Truey'dir. Cevap a-b-d
+Sayısal olarak sıfır (0, 0.0) ve boş koleksiyonlar ([], {}, ()) Falsey kabul edilir; ancak '0' gibi boş olmayan stringler Truey'dir. Cevap a-b-d
+b) 0.0
+c) ‘0’
+d) []
+----------------------------------------------------------------------------------------------------------------------------------------------
+Sıfır dışındaki tüm sayılar Truey kabul edilir; x = 3 olduğu için if bloğu çalışır ve "A" yazdırılır. Cevap ASıfır dışındaki tüm sayılar Truey kabul edilir; x = 3 olduğu için if bloğu çalışır ve "A" yazdırılır. Cevap AAşağıdaki kod çalıştırıldığınıda ekrana ne yazdırılır? x = 3if x:    print(‘A’)else:    print(‘B’)
+Sıfır dışındaki tüm sayılar Truey kabul edilir; x = 3 olduğu için if bloğu çalışır ve "A" yazdırılır. Cevap A
+Sıfır dışındaki tüm sayılar Truey kabul edilir; x = 3 olduğu için if bloğu çalışır ve "A" yazdırılır. Cevap A
+a) A
+b) B
+c) A ve B
+d) Hata Oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden koşullardan hangisi ’18 ile 65 dahil’ aralığını doğru ifade eder?
+Her iki sınırın da dahil olduğu aralık için hem alt sınırda hem üst sınırda >= ve <= kullanılır; diğer seçenekler uç değerleri dışlar ya da mantıksal olarak çok geniş bir aralık tanımlar. Cevap bHer iki sınırın da dahil olduğu aralık için hem alt sınırda hem üst sınırda >= ve <= kullanılır; diğer seçenekler uç değerleri dışlar ya da mantıksal olarak çok geniş bir aralık tanımlar. Cevap ba) age > 18 and age < 65
+Her iki sınırın da dahil olduğu aralık için hem alt sınırda hem üst sınırda >= ve <= kullanılır; diğer seçenekler uç değerleri dışlar ya da mantıksal olarak çok geniş bir aralık tanımlar. Cevap b
+Her iki sınırın da dahil olduğu aralık için hem alt sınırda hem üst sınırda >= ve <= kullanılır; diğer seçenekler uç değerleri dışlar ya da mantıksal olarak çok geniş bir aralık tanımlar. Cevap b
+b) age >= 18 and age <= 65
+c) age >= 18 or age <= 65
+d) 18 <= age <= 65 and age ==18
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kod parçalarından hangisi score 50 ve üzeriyse ‘Geçti’, değilse ‘Kaldı’ yazdırır (birden fazla doğru olabilir)
+Amaç, 50 dahil ve üzeri için 'Geçti' yazdırmaktır; A ve B seçenekleri bu mantığı doğru uygular, C ise 50'yi dışlar.Cevap a-bAmaç, 50 dahil ve üzeri için 'Geçti' yazdırmaktır; A ve B seçenekleri bu mantığı doğru uygular, C ise 50'yi dışlar.Cevap a-ba) if score >= 50: print('Geçti') else: print('Kaldı')
+Amaç, 50 dahil ve üzeri için 'Geçti' yazdırmaktır; A ve B seçenekleri bu mantığı doğru uygular, C ise 50'yi dışlar.Cevap a-b
+Amaç, 50 dahil ve üzeri için 'Geçti' yazdırmaktır; A ve B seçenekleri bu mantığı doğru uygular, C ise 50'yi dışlar.Cevap a-b
+b) print('Geçti') if score >= 50 else print('Kaldı')
+c) if score > 50: print('Geçti') else: print('Kaldı')
+d) if score >= 50: result = 'Geçti' result = 'Kaldı'
+If-Else yapısı, Python'da karar verme mekanizmalarının temel taşıdır. Bu yapı, belirli bir koşulun doğru olup olmadığını kontrol eder ve bu koşula göre farklı kod bloklarının çalışmasını sağlar.
+Örneğin, bir kullanıcının sisteme giriş yapıp yapmadığını kontrol etmek için basit bir if-else yapısı kullanılabilir:
+giris_yapildi = Trueif giris_yapildi:    print("Ana sayfa açıldı")else:    print("Giriş ekranı gösterildi")
+Burada, giris_yapildi değişkeni True ise "Ana sayfa açıldı" mesajı gösterilir; aksi takdirde "Giriş ekranı gösterildi" mesajı gösterilir.
+Benzer şekilde, sayısal bir eşik belirleyerek bir puanın başarılı olup olmadığını kontrol edebiliriz:
+puan = 78if puan >= 70:    print("Başarılı")else:    print("Başarısız")
+Bu örnekte, puan 70 veya daha büyükse "Başarılı" mesajı gösterilir, aksi takdirde "Başarısız" mesajı gösterilir.
+Daha karmaşık durumlarda, birden fazla koşulu kontrol etmek için and ve or gibi mantıksal operatörler kullanılabilir. Örneğin, hem yaş hem de kimlik kontrolü gerektiren bir senaryo düşünelim:
+yas = 20kimlik_var = Falseif yas >= 18 and kimlik_var:    print("İşlem yapılabilir")else:    print("İşlem yapılamaz")
+Burada, her iki koşul da sağlanmadığı için "İşlem yapılamaz" mesajı gösterilir.
+Karar verme mekanizmaları, metin analizi gibi daha karmaşık işlemlerde de kullanılabilir. Örneğin, bir metin içinde belirli bir kelimenin varlığını kontrol etmek için:
+mesaj = "Toplantı yarın saat 10'da"if "yarın" in mesaj:    print("Gelecek zaman planı")else:    print("Zaman bilgisi yok")
+Bu örnekte, "yarın" kelimesi mesajda bulunduğu için "Gelecek zaman planı" mesajı gösterilir.
+Son olarak, iç içe if-else yapılarıyla daha karmaşık karar mekanizmaları oluşturulabilir. Örneğin, bir öğrencinin ders notu ve devamsızlık durumunu kontrol edebiliriz:
+ders_notu = 85devamsizlik = Falseif ders_notu >= 70 and not devamsizlik:    print("Dersi geçti")else:    print("Dersten kaldı")
+Burada, öğrenci hem yeterli not almış hem de devamsızlık yapmamışsa "Dersi geçti" mesajı gösterilir.
+Bu tür yapılar, yazılım geliştirme süreçlerinde sıkça kullanılır ve programların daha dinamik ve kullanıcı etkileşimli olmasını sağlar.
+Pratik--------------------------------------------------------------------------------------------------------
+Bir e-ticaret sepetinde indirim uygulanacak. Kural: total >= 1000 ise %15 indirim. Aşağıdaki kurala göre hangi koşul doğru yazılmıştır?
+Kuralda 1000 değeri dahil olduğu için >= kullanılmalıdır; sadece > veya == koşulları kuralı eksik uygular. Cevap bKuralda 1000 değeri dahil olduğu için >= kullanılmalıdır; sadece > veya == koşulları kuralı eksik uygular. Cevap ba) if total > 1000: discount = 0.15
+Kuralda 1000 değeri dahil olduğu için >= kullanılmalıdır; sadece > veya == koşulları kuralı eksik uygular. Cevap b
+Kuralda 1000 değeri dahil olduğu için >= kullanılmalıdır; sadece > veya == koşulları kuralı eksik uygular. Cevap b
+b) if total >= 1000: discount = 0.15
+c) if total == 1000: discount = 0.15
+d) if total <= 1000: discount = 0.15
+----------------------------------------------------------------------------------------------------------------------------------------------
+Koşulda hem total >= 1000 hem de member True olmalıdır; member = False olduğu için if koşulu sağlanmaz ve else bloğu çalışır. Cevap bKoşulda hem total >= 1000 hem de member True olmalıdır; member = False olduğu için if koşulu sağlanmaz ve else bloğu çalışır. Cevap bAşağıdaki kod çalıştırıldığında çıktı ne olur?total = 1200member = Falseif total >= 1000 and member;    print(‘Ek İndirim’)else:    print(‘Standart Fiyat’)
+Koşulda hem total >= 1000 hem de member True olmalıdır; member = False olduğu için if koşulu sağlanmaz ve else bloğu çalışır. Cevap b
+Koşulda hem total >= 1000 hem de member True olmalıdır; member = False olduğu için if koşulu sağlanmaz ve else bloğu çalışır. Cevap b
+a) Ek İndirim
+b) Standart Fiyat
+c) Hiçbir şey yazdırmaz
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Kategorilere veya eşiklere göre farklı aksiyonlar almak (sepet tutarına göre kargo, role göre yetki) if/elif/else yapılarına uygundur; liste veya metin üzerinde gezinmek ise daha çok döngüyle ilgilidir. Cevap a-cKategorilere veya eşiklere göre farklı aksiyonlar almak (sepet tutarına göre kargo, role göre yetki) if/elif/else yapılarına uygundur; liste veya metin üzerinde gezinmek ise daha çok döngüyle ilgilidir. Cevap a-cAşağıdaki senaryolardan hangileri if/elif/else ile çözmek için uygundur (birden fazla doğru olabilir)?
+Kategorilere veya eşiklere göre farklı aksiyonlar almak (sepet tutarına göre kargo, role göre yetki) if/elif/else yapılarına uygundur; liste veya metin üzerinde gezinmek ise daha çok döngüyle ilgilidir. Cevap a-c
+Kategorilere veya eşiklere göre farklı aksiyonlar almak (sepet tutarına göre kargo, role göre yetki) if/elif/else yapılarına uygundur; liste veya metin üzerinde gezinmek ise daha çok döngüyle ilgilidir. Cevap a-c
+a) Kargo ücretlerini sepet tutarına göre belirlemek.
+b) Bir listedeki tüm elemanları yazdırmak.
+c) Kullanıcı rolüne göre yetki belirlemek.
+d) Metindeki karakterleri tek tek belirlemek.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Bir bankacılık uygulamasında işlem limiti kontrolü yapılacak. Kural: amount > balance ise 'Yetersiz bakiye'. amount <= balance ise 'İşlem onaylandı'. Aşağıdaki seçeneklerden hangisi doğru koşulu kullanır?
+Kural, bakiyeden büyük tutarları reddetmektedir; bu nedenle sadece amount > balance durumunda "Yetersiz bakiye" yazdırılmalıdır. Cevap bKural, bakiyeden büyük tutarları reddetmektedir; bu nedenle sadece amount > balance durumunda "Yetersiz bakiye" yazdırılmalıdır. Cevap ba) if amount < balance: print('Yetersiz bakiye')
+Kural, bakiyeden büyük tutarları reddetmektedir; bu nedenle sadece amount > balance durumunda "Yetersiz bakiye" yazdırılmalıdır. Cevap b
+Kural, bakiyeden büyük tutarları reddetmektedir; bu nedenle sadece amount > balance durumunda "Yetersiz bakiye" yazdırılmalıdır. Cevap b
+b) if amount > balance: print('Yetersiz bakiye')
+c) if amount >= balance: print('Yetersiz bakiye')
+d) if amount == balance: print('Yetersiz bakiye')
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kod parçalarından hangileri status == 'paid' ise is_paid = True, değilse is_paid = False atar? (Birden fazla doğru olabilir)
+A, B ve C seçenekleri status == 'paid' olduğunda True, diğer durumlarda False üretir; D'de mantık ters çevrilmiştir. Cevap a-b-cA, B ve C seçenekleri status == 'paid' olduğunda True, diğer durumlarda False üretir; D'de mantık ters çevrilmiştir. Cevap a-b-ca) is_paid = (status == 'paid')
+A, B ve C seçenekleri status == 'paid' olduğunda True, diğer durumlarda False üretir; D'de mantık ters çevrilmiştir. Cevap a-b-c
+A, B ve C seçenekleri status == 'paid' olduğunda True, diğer durumlarda False üretir; D'de mantık ters çevrilmiştir. Cevap a-b-c
+b) if status == 'paid': is_paid = True else: is_paid = False
+c) is_paid = True if status == 'paid' else False
+d) if status != 'paid': is_paid = True else: is_paid = False
+Döngüler, programların kontrol akışını yönlendiren önemli yapılardır. Python'da döngüler, belirli bir işlemi tekrar etmek ve bu işlemler üzerinde kontrol sağlamak için kullanılır. İki temel döngü türü olan for ve while döngüleri, farklı senaryolarda tercih edilir.
+For Döngüsü, belirli bir veri kümesi üzerinde iterasyon yapmak için kullanılır. Döngü başlamadan önce üzerinde çalışılacak elemanlar bellidir. Bu, bir liste, aralık veya başka bir veri yapısı olabilir. For döngüsü, veri biliminde ve log analizlerinde sıkça kullanılır çünkü döngü neyi dolaşacağını bilir ve bu elemanlar üzerinde işlem yapar.
+# Bir liste üzerinde for döngüsü ile iterasyonmeyveler = ["elma", "muz", "çilek"]for meyve in meyveler:    print(meyve)
+While Döngüsü, koşul bazlı bir döngüdür. Döngü, belirli bir koşul doğru olduğu sürece çalışmaya devam eder. Bu tür döngüler, döngünün kaç kez çalışacağını önceden belirleyemediğiniz durumlarda kullanılır. Örneğin, bir servis yanıt verene kadar beklemek veya bir kullanıcı doğru giriş yapana kadar devam etmek gibi senaryolar için idealdir.
+# Bir koşul doğru olduğu sürece while döngüsüsayi = 0while sayi < 5:    print(sayi)    sayi += 1
+Döngülerin akışını değiştiren bazı anahtar kavramlar da vardır. Break ifadesi, döngüyü anında sonlandırır. Bu, performans açısından kritik olabilir çünkü gereksiz işlemleri engeller. Örneğin, bir hata logunda kritik bir mesaj bulunduğunda dosyanın geri kalanını okumak yerine break kullanarak döngüyü bitirebilirsiniz.
+Continue ifadesi ise döngünün o anki iterasyonunu atlar ve bir sonraki iterasyona geçer. Bu, belirli koşulları filtrelemek için kullanışlıdır. Pass ifadesi ise bir blokta hiçbir işlem yapılmadığını belirtmek için kullanılır, ancak bu blok ileride doldurulacaksa bir yer tutucu olarak işlev görür.
+Döngü tasarımında dikkat edilmesi gereken bazı kritik noktalar vardır. Sonsuz döngü riskinden kaçınmak, gereksiz iç içe döngülerden kaçınmak ve erken çıkış stratejileri belirlemek önemlidir. Döngülerin okunabilir ve anlaşılır olması da kod kalitesini artırır. Döngü ve karar yapıları bir arada kullanılırken karmaşadan kaçınılmalıdır.
+for döngüsü => Iteration temellidir, belirli bir liste, aralık, veri kümesi üzerinde çalışır, ne üzerinde dolaştığı                           nettir.
+while döngüsü => Condition-based çalışır, bir koşul true olduğu sürece devam eder, kaç kez döneceği kesin                              değildir.
+Pratik--------------------------------------------------------------------------------------------------------
+zip(a, b) aynı indekslerdeki elemanları bir araya getirerek (a[0], b[0]), (a[1], b[1]) şeklinde eşleştirilmiş çiftlerden oluşan bir iterator döndürür; sıralama veya set üretimi yapmaz.Cevap azip(a, b) aynı indekslerdeki elemanları bir araya getirerek (a[0], b[0]), (a[1], b[1]) şeklinde eşleştirilmiş çiftlerden oluşan bir iterator döndürür; sıralama veya set üretimi yapmaz.Cevap azip(a, b) ne yapar?
+zip(a, b) aynı indekslerdeki elemanları bir araya getirerek (a[0], b[0]), (a[1], b[1]) şeklinde eşleştirilmiş çiftlerden oluşan bir iterator döndürür; sıralama veya set üretimi yapmaz.Cevap a
+zip(a, b) aynı indekslerdeki elemanları bir araya getirerek (a[0], b[0]), (a[1], b[1]) şeklinde eşleştirilmiş çiftlerden oluşan bir iterator döndürür; sıralama veya set üretimi yapmaz.Cevap a
+a) Aynı indeksleri eşler.
+b) Sıralar.
+c) Sadece uzun olanı döndürür.
+d) Sadece set üretir.
+----------------------------------------------------------------------------------------------------------------------------------------------
+İç içe döngüler genellikle iki boyutlu listeler, matrisler veya her elemanı başka bir listeyle eşleştirdiğin çift kombinasyonları gibi, iki seviye üzerinde gezinmen gerektiğinde kullanılır.Cevap aİç içe döngüler genellikle iki boyutlu listeler, matrisler veya her elemanı başka bir listeyle eşleştirdiğin çift kombinasyonları gibi, iki seviye üzerinde gezinmen gerektiğinde kullanılır.Cevap aNested loop (iç içe döngü) ne zaman gerekir?
+İç içe döngüler genellikle iki boyutlu listeler, matrisler veya her elemanı başka bir listeyle eşleştirdiğin çift kombinasyonları gibi, iki seviye üzerinde gezinmen gerektiğinde kullanılır.Cevap a
+İç içe döngüler genellikle iki boyutlu listeler, matrisler veya her elemanı başka bir listeyle eşleştirdiğin çift kombinasyonları gibi, iki seviye üzerinde gezinmen gerektiğinde kullanılır.Cevap a
+a) İki boyutlu yapı/çift kombinasyon.
+b) Her zaman.
+c) Sadece dosyada.
+d) Sadece OOP’de.
+----------------------------------------------------------------------------------------------------------------------------------------------
+map() ve list comprehension arasındaki fark için aşağıdakilerden hangisi doğrudur?
+Python 3'te map() lazy bir iterator döndürür, list comprehension ise doğrudan liste üretir. İkisi de otomatik olarak dict veya set döndürmez. Cevap aPython 3'te map() lazy bir iterator döndürür, list comprehension ise doğrudan liste üretir. İkisi de otomatik olarak dict veya set döndürmez. Cevap aa) map() bir iterator döndürür, list comprehension doğrudan liste üretir.
+Python 3'te map() lazy bir iterator döndürür, list comprehension ise doğrudan liste üretir. İkisi de otomatik olarak dict veya set döndürmez. Cevap a
+Python 3'te map() lazy bir iterator döndürür, list comprehension ise doğrudan liste üretir. İkisi de otomatik olarak dict veya set döndürmez. Cevap a
+b) map() her zaman dict döndürür.
+c) list comprehension iterator döndürür.
+d) İkisi de sadece set üretir.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Her iki döngü de 0, 1 ve 2 değerlerini sırayla yazdırır; range(3) 0'dan 3'e kadar, 3 hariç değerler üretir, while döngüsünde de i aynı değerleri alacak şekilde artırılır. Cevap cHer iki döngü de 0, 1 ve 2 değerlerini sırayla yazdırır; range(3) 0'dan 3'e kadar, 3 hariç değerler üretir, while döngüsünde de i aynı değerleri alacak şekilde artırılır. Cevap cAşağıdaki iki döngüden hangisi aynı çıktıyı üretir?for i in range(3)      #kod1    print(i)i = 0                        #kod2while i < 3:    print(i)    i += 1
+Her iki döngü de 0, 1 ve 2 değerlerini sırayla yazdırır; range(3) 0'dan 3'e kadar, 3 hariç değerler üretir, while döngüsünde de i aynı değerleri alacak şekilde artırılır. Cevap c
+Her iki döngü de 0, 1 ve 2 değerlerini sırayla yazdırır; range(3) 0'dan 3'e kadar, 3 hariç değerler üretir, while döngüsünde de i aynı değerleri alacak şekilde artırılır. Cevap c
+a) Sadece kod1
+b) Sadece kod2
+c) İkisi de
+d) Hiçbiri
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki durumların hangilerinde while döngüsü tercih edilmelidir (birden fazla doğru olabilir)?
+Başta kaç kez döneceğini bilmediğin koşullu tekrarlar (örneğin kullanıcıdan geçerli giriş alana kadar) while için idealdir; sabit sayıda tekrar ve koleksiyon üzerinde gezinme ise genellikle for ile daha okunaklıdır. Cevap a-cBaşta kaç kez döneceğini bilmediğin koşullu tekrarlar (örneğin kullanıcıdan geçerli giriş alana kadar) while için idealdir; sabit sayıda tekrar ve koleksiyon üzerinde gezinme ise genellikle for ile daha okunaklıdır. Cevap a-ca) Kaç tekrar yapılacağı baştan bilinmiyorsa.
+Başta kaç kez döneceğini bilmediğin koşullu tekrarlar (örneğin kullanıcıdan geçerli giriş alana kadar) while için idealdir; sabit sayıda tekrar ve koleksiyon üzerinde gezinme ise genellikle for ile daha okunaklıdır. Cevap a-c
+Başta kaç kez döneceğini bilmediğin koşullu tekrarlar (örneğin kullanıcıdan geçerli giriş alana kadar) while için idealdir; sabit sayıda tekrar ve koleksiyon üzerinde gezinme ise genellikle for ile daha okunaklıdır. Cevap a-c
+b) Sabit sayıda tekrar yapılacaksa.
+c) Kullanıcıdan doğru giriş gelene kadar bekleniyorsa.
+d) Bir listenin tüm elemanları gezilecekse.
+For döngüleri Python'da veri işleme ve iterasyon işlemleri için sıkça kullanılan bir yapıdır. For döngüsü, belirli bir koleksiyonun (liste, sözlük, set vb.) elemanları üzerinde sırasıyla işlem yapmamızı sağlar. Python'da for döngüsünün temel yapısı şu şekildedir:
+for eleman in koleksiyon:    # işlem
+Bu yapı, koleksiyonun her bir elemanı için belirtilen işlemi gerçekleştirir. Örneğin, bir liste üzerinde for döngüsü kullanarak elemanları ekrana yazdırabiliriz:
+liste = [0, 1, 2, 3, 4]for i in liste:    print(i)
+Python'da range() fonksiyonu, belirli bir aralıkta sayı üretmek için kullanılır. Örneğin, ‘range(5)’ ifadesi 0'dan 4'e kadar sayılar üretir. Bu sayılar, for döngüsü ile iterasyon yapılarak işlenebilir:
+for i in range(5):    print(i)
+Bu kod, 0'dan 4'e kadar olan sayıları ekrana yazdırır.
+For döngüsünde enumerate() fonksiyonu, bir koleksiyondaki elemanların indekslerini ve değerlerini aynı anda elde etmemizi sağlar. Bu, özellikle listelerin elemanları üzerinde iterasyon yaparken faydalıdır:
+dosyalar = ['deneme.txt', 'deneme.json', 'deneme.csv']for index, dosya in enumerate(dosyalar):    print(f"{index} numaralı dosya: {dosya}")
+Bu kod, her dosyanın indeksini ve adını ekrana yazdırır.
+For döngüsünde continue ifadesi, döngünün o anki iterasyonunu atlayarak bir sonraki iterasyona geçmemizi sağlar. Bu, belirli koşullar altında bazı işlemleri atlamak için kullanılır:
+kullanıcılar = ['admin', 'test', 'misafir', 'admin']for kullanıcı in kullanıcılar:    if kullanıcı == 'test':        continue    print(f"İşlenen kullanıcı: {kullanıcı}")
+Bu kod, 'test' kullanıcısını atlayarak diğer kullanıcıları ekrana yazdırır.
+For döngüsünde zip() fonksiyonu, birden fazla listeyi eşleştirerek aynı anda iterasyon yapmamızı sağlar. Bu, paralel listeler üzerinde işlem yaparken kullanışlıdır:
+ürünler = ['laptop', 'mouse', 'klavye']fiyatlar = [45000, 800, 2000]for ürün, fiyat in zip(ürünler, fiyatlar):    print(f"{ürün} fiyatı: {fiyat}")
+Bu kod, her ürünün fiyatını ekrana yazdırır.
+Son olarak, break ifadesi, döngüyü tamamen sonlandırmak için kullanılır. Bu, belirli bir koşul sağlandığında döngüden çıkmak için kullanılır:
+kayıtlar = ['onaylanmış', 'red', 'onaylanmış']for kayıt in kayıtlar:    if kayıt == 'red':        print("Red ifade bulundu. İşlem durduruldu.")        break    print(f"Kayıt kontrol edildi: {kayıt}")
+Bu kod, 'red' ifadesi bulunduğunda döngüyü sonlandırır ve bir uyarı mesajı gösterir.
+Pratik--------------------------------------------------------------------------------------------------------
+x = 5 satırı ne yapar?
+x = 5 ifadesi, 5 değerini x isminde bir değişkene atar; karşılaştırma için ==, tip değiştirme için ise int(), float() gibi fonksiyonlar kullanılır. Cevap ax = 5 ifadesi, 5 değerini x isminde bir değişkene atar; karşılaştırma için ==, tip değiştirme için ise int(), float() gibi fonksiyonlar kullanılır. Cevap aa) Değer atar.
+x = 5 ifadesi, 5 değerini x isminde bir değişkene atar; karşılaştırma için ==, tip değiştirme için ise int(), float() gibi fonksiyonlar kullanılır. Cevap a
+x = 5 ifadesi, 5 değerini x isminde bir değişkene atar; karşılaştırma için ==, tip değiştirme için ise int(), float() gibi fonksiyonlar kullanılır. Cevap a
+b) Karşılaştırır.
+c) Fonksiyon çağırır.
+d) Tip değiştirir.
+----------------------------------------------------------------------------------------------------------------------------------------------
+print(type(3.0)) çıktısı nedir?
+3.0 ondalıklı bir sayı olduğu için Python'da float tipindedir; type(3.0) çağrısı döndürür. Cevap d3.0 ondalıklı bir sayı olduğu için Python'da float tipindedir; type(3.0) çağrısı döndürür. Cevap da) <class ‘str’>
+3.0 ondalıklı bir sayı olduğu için Python'da float tipindedir; type(3.0) çağrısı döndürür. Cevap d
+3.0 ondalıklı bir sayı olduğu için Python'da float tipindedir; type(3.0) çağrısı döndürür. Cevap d
+b) Hata
+c) <class ‘int’>
+d) <class ‘float’>
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi geçerli bir değişken adıdır?
+Değişken adları sayı ile başlayamaz, tire gibi özel karakterler içeremez ve Python anahtar kelimeleri (ör. def) kullanılamaz; harf, rakam ve alt çizgi kombinasyonları geçerlidir. Cevap aDeğişken adları sayı ile başlayamaz, tire gibi özel karakterler içeremez ve Python anahtar kelimeleri (ör. def) kullanılamaz; harf, rakam ve alt çizgi kombinasyonları geçerlidir. Cevap aa) user_age
+Değişken adları sayı ile başlayamaz, tire gibi özel karakterler içeremez ve Python anahtar kelimeleri (ör. def) kullanılamaz; harf, rakam ve alt çizgi kombinasyonları geçerlidir. Cevap a
+Değişken adları sayı ile başlayamaz, tire gibi özel karakterler içeremez ve Python anahtar kelimeleri (ör. def) kullanılamaz; harf, rakam ve alt çizgi kombinasyonları geçerlidir. Cevap a
+b) 3age
+c) user-age
+d) def
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kodun çıktısı nedir?items = [“a”, “b”, “c”]for index, value in enumerate(items):    print(index, value)
+enumerate(items) hem indeks hem değeri döndürür; print(index, value) her satırda bir çift yazar, dolayısıyla çıktı satır satır 0 a, 1 b, 2 c şeklindedir.Cevap cenumerate(items) hem indeks hem değeri döndürür; print(index, value) her satırda bir çift yazar, dolayısıyla çıktı satır satır 0 a, 1 b, 2 c şeklindedir.Cevap ca) a b c
+enumerate(items) hem indeks hem değeri döndürür; print(index, value) her satırda bir çift yazar, dolayısıyla çıktı satır satır 0 a, 1 b, 2 c şeklindedir.Cevap c
+enumerate(items) hem indeks hem değeri döndürür; print(index, value) her satırda bir çift yazar, dolayısıyla çıktı satır satır 0 a, 1 b, 2 c şeklindedir.Cevap c
+b) 0 a 1 b 2 c
+c) 0 a    1 b    2 c
+d) Hata oluşur.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki yapılardan hangileri döngü ile gizlenebilir (iterable) (birden fazla doğru olabilir)?
+Liste, tuple ve string gibi koleksiyon tipleri üzerinde for döngüsüyle gezinebilirsin; tek bir tamsayı (int) ise iterable değildir. Cevap a-b-cListe, tuple ve string gibi koleksiyon tipleri üzerinde for döngüsüyle gezinebilirsin; tek bir tamsayı (int) ise iterable değildir. Cevap a-b-ca) list
+Liste, tuple ve string gibi koleksiyon tipleri üzerinde for döngüsüyle gezinebilirsin; tek bir tamsayı (int) ise iterable değildir. Cevap a-b-c
+Liste, tuple ve string gibi koleksiyon tipleri üzerinde for döngüsüyle gezinebilirsin; tek bir tamsayı (int) ise iterable değildir. Cevap a-b-c
+b) tuple
+c) string
+d) int
+While döngüsü, belirli bir koşul doğru olduğu sürece tekrar eden bir döngü yapısıdır. Döngüye girmeden önce bir sayaç veya kontrol değişkeni tanımlanır ve bu değişkenin değeri döngü koşulunu belirler. Eğer döngü koşulu hiçbir zaman yanlış olmazsa, döngü sonsuz döngüye girer. Bu nedenle, döngü içinde genellikle sayaç değişkeni güncellenir.
+sayaç = 0while sayaç < 5:    print(sayaç)    sayaç += 1
+Bu örnekte, sayaç değişkeni 0'dan başlayarak 4'e kadar ekrana yazdırılır. Her döngü turunda sayaç değişkeni bir artırılır ve sayaç 5 olduğunda döngü sona erer.
+Break ifadesi, döngüden erken çıkmak için kullanılır. Döngü içinde belirli bir koşul sağlandığında break ifadesi çalıştırılır ve döngü anında sonlanır.
+mesajlar = ["onay", "onay", "red", "onay"]index = 0while index < len(mesajlar):    if mesajlar[index] == "red":        print("Hata bulundu, işlem durduruldu.")        break    print("Mesaj kontrol edildi:", mesajlar[index])    index += 1
+Bu örnekte, mesajlar listesindeki her bir eleman kontrol edilir. Eğer "red" mesajı bulunursa, "Hata bulundu, işlem durduruldu." mesajı yazdırılır ve döngü break ifadesi ile sonlandırılır.
+Continue ifadesi ise döngünün o anki turunu sonlandırıp bir sonraki tura geçmek için kullanılır. Döngü içindeki bir koşul sağlandığında, continue ifadesi çalıştırılır ve döngü başa döner.
+sayılar = [1, 2, 3, 4, 5]index = 0while index < len(sayılar):    if sayılar[index] % 2 == 0:        index += 1        continue    print("Tek sayılar:", sayılar[index])    index += 1
+Bu örnekte, sayılar listesindeki her bir sayı kontrol edilir. Eğer sayı çiftse, continue ifadesi ile döngü o turu atlar ve bir sonraki sayıya geçer. Böylece sadece tek sayılar ekrana yazdırılır.
+While döngüsü, break ve continue ifadeleri ile birlikte kullanılarak, döngü kontrol mekanizmaları üzerinde esnek bir yapı sağlar. Döngülerin doğru şekilde sonlanması ve istenmeyen sonsuz döngülerin önlenmesi için sayaç güncellemeleri dikkatlice yapılmalıdır.
+Pratik--------------------------------------------------------------------------------------------------------
+Başlangıçta i = 0 iken koşul sağlanır ve 0 yazdırılır; her adımda i bir artırılarak 1 ve 2 de yazdırılır, 3 olduğunda koşul sağlanmadığı için döngü biter. Cevap aBaşlangıçta i = 0 iken koşul sağlanır ve 0 yazdırılır; her adımda i bir artırılarak 1 ve 2 de yazdırılır, 3 olduğunda koşul sağlanmadığı için döngü biter. Cevap aAşağıdaki kodun çıktısı nedir?i = 0while i < 3:    print(i)    i += 1
+Başlangıçta i = 0 iken koşul sağlanır ve 0 yazdırılır; her adımda i bir artırılarak 1 ve 2 de yazdırılır, 3 olduğunda koşul sağlanmadığı için döngü biter. Cevap a
+Başlangıçta i = 0 iken koşul sağlanır ve 0 yazdırılır; her adımda i bir artırılarak 1 ve 2 de yazdırılır, 3 olduğunda koşul sağlanmadığı için döngü biter. Cevap a
+a) 0 1 2
+b) 1 2 3
+c) 0 1 2 3
+d) Hata
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi sonsuz while döngüsü için yaygın kalıp olarak kullanılır?
+while True: ifadesi koşulu her zaman True olan klasik sonsuz döngü kalıbıdır; döngüden çıkmak için genellikle içeride break kullanılır. Cevap awhile True: ifadesi koşulu her zaman True olan klasik sonsuz döngü kalıbıdır; döngüden çıkmak için genellikle içeride break kullanılır. Cevap aa) while True:
+while True: ifadesi koşulu her zaman True olan klasik sonsuz döngü kalıbıdır; döngüden çıkmak için genellikle içeride break kullanılır. Cevap a
+while True: ifadesi koşulu her zaman True olan klasik sonsuz döngü kalıbıdır; döngüden çıkmak için genellikle içeride break kullanılır. Cevap a
+b) while 1 < 0:
+c) while None:
+d) while ‘True’:
+----------------------------------------------------------------------------------------------------------------------------------------------
+Döngü koşulunu etkileyen sayaç veya durum değişkeni güncellenmezse, koşul hep True kalabilir ve program sonsuz döngüye girerek kaynakları boşa tüketir. Cevap aDöngü koşulunu etkileyen sayaç veya durum değişkeni güncellenmezse, koşul hep True kalabilir ve program sonsuz döngüye girerek kaynakları boşa tüketir. Cevap aSayaç artmıyorsa while döngüsünde ne risk vardır?
+Döngü koşulunu etkileyen sayaç veya durum değişkeni güncellenmezse, koşul hep True kalabilir ve program sonsuz döngüye girerek kaynakları boşa tüketir. Cevap a
+Döngü koşulunu etkileyen sayaç veya durum değişkeni güncellenmezse, koşul hep True kalabilir ve program sonsuz döngüye girerek kaynakları boşa tüketir. Cevap a
+a) Sonsuz döngü
+b) Syntax hatası
+c) Her zaman None
+d) CPU kapanır
+----------------------------------------------------------------------------------------------------------------------------------------------
+Döngü akışı: i=1 → i == 2 False, 1 yazdırılır; i=2 → koşul True, continue ile print atlanır; i=3 → koşul False, 3 yazdırılır; sonuç olarak 1 ve 3 yazdırılır.Cevap bDöngü akışı: i=1 → i == 2 False, 1 yazdırılır; i=2 → koşul True, continue ile print atlanır; i=3 → koşul False, 3 yazdırılır; sonuç olarak 1 ve 3 yazdırılır.Cevap bAşağıdaki kod çalıştırıldığında ekrana hangi değerler yazdırılır?i = 0while i < 3:    i += 1    if i ==2:        continue    print(i)
+Döngü akışı: i=1 → i == 2 False, 1 yazdırılır; i=2 → koşul True, continue ile print atlanır; i=3 → koşul False, 3 yazdırılır; sonuç olarak 1 ve 3 yazdırılır.Cevap b
+Döngü akışı: i=1 → i == 2 False, 1 yazdırılır; i=2 → koşul True, continue ile print atlanır; i=3 → koşul False, 3 yazdırılır; sonuç olarak 1 ve 3 yazdırılır.Cevap b
+a) 1 2 3
+b) 1 3
+c) 2 3 
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangileri sonsuz döngüyü önlemek için kullanılabilir (birden fazla doğru olabilir)?
+Koşulu etkileyen değişkenleri güncellemek veya break ile döngüden çıkmak sonsuz döngüleri engeller; continue yalnızca o adımı atlar ve döngüyü sonlandırmaz. Cevap a-bKoşulu etkileyen değişkenleri güncellemek veya break ile döngüden çıkmak sonsuz döngüleri engeller; continue yalnızca o adımı atlar ve döngüyü sonlandırmaz. Cevap a-ba) Döngü koşulunu güncellemek
+Koşulu etkileyen değişkenleri güncellemek veya break ile döngüden çıkmak sonsuz döngüleri engeller; continue yalnızca o adımı atlar ve döngüyü sonlandırmaz. Cevap a-b
+Koşulu etkileyen değişkenleri güncellemek veya break ile döngüden çıkmak sonsuz döngüleri engeller; continue yalnızca o adımı atlar ve döngüyü sonlandırmaz. Cevap a-b
+b) break kullanmak
+c) continue kullanmak
+d) Koşulu her zaman True yapmak
+Dijital sistemlerde gerçekleşen işlemleri analiz etmek için döngüler kullanılır. Bu süreçte, işlemlerin sayısal tutarları bir liste içinde saklanır ve bu liste üzerinde döngüler yardımıyla iterasyon yapılır. Her bir işlem tutarını inceleyerek, yalnızca çift tutarlı işlemler ayıklanır ve bu işlemler ayrı bir listede saklanır.
+İşlemlerin kontrol edilmesi sırasında bir sayaç kullanılır. Bu sayaç, kaç işlemin incelendiğini sayar ve belirli bir sınır aşıldığında döngü sonlandırılır. Bu sınır, güvenlik amacıyla belirlenen bir maksimum kontrol limiti ile kontrol edilir.
+Döngüler, liste içindeki her elemanı tek tek kontrol eder. Çift sayıları filtrelemek için bir koşul kullanılır. Eğer bir işlem tutarının 2 ile bölümünden kalan 0 ise, bu işlem çift olarak kabul edilir ve ilgili listeye eklenir. Aynı zamanda, çift işlemlerin toplam tutarı da güncellenir.
+# İşlem tutarları listesiislem_tutarlari = [120, 75, 248, 33, 60, 89, 102]# Çift işlemleri saklamak için listecift_islemler = []# Sayaç ve toplam değişkenlerikontrol_sayisi = 0cift_islem_toplami = 0# Maksimum kontrol limitiMAX_CONTROL_LIMIT = 7# Döngü ile liste üzerinde iterasyonfor tutar in islem_tutarlari:    kontrol_sayisi += 1        # Maksimum kontrol limitine ulaşıldıysa döngüden çık    if kontrol_sayisi > MAX_CONTROL_LIMIT:        print("Kontrol limiti aşıldı, analiz durdu.")        break        # Çift sayıları kontrol et    if tutar % 2 == 0:        cift_islemler.append(tutar)        cift_islem_toplami += tutar    else:        continue# Sonuçları raporlaprint(f"Kontrol edilen işlem sayısı: {kontrol_sayisi}")print(f"Çift tutarlı işlemler: {cift_islemler}")print(f"Çift işlemlerin toplam tutarı: {cift_islem_toplami}")
+Yukarıdaki kod örneğinde, işlem tutarları listesi üzerinde bir döngü başlatılır. Her döngü turunda, kontrol sayısı bir artırılır. Eğer kontrol sayısı maksimum kontrol limitini aşarsa, döngü break ifadesi ile sonlandırılır. Çift tutarlı işlemler append metodu ile listeye eklenir ve toplam tutar güncellenir. Tek sayılar continue ifadesi ile atlanır.
+Bu yapı, döngülerin neden vazgeçilmez olduğunu ve nasıl etkili bir şekilde kullanılabileceğini gösterir. Döngüler, belirli koşullar altında işlemleri tekrarlayarak veri analizi gibi işlemleri kolaylaştırır.
+Pratik--------------------------------------------------------------------------------------------------------
+Bir döngüde sayaç arttırmak için doğru yazım hangisidir?
+Python'da bir sayacı bir artırmak için en yaygın ve doğru kullanım i += 1 ifadesidir; i++ operatörü yoktur ve i =+ 1 farklı bir anlama gelir. Cevap aPython'da bir sayacı bir artırmak için en yaygın ve doğru kullanım i += 1 ifadesidir; i++ operatörü yoktur ve i =+ 1 farklı bir anlama gelir. Cevap aa) i += 1
+Python'da bir sayacı bir artırmak için en yaygın ve doğru kullanım i += 1 ifadesidir; i++ operatörü yoktur ve i =+ 1 farklı bir anlama gelir. Cevap a
+Python'da bir sayacı bir artırmak için en yaygın ve doğru kullanım i += 1 ifadesidir; i++ operatörü yoktur ve i =+ 1 farklı bir anlama gelir. Cevap a
+b) i =+ 1
+c) i ++
+d) add(i,1)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Bir listedeki her elemanın karesini almak için pythonic seçenek hangisidir?
+Liste üzerinde dönüşüm yapmak için list comprehension hem okunaklı hem de Pythonic bir yaklaşımdır; [x*x for x in lst] her elemanın karesini içeren yeni bir liste üretir. Cevap a Liste üzerinde dönüşüm yapmak için list comprehension hem okunaklı hem de Pythonic bir yaklaşımdır; [x*x for x in lst] her elemanın karesini içeren yeni bir liste üretir. Cevap a a) [x*x for x in lst]
+Liste üzerinde dönüşüm yapmak için list comprehension hem okunaklı hem de Pythonic bir yaklaşımdır; [x*x for x in lst] her elemanın karesini içeren yeni bir liste üretir. Cevap a 
+Liste üzerinde dönüşüm yapmak için list comprehension hem okunaklı hem de Pythonic bir yaklaşımdır; [x*x for x in lst] her elemanın karesini içeren yeni bir liste üretir. Cevap a 
+b) square(lst)
+c) lst**2
+d) for x: x**2 (tek)
+----------------------------------------------------------------------------------------------------------------------------------------------
+Bir listedeki tek sayıları filtrelemek için doğru koşul hangisidir?
+Tek sayılar 2 ile bölündüğünde kalanı 1 verir; bu yüzden x % 2 == 1 koşulu, x'in tek olup olmadığını kontrol etmek için standart bir kalıptır. Cevap aTek sayılar 2 ile bölündüğünde kalanı 1 verir; bu yüzden x % 2 == 1 koşulu, x'in tek olup olmadığını kontrol etmek için standart bir kalıptır. Cevap aa) x % 2 == 1
+Tek sayılar 2 ile bölündüğünde kalanı 1 verir; bu yüzden x % 2 == 1 koşulu, x'in tek olup olmadığını kontrol etmek için standart bir kalıptır. Cevap a
+Tek sayılar 2 ile bölündüğünde kalanı 1 verir; bu yüzden x % 2 == 1 koşulu, x'in tek olup olmadığını kontrol etmek için standart bir kalıptır. Cevap a
+b) x % 2 == 0
+c) x / 2 == 1
+d) x + 2 == 1
+----------------------------------------------------------------------------------------------------------------------------------------------
+Döngüde yalnızca 2 ile tam bölünen (çift) sayılar result listesine eklenir; numbers içindeki çiftler 2 ve 4 olduğu için sonuç [2, 4] olur. Cevap bDöngüde yalnızca 2 ile tam bölünen (çift) sayılar result listesine eklenir; numbers içindeki çiftler 2 ve 4 olduğu için sonuç [2, 4] olur. Cevap bAşağıdaki kod parçası çalıştırıldığında ekrana ne yazdırılır?numbers = [1, 2, 3, 4]result = []for n in numbers:    if n % 2 == 0:        result.append(n)print(result)
+Döngüde yalnızca 2 ile tam bölünen (çift) sayılar result listesine eklenir; numbers içindeki çiftler 2 ve 4 olduğu için sonuç [2, 4] olur. Cevap b
+Döngüde yalnızca 2 ile tam bölünen (çift) sayılar result listesine eklenir; numbers içindeki çiftler 2 ve 4 olduğu için sonuç [2, 4] olur. Cevap b
+a) [1, 2, 3, 4]
+b) [2, 4]
+c) [1, 3]
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki senaryolardan hangileri döngü ve koşulun birlikte kullanımına uygundur (birden fazla doğru olabilir)?
+Bir koleksiyon üzerinde gezinip yalnızca koşulu sağlayan öğelerle işlem yapmak tipik döngü + koşul kullanım örnekleridir; tek seferlik işlemler için döngüye gerek yoktur. Cevap a-bBir koleksiyon üzerinde gezinip yalnızca koşulu sağlayan öğelerle işlem yapmak tipik döngü + koşul kullanım örnekleridir; tek seferlik işlemler için döngüye gerek yoktur. Cevap a-ba) Stokta azalan ürünleri listelemek.
+Bir koleksiyon üzerinde gezinip yalnızca koşulu sağlayan öğelerle işlem yapmak tipik döngü + koşul kullanım örnekleridir; tek seferlik işlemler için döngüye gerek yoktur. Cevap a-b
+Bir koleksiyon üzerinde gezinip yalnızca koşulu sağlayan öğelerle işlem yapmak tipik döngü + koşul kullanım örnekleridir; tek seferlik işlemler için döngüye gerek yoktur. Cevap a-b
+b) Belirli koşulu sağlayan kayıtları filtrelemek.
+c) Kullanıcıdan tek bir giriş almak.
+d) Sabit bir mesajı yazdırmak.
+Python programlamada fonksiyonlar, belirli bir işi yerine getirmek için yazılmış, gerektiğinde tekrar tekrar çağırılabilen ve kendi sorumluluk alanı olan kod bloklarıdır. Fonksiyonlar, kodun okunabilirliğini ve yönetilebilirliğini artırarak yazılım geliştirme sürecini kolaylaştırır.
+Fonksiyonların temel özellikleri şunlardır:=> Tekrar Kullanılabilirlik: Fonksiyonlar, bir kez tanımlandıktan sonra birçok kez çağrılabilir. Bu, aynı kodu tekrar tekrar yazmaktan kurtarır.=> Parametreler: Fonksiyonlar, dışarıdan veri alabilir. Bu verilere parametre denir ve fonksiyonun çalışma biçimini esnek hale getirir.=> Çıktı Üretme: Fonksiyonlar, işlem sonucunda bir değer döndürebilir. Bu işlem, ‘return’ ifadesi ile gerçekleştirilir.
+Fonksiyonlar, yazılımda iş bölümü yaparak kodun daha anlaşılır ve yönetilebilir olmasını sağlar. Örneğin, bir kullanıcı doğrulama işlemi için bir fonksiyon tanımlayabiliriz:
+def kullanici_dogrula(kullanici_adi):    print(f"{kullanici_adi} doğrulanıyor...")    # Doğrulama işlemleri    return True  # Doğrulama başarılıysa True döner
+Fonksiyonlar, döngülerle birlikte kullanıldığında kodun tekrar eden kısımlarını soyutlayarak daha temiz bir yapı oluşturur. Örneğin, bir kullanıcı listesi üzerinde işlem yaparken her kullanıcı için aynı doğrulama işlemini gerçekleştirmek için bir döngü ve fonksiyon kullanabiliriz:
+kullanici_listesi = ["Admin", "Editor", "Guest"]for kullanici in kullanici_listesi:    if kullanici_dogrula(kullanici):        print(f"{kullanici} giriş yaptı.")
+Bu yapı, kodun ne yaptığını ve neden yaptığını daha net bir şekilde ifade eder. Fonksiyonlar, yazılım mimarisinin en küçük ama en güçlü yapı taşlarından biridir ve doğru kullanıldığında kodun bakım maliyetini düşürür ve hata riskini azaltır.
+Pratik--------------------------------------------------------------------------------------------------------
+def topla(a, b):    return a + bİfadesinde fonksiyon için doğru çağrı hangisidir?
+Fonksiyon tanımı def ile yapılır; fonksiyonu çalıştırmak için ise sadece ismini ve parantez içinde argümanları yazman yeterlidir. Cevap aFonksiyon tanımı def ile yapılır; fonksiyonu çalıştırmak için ise sadece ismini ve parantez içinde argümanları yazman yeterlidir. Cevap aa) topla(2, 3)
+Fonksiyon tanımı def ile yapılır; fonksiyonu çalıştırmak için ise sadece ismini ve parantez içinde argümanları yazman yeterlidir. Cevap a
+Fonksiyon tanımı def ile yapılır; fonksiyonu çalıştırmak için ise sadece ismini ve parantez içinde argümanları yazman yeterlidir. Cevap a
+b) def topla(2, 3)
+c) topla = 2, 3
+d) return topla
+----------------------------------------------------------------------------------------------------------------------------------------------
+Parametre ne iş yapar?
+Parametre, fonksiyonun dışarıdan bilgi almasını sağlar; böylece aynı fonksiyon farklı verilerle çalışabilir. Cevap aParametre, fonksiyonun dışarıdan bilgi almasını sağlar; böylece aynı fonksiyon farklı verilerle çalışabilir. Cevap aa) Fonksiyona veri almak.
+Parametre, fonksiyonun dışarıdan bilgi almasını sağlar; böylece aynı fonksiyon farklı verilerle çalışabilir. Cevap a
+Parametre, fonksiyonun dışarıdan bilgi almasını sağlar; böylece aynı fonksiyon farklı verilerle çalışabilir. Cevap a
+b) Hata yakalamak.
+c) Dosya açmak
+d) Döngü kurmak.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi default (varsayılan) parametre örneği için uygundur?
+Varsayılan parametre, fonksiyon tanımında parametreye = ile bir değer atanmasıyla oluşturulur; çağrı sırasında bu parametre verilmezse varsayılan değer kullanılır. Cevap aVarsayılan parametre, fonksiyon tanımında parametreye = ile bir değer atanmasıyla oluşturulur; çağrı sırasında bu parametre verilmezse varsayılan değer kullanılır. Cevap aa) def f(x = 0):
+Varsayılan parametre, fonksiyon tanımında parametreye = ile bir değer atanmasıyla oluşturulur; çağrı sırasında bu parametre verilmezse varsayılan değer kullanılır. Cevap a
+Varsayılan parametre, fonksiyon tanımında parametreye = ile bir değer atanmasıyla oluşturulur; çağrı sırasında bu parametre verilmezse varsayılan değer kullanılır. Cevap a
+b) def f(x == 0):
+c) def f(x): x = 0
+d) def f(default x):
+----------------------------------------------------------------------------------------------------------------------------------------------
+greet fonksiyonu değer döndürmediği için result None olur; greet çağrıldığında 'Merhaba Ayşe' yazdırılır, sonra print(result) ile None yazdırılır. Cevap bgreet fonksiyonu değer döndürmediği için result None olur; greet çağrıldığında 'Merhaba Ayşe' yazdırılır, sonra print(result) ile None yazdırılır. Cevap bAşağıdaki fonksiyon çağrısı çalıştırıldığında hangi çıktı üretilir?def greet(name):    print(“Merhaba”, name)result = greet(“Ayse”)print(result)
+greet fonksiyonu değer döndürmediği için result None olur; greet çağrıldığında 'Merhaba Ayşe' yazdırılır, sonra print(result) ile None yazdırılır. Cevap b
+greet fonksiyonu değer döndürmediği için result None olur; greet çağrıldığında 'Merhaba Ayşe' yazdırılır, sonra print(result) ile None yazdırılır. Cevap b
+a) Merhaba Ayşe
+b) Merhaba Ayşe None
+c) None
+d) Hata Oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki fonksiyon tanımlarından hangileri geçerlidir (birden fazla doğru olabilir)?
+Default parametreler normal parametrelerden sonra gelmelidir; aynı isimde iki parametre tanımlanamaz ve pass boş gövde için geçerlidir.Cevap a-bDefault parametreler normal parametrelerden sonra gelmelidir; aynı isimde iki parametre tanımlanamaz ve pass boş gövde için geçerlidir.Cevap a-ba) def f(a, b = 2):
+Default parametreler normal parametrelerden sonra gelmelidir; aynı isimde iki parametre tanımlanamaz ve pass boş gövde için geçerlidir.Cevap a-b
+Default parametreler normal parametrelerden sonra gelmelidir; aynı isimde iki parametre tanımlanamaz ve pass boş gövde için geçerlidir.Cevap a-b
+b) def f(): pass
+c) def f(a = 2, b):
+d) def f(a, a):
+Python'da fonksiyonlar, kodunuzu daha modüler ve yeniden kullanılabilir hale getirmenizi sağlar. Fonksiyonlar, belirli bir görevi yerine getiren kod bloklarıdır ve bu bloklar, return ifadesiyle bir değer döndürebilir. Return, fonksiyonun sonucunu dış dünyaya iletmek için kullanılır ve bu, fonksiyonun ürettiği değeri başka bir yerde kullanmanıza olanak tanır.
+Aşağıda, bir fonksiyonun nasıl tanımlandığını ve return ifadesinin nasıl kullanıldığını gösteren bir örnek bulunmaktadır:
+def toplam_fiyat_hesapla(fiyat, adet):    toplam = fiyat * adet    return toplamsonuc = toplam_fiyat_hesapla(20, 3)print(sonuc)  # Çıktı: 60
+Yukarıdaki örnekte, toplam_fiyat_hesapla fonksiyonu, iki parametre alır: fiyat ve adet. Bu parametreler çarpılarak toplam adlı bir değişkende saklanır ve return ifadesiyle dışarıya döndürülür. Böylece, fonksiyonun dışındaki bir değişken olan sonuc, bu değeri alabilir ve print ile ekrana yazdırılabilir.
+Fonksiyonlar ayrıca scope (yerellik) kavramını da içerir. Bir fonksiyonun içinde tanımlanan değişkenler, yalnızca o fonksiyon içinde geçerlidir ve dışarıdan erişilemez. Bu, kodunuzu daha güvenli ve hatalardan arındırılmış hale getirir.Örneğin:
+def çay_hazırla():    şeker_sayısı = 2    print("Çay hazır!")çay_hazırla()# print(şeker_sayısı)  # Bu satır bir hata verecektir çünkü şeker_sayısı fonksiyon dışında tanımlı değil.
+Yukarıdaki örnekte, şeker_sayısı değişkeni yalnızca çay_hazırla fonksiyonu içinde tanımlıdır ve bu nedenle fonksiyonun dışında erişilemez.
+Fonksiyonlar, parametre alarak dış dünyadan veri alabilir ve return ile dış dünyaya veri döndürebilir. Bu, fonksiyonların esnekliğini ve yeniden kullanılabilirliğini artırır. Ayrıca, bir fonksiyon içinde birden fazla return ifadesi kullanarak farklı koşullara göre farklı sonuçlar döndürebilirsiniz.Örneğin:
+def hava_durumu(sıcaklık):    if sıcaklık > 25:        return "Hava sıcak"    else:        return "Hava serin"print(hava_durumu(30))  # Çıktı: Hava sıcak
+Bu örnekte, hava_durumu fonksiyonu, verilen sıcaklığa göre farklı bir mesaj döndürür. İlk return ifadesi çalıştığında, fonksiyon hemen sona erer ve diğer kodlar çalışmaz.
+Fonksiyonlar, programlarınızı daha yapılandırılmış ve yönetilebilir hale getirir. Bu nedenle, kodunuzu yazarken fonksiyonları etkili bir şekilde kullanmak, daha temiz ve sürdürülebilir yazılım geliştirme sürecine katkıda bulunur.
+Pratik--------------------------------------------------------------------------------------------------------
+Bir fonksiyonun ürettiği sonucu başka bir fonksiyon veya değişken içinde kullanabilmek için hangisi gerekir?
+print yalnızca ekrana yazar; fonksiyonun ürettiği değeri dışarıya aktarabilmek için return kullanmak gerekir. Cevap aprint yalnızca ekrana yazar; fonksiyonun ürettiği değeri dışarıya aktarabilmek için return kullanmak gerekir. Cevap aa) return
+print yalnızca ekrana yazar; fonksiyonun ürettiği değeri dışarıya aktarabilmek için return kullanmak gerekir. Cevap a
+print yalnızca ekrana yazar; fonksiyonun ürettiği değeri dışarıya aktarabilmek için return kullanmak gerekir. Cevap a
+b) print
+c) input
+d) pass
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi scope hatasına örnek için uygundur?
+Bir fonksiyon içinde tanımlanan lokal değişken, fonksiyon dışından erişilemez; bu durum NameError hatasına yol açar. Cevap aBir fonksiyon içinde tanımlanan lokal değişken, fonksiyon dışından erişilemez; bu durum NameError hatasına yol açar. Cevap aa) Fonksiyon dışındaki lokal değişkene erişmek
+Bir fonksiyon içinde tanımlanan lokal değişken, fonksiyon dışından erişilemez; bu durum NameError hatasına yol açar. Cevap a
+Bir fonksiyon içinde tanımlanan lokal değişken, fonksiyon dışından erişilemez; bu durum NameError hatasına yol açar. Cevap a
+b) Listeye append yapmak
+c) int + float işlemi
+d) print kullanmak
+----------------------------------------------------------------------------------------------------------------------------------------------
+global  anahtar kelimesi ne için kullanılır?
+global anahtar kelimesi, fonksiyon içinden global kapsamdaki bir değişkene erişip onu değiştirmeye izin verir. Cevap aglobal anahtar kelimesi, fonksiyon içinden global kapsamdaki bir değişkene erişip onu değiştirmeye izin verir. Cevap aa) Global değişkeni fonksiyon içinden değiştirmek için.
+global anahtar kelimesi, fonksiyon içinden global kapsamdaki bir değişkene erişip onu değiştirmeye izin verir. Cevap a
+global anahtar kelimesi, fonksiyon içinden global kapsamdaki bir değişkene erişip onu değiştirmeye izin verir. Cevap a
+b) İmport yapmak için.
+c) Döngü kurmak için
+d) Print etmek için
+----------------------------------------------------------------------------------------------------------------------------------------------
+Fonksiyon içindeki x lokal bir değişkendir; global x'i etkilemez. change() 5 döndürür, global x hâlâ 10'dur. Cevap cFonksiyon içindeki x lokal bir değişkendir; global x'i etkilemez. change() 5 döndürür, global x hâlâ 10'dur. Cevap cAşağıdaki kod çalıştırıldığında ekrana ne yazdırılır?x = 10Çdef change():    x = 5    return xprint(change(), x)
+Fonksiyon içindeki x lokal bir değişkendir; global x'i etkilemez. change() 5 döndürür, global x hâlâ 10'dur. Cevap c
+Fonksiyon içindeki x lokal bir değişkendir; global x'i etkilemez. change() 5 döndürür, global x hâlâ 10'dur. Cevap c
+a) 5 5
+b) 10 5
+c) 5 10
+d) Hata oluşur
+----------------------------------------------------------------------------------------------------------------------------------------------
+Global değişken kullanmadan fonksiyonlar arasında veri taşımak için aşağıdakilerden hangileri uygundur? (Birden fazla doğru olabilir)
+Fonksiyonlar arasında veri taşımanın en temiz yolları parametre ve return kullanmaktır; global değişken kullanmak yan etkilere yol açabilir. Cevap a-bFonksiyonlar arasında veri taşımanın en temiz yolları parametre ve return kullanmaktır; global değişken kullanmak yan etkilere yol açabilir. Cevap a-ba) Fonksiyona parametre vermek
+Fonksiyonlar arasında veri taşımanın en temiz yolları parametre ve return kullanmaktır; global değişken kullanmak yan etkilere yol açabilir. Cevap a-b
+Fonksiyonlar arasında veri taşımanın en temiz yolları parametre ve return kullanmaktır; global değişken kullanmak yan etkilere yol açabilir. Cevap a-b
+b) Return ile değer döndürmek
+c) global anahtar kelimesini kullanmak
+d) Lokal değişken tanımlamak
+Python programlama dilinde, lambda, map, filter ve reduce gibi fonksiyonel programlama yapıları, verileri işlemek için güçlü araçlar sunar. Bu yapılar, daha az kodla daha karmaşık işlemler yapmanıza olanak tanır ve özellikle veri işleme süreçlerinde sıklıkla kullanılır.
+Lambda ifadeleri, Python'da isimsiz, tek satırlık fonksiyonlar oluşturmak için kullanılır. Lambda, basit işlemleri hızlıca tanımlamak için idealdir. Örneğin, bir sayının iki katını almak için bir lambda fonksiyonu şu şekilde tanımlanabilir:
+iki_kati = lambda x: x * 2print(iki_kati(5))  # Çıktı: 10
+Lambda ifadeleri, daha karmaşık işlemler için uygun değildir çünkü okunabilirlik ve bakım açısından zorluklar yaratabilir. Bu nedenle, lambda ifadeleri genellikle basit ve tek seferlik işlemler için kullanılır.
+Map fonksiyonu, bir fonksiyonu bir liste veya diğer bir iterable'ın her elemanına uygulamak için kullanılır. Örneğin, bir ürün fiyatları listesine KDV eklemek için map ve lambda birlikte kullanılabilir:
+urun_fiyatlari = [100, 200, 300]kdvli_fiyatlar = list(map(lambda fiyat: fiyat * 1.20, urun_fiyatlari))print(kdvli_fiyatlar)  # Çıktı: [120.0, 240.0, 360.0]
+Filter fonksiyonu, bir iterable'ın elemanlarını belirli bir koşula göre filtrelemek için kullanılır. Örneğin, 100'den büyük sipariş tutarlarını filtrelemek için filter ve lambda kullanılabilir:
+siparis_tutarlari = [50, 120, 300, 80]buyuk_siparisler = list(filter(lambda tutar: tutar > 100, siparis_tutarlari))print(buyuk_siparisler)  # Çıktı: [120, 300]
+Reduce fonksiyonu, bir iterable'ın elemanlarını birleştirerek tek bir sonuç elde etmek için kullanılır. Python'da reduce, functools modülünden import edilmelidir. Örneğin, bir günlük satışlar listesinin toplamını hesaplamak için reduce kullanılabilir:
+from functools import reducegunluk_satislar = [100, 200, 300]toplam_satis = reduce(lambda ara_toplam, satis: ara_toplam + satis, gunluk_satislar)print(toplam_satis)  # Çıktı: 600
+Bu yapılar, özellikle veri biliminde ve büyük veri işlemlerinde oldukça yaygın olarak kullanılır. Lambda ile birlikte map, filter ve reduce kullanımı, kodunuzu daha kısa, daha okunabilir ve daha etkili hale getirebilir.
+Pratik--------------------------------------------------------------------------------------------------------
+filter(func, iterable) fonksiyonunun temel amacı aşağıdakilerden hangisidir?
+filter, verilen fonksiyonu her elemana uygular ve True dönen elemanları yeni bir iterable olarak verir; yani listeyi koşula göre süzer. Cevap afilter, verilen fonksiyonu her elemana uygular ve True dönen elemanları yeni bir iterable olarak verir; yani listeyi koşula göre süzer. Cevap aa) Koşulu sağlayan elemanları yeni bir iterable olarak döndürmek
+filter, verilen fonksiyonu her elemana uygular ve True dönen elemanları yeni bir iterable olarak verir; yani listeyi koşula göre süzer. Cevap a
+filter, verilen fonksiyonu her elemana uygular ve True dönen elemanları yeni bir iterable olarak verir; yani listeyi koşula göre süzer. Cevap a
+b) Tüm elemanları çarpmak
+c) Tüm elemanları toplamak
+d) Elemanları string'e çevirmek
+----------------------------------------------------------------------------------------------------------------------------------------------
+map(func, iterable) ne yapar?
+map, verilen fonksiyonu iterable'ın her elemanına sırasıyla uygular ve sonuçları bir map nesnesi olarak döndürür. Cevap amap, verilen fonksiyonu iterable'ın her elemanına sırasıyla uygular ve sonuçları bir map nesnesi olarak döndürür. Cevap aa) Her elemana func uygular
+map, verilen fonksiyonu iterable'ın her elemanına sırasıyla uygular ve sonuçları bir map nesnesi olarak döndürür. Cevap a
+map, verilen fonksiyonu iterable'ın her elemanına sırasıyla uygular ve sonuçları bir map nesnesi olarak döndürür. Cevap a
+b) Sadece filtreler
+c) Elemanları sıralar
+d) Silme yapar
+----------------------------------------------------------------------------------------------------------------------------------------------
+reduce genelde ne işe yarar?
+reduce, listedeki elemanları ikişerli işleme tabi tutarak tek bir değere indirgeme amacıyla kullanılır; örneğin tüm elemanları toplama gibi. Cevap areduce, listedeki elemanları ikişerli işleme tabi tutarak tek bir değere indirgeme amacıyla kullanılır; örneğin tüm elemanları toplama gibi. Cevap aa) Tüm listeyi tek bir değere indirger
+reduce, listedeki elemanları ikişerli işleme tabi tutarak tek bir değere indirgeme amacıyla kullanılır; örneğin tüm elemanları toplama gibi. Cevap a
+reduce, listedeki elemanları ikişerli işleme tabi tutarak tek bir değere indirgeme amacıyla kullanılır; örneğin tüm elemanları toplama gibi. Cevap a
+b) Listeyi ikiye böler
+c) Dosyayı sıkıştırır
+d) Join yapar
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdaki kodun çıktısı nedir?numbers = [1, 2, 3, 4]result = list(filter(lambda x: x % 2 == 0, numbers))print(result)
+lambda x: x % 2 == 0 ifadesi yalnızca çift sayılar için True döndürür; 1 ve 3 tek, 2 ve 4 çift olduğundan sonuç [2, 4] olur.Cevap blambda x: x % 2 == 0 ifadesi yalnızca çift sayılar için True döndürür; 1 ve 3 tek, 2 ve 4 çift olduğundan sonuç [2, 4] olur.Cevap ba) [1, 3]
+lambda x: x % 2 == 0 ifadesi yalnızca çift sayılar için True döndürür; 1 ve 3 tek, 2 ve 4 çift olduğundan sonuç [2, 4] olur.Cevap b
+lambda x: x % 2 == 0 ifadesi yalnızca çift sayılar için True döndürür; 1 ve 3 tek, 2 ve 4 çift olduğundan sonuç [2, 4] olur.Cevap b
+b) [2, 4]
+c) [1, 2, 3, 4]
+d) []
+----------------------------------------------------------------------------------------------------------------------------------------------
+map() veya filter() sonucunu görmek için aşağıdakilerden hangileri kullanılabilir? (Birden fazla doğru olabilir)
+map ve filter birer iterator nesnesi döndürür; içeriği görmek için list() veya tuple() ile somutlaştırabilir ya da for döngüsüyle gezebilirsin. Cevap a-b-cmap ve filter birer iterator nesnesi döndürür; içeriği görmek için list() veya tuple() ile somutlaştırabilir ya da for döngüsüyle gezebilirsin. Cevap a-b-ca) list()
+map ve filter birer iterator nesnesi döndürür; içeriği görmek için list() veya tuple() ile somutlaştırabilir ya da for döngüsüyle gezebilirsin. Cevap a-b-c
+map ve filter birer iterator nesnesi döndürür; içeriği görmek için list() veya tuple() ile somutlaştırabilir ya da for döngüsüyle gezebilirsin. Cevap a-b-c
+b) for döngüsü ile gezmek
+c) tuple()
+d) print(map_obj)
+Python'da hata yönetimi, programın beklenmeyen durumlarla karşılaştığında çökmesini önlemek ve kullanıcıya anlamlı geri bildirimler sağlamak için kritik bir öneme sahiptir. Hatalar, programın normal akışını bozan ve genellikle kabul edilemeyen durumlar olarak tanımlanır. Hata yönetimi, bu hataların nasıl ele alınacağını belirlemek için kullanılır.Python'da hata yönetimi dört temel yapı üzerinden gerçekleştirilir:=> Exception: Oluşan hataları temsil eder.=> Try: Riskli kod bloğunun başlangıcını belirtir.=> Except: Belirli bir hatayı yakalamak ve ele almak için kullanılır.=> Raise: Bilinçli olarak hata fırlatmayı sağlar.
+Örneğin, bir fonksiyonun boş bir liste ile çalışmaması gerektiğini varsayalım. Bu durumda, sıfıra bölme hatası (ZeroDivisionError) ortaya çıkabilir. Bu hatayı yönetmek için try-except yapısını kullanabiliriz.
+def güvenli_ortalama(sayılar):    try:        return sum(sayılar) / len(sayılar)    except ZeroDivisionError:        return "Liste boş olamaz"print(güvenli_ortalama([10, 20, 30]))     # Çıktı: 20.0print(güvenli_ortalama([]))                    # Çıktı: Liste boş olamaz
+Bu örnekte, try bloğunda riskli işlem gerçekleştirilir. Eğer bir hata oluşursa, except bloğu devreye girer ve anlamlı bir mesaj döndürülür. Bu sayede program çökmek yerine kullanıcıya bilgi verir.
+Hataların doğru bir şekilde yönetilmesi, özellikle büyük projelerde zincirleme hataların önüne geçer. Raise ifadesi, bir hatayı bilinçli olarak fırlatmak için kullanılır ve bu, hatanın daha üst seviyelerde ele alınmasını sağlar.
+def yaş_kontrol(yaş):    if yaş < 0:        raise ValueError("Yaş negatif olamaz")    return yaştry:    print(yaş_kontrol(28))            # Çıktı: 28    print(yaş_kontrol(-5))            # Hata: ValueErrorexcept ValueError as hata:    print(f"Hata: {hata}")
+Bu örnekte, negatif bir yaş değeri verildiğinde raise ifadesiyle bir ValueError fırlatılır. Try-except yapısı, bu hatayı yakalar ve kullanıcıya anlamlı bir mesaj gösterir.
+Sonuç olarak, Python'da hata yönetimi, hataların program akışını kesintiye uğratmadan ele alınmasını sağlar. Bu, daha sağlam ve kullanıcı dostu uygulamalar geliştirmek için esastır.
+Pratik--------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangisi hata yakalamak için kullanılan yapı için uygundur?
+Python'da çalışma zamanı hatalarını yakalamak için try/except bloğu kullanılır; try içindeki kod denenir, hata olursa except devreye girer. Cevap aPython'da çalışma zamanı hatalarını yakalamak için try/except bloğu kullanılır; try içindeki kod denenir, hata olursa except devreye girer. Cevap aa) try / except
+Python'da çalışma zamanı hatalarını yakalamak için try/except bloğu kullanılır; try içindeki kod denenir, hata olursa except devreye girer. Cevap a
+Python'da çalışma zamanı hatalarını yakalamak için try/except bloğu kullanılır; try içindeki kod denenir, hata olursa except devreye girer. Cevap a
+b) if / else
+c) for / in
+d) def / return
+----------------------------------------------------------------------------------------------------------------------------------------------
+Hata loglama için yaygın yaklaşım hangisidir?
+Hatayı susturmak yerine anlamlı bir mesajla loglamak, sonradan debug etmeyi kolaylaştırır ve sistemin nerede sorun yaşadığını açıkça ortaya koyar. Cevap aHatayı susturmak yerine anlamlı bir mesajla loglamak, sonradan debug etmeyi kolaylaştırır ve sistemin nerede sorun yaşadığını açıkça ortaya koyar. Cevap aa) Hata mesajını anlamlı biçimde yazdırmak / loglamak
+Hatayı susturmak yerine anlamlı bir mesajla loglamak, sonradan debug etmeyi kolaylaştırır ve sistemin nerede sorun yaşadığını açıkça ortaya koyar. Cevap a
+Hatayı susturmak yerine anlamlı bir mesajla loglamak, sonradan debug etmeyi kolaylaştırır ve sistemin nerede sorun yaşadığını açıkça ortaya koyar. Cevap a
+b) Her zaman pass ile geçmek
+c) Hatayı hep görmezden gelmek
+d) Sadece break kullanmak
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangileri iyi pratiktir? (Birden fazla doğru olabilir)
+İyi yazılım pratiğinde fonksiyonlar tek bir iş yapmalı, test edilebilir olmalı ve anlaşılır isimler kullanılmalıdır; her şeyi tek fonksiyona yazmak bakımı zorlaştırır. Cevap aİyi yazılım pratiğinde fonksiyonlar tek bir iş yapmalı, test edilebilir olmalı ve anlaşılır isimler kullanılmalıdır; her şeyi tek fonksiyona yazmak bakımı zorlaştırır. Cevap aa) Küçük ve tek amaçlı fonksiyonlar yazmak
+İyi yazılım pratiğinde fonksiyonlar tek bir iş yapmalı, test edilebilir olmalı ve anlaşılır isimler kullanılmalıdır; her şeyi tek fonksiyona yazmak bakımı zorlaştırır. Cevap a
+İyi yazılım pratiğinde fonksiyonlar tek bir iş yapmalı, test edilebilir olmalı ve anlaşılır isimler kullanılmalıdır; her şeyi tek fonksiyona yazmak bakımı zorlaştırır. Cevap a
+b) Her şeyi tek fonksiyona yazmak
+c) Fonksiyon içinde her yerde input kullanmak
+d) İsimsiz değişkenlerle yazmak
+----------------------------------------------------------------------------------------------------------------------------------------------
+int() fonksiyonu sayısal olmayan bir string'i dönüştüremez; bu durum ValueError üretir çünkü değer geçersiz bir formattadır. Cevap bint() fonksiyonu sayısal olmayan bir string'i dönüştüremez; bu durum ValueError üretir çünkü değer geçersiz bir formattadır. Cevap bAşağıdaki kodda hangi hata yakalanır?try:    int('abc')except Exception as e:    print(type(e))
+int() fonksiyonu sayısal olmayan bir string'i dönüştüremez; bu durum ValueError üretir çünkü değer geçersiz bir formattadır. Cevap b
+int() fonksiyonu sayısal olmayan bir string'i dönüştüremez; bu durum ValueError üretir çünkü değer geçersiz bir formattadır. Cevap b
+a) TypeError
+b) ValueError
+c) IndexError
+d) KeyError
+----------------------------------------------------------------------------------------------------------------------------------------------
+Aşağıdakilerden hangileri iyi hata yönetimi pratiğidir? (Birden fazla doğru olabilir)
+Spesifik exception yakalamak beklenmeyen hataları gizlemez; loglamak ise ilerideki debug sürecini kolaylaştırır. Geniş except bloklarından kaçınmak önerilir. Cevap a-c-dSpesifik exception yakalamak beklenmeyen hataları gizlemez; loglamak ise ilerideki debug sürecini kolaylaştırır. Geniş except bloklarından kaçınmak önerilir. Cevap a-c-da) Spesifik exception yakalamak
+Spesifik exception yakalamak beklenmeyen hataları gizlemez; loglamak ise ilerideki debug sürecini kolaylaştırır. Geniş except bloklarından kaçınmak önerilir. Cevap a-c-d
+Spesifik exception yakalamak beklenmeyen hataları gizlemez; loglamak ise ilerideki debug sürecini kolaylaştırır. Geniş except bloklarından kaçınmak önerilir. Cevap a-c-d
+b) Tüm kodu tek try içine almak
+c) Hata mesajlarını loglamak
+d) Gerekmedikçe broad except kullanmamak
+zcbf
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+Pratik--------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
+----------------------------------------------------------------------------------------------------------------------------------------------
+a) 
+b) 
+c) 
+d) 
