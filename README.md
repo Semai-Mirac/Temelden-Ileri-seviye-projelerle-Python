@@ -1,8 +1,8 @@
-# Temelden İleri Seviye Projelerle Python
+# 🎓 Temelden İleri Seviye Projelerle Python
 
 Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik uygulamalarla öğrenmek için hazırlanan CoderSpace Pro çalışmalarını içerir. İçerik; veri tipleri, kontrol akışı, fonksiyonlar, hata yönetimi ve nesne yönelimli programlama başlıklarında ilerler.
 
-## Kazanımlar
+## 🎯 Kazanımlar
 
 - Gerçek senaryolara dayalı mini uygulamalar ve bölüm sonu projeleri
 - Python veri yapıları, koşullar, döngüler ve fonksiyonlar
@@ -10,16 +10,16 @@ Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik u
 - Sınıflar, kalıtım, kapsülleme ve polimorfizm temelleri
 - JSON ile kalıcı veri saklama ve CRUD işlemleri
 
-## Kullanılan Teknolojiler
+## 🧰 Kullanılan Teknolojiler
 
 - Python 3.10+
 - Standart kütüphaneler: `json`, `os`, `typing`
 - Veri yapıları: list, tuple, set ve dictionary
 - Programlama yaklaşımları: fonksiyonel yapılar, OOP, dosya işlemleri ve hata yönetimi
 
-## Proje Yapısı ve Dosyalar
+## 📂 Proje Yapısı ve Dosyalar
 
-### Bölüm 1: Temel Programlama
+### 🧱 Bölüm 1: Temel Programlama
 
 Değişkenler, temel veri tipleri, koleksiyonlar, metin işlemleri ve aritmetik hesaplamalara odaklanır.
 
@@ -34,7 +34,7 @@ Değişkenler, temel veri tipleri, koleksiyonlar, metin işlemleri ve aritmetik 
 - [Şifre Güçlülük Kontrolü.py](1.%20Bölüm%20Temel%20Programlama/Şifre%20Güçlülük%20Kontrolü.py): Karakter analizine dayalı şifre gücü kontrolü.
 - [Finansal Analiz Motoru.py](1.%20Bölüm%20Temel%20Programlama/Bölüm%20sonu%20proje%201/Finansal%20Analiz%20Motoru.py): Gelir-gider kayıtlarını doğrulayan ve analiz eden bölüm sonu projesi.
 
-### Bölüm 2: Mantıksal Kontrol Yapıları ve Akış Yönetimi
+### 🔄 Bölüm 2: Mantıksal Kontrol Yapıları ve Akış Yönetimi
 
 Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmalarını kapsar.
 
@@ -52,7 +52,7 @@ Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmaları
 - [Şehir ve Yaşa Göre Etkinlik Uygunluğu.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Şehir%20ve%20Yaşa%20Göre%20Etkinlik%20Uygunluğu.py): Birden fazla koşulla etkinlik uygunluğu denetimi.
 - [Dizi & Film Takip Sistemi.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Bölüm%20sonu%20proje%202/Dizi%20%26%20Film%20Takip%20Sistemi.py): JSON tabanlı ekleme, silme, arama, listeleme ve durum güncelleme işlemleri yapan bölüm sonu projesi.
 
-### Bölüm 3: Fonksiyonlar ve Modüler Programlama Temelleri
+### ⚙️ Bölüm 3: Fonksiyonlar ve Modüler Programlama Temelleri
 
 Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüler kod yazma pratiklerini içerir.
 
@@ -70,17 +70,17 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
 - [Wallet Sınıfı Bakiye Yönetimi ve Erişim Kontrolü.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Wallet%20Sınıfı%20Bakiye%20Yönetimi%20ve%20Erişim%20Kontrolü.py): Para yatırma, çekme ve bakiye erişimini kapsayan cüzdan sınıfı.
 - [Ödeme Sistemi Payment Alt Sınıfları ile Polimorfizm.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Ödeme%20Sistemi%20Payment%20Alt%20Sınıfları%20ile%20Polimorfizm.py): Kart ve havale ödeme sınıflarıyla polimorfizm örneği.
 - [İki Sayı Üzerinde Matematiksel İşlemler Yapan Fonksiyon.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/İki%20Sayı%20Üzerinde%20Matematiksel%20İşlemler%20Yapan%20Fonksiyon.py): İki sayı üzerinde parametrik matematik işlemleri.
-- `Bölüm sonu proje 3/`: Final proje klasörü oluşturuldu; henüz kaynak dosya içermiyor.
+- 🏗️ `Bölüm sonu proje 3/`: Final proje klasörü oluşturuldu; henüz kaynak dosya içermiyor.
 
-### Bölüm 4: Veri Sorgulama ve Entegrasyon
+### 🔎 Bölüm 4: Veri Sorgulama ve Entegrasyon
 
-`Bölüm sonu proje 4/` klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
+🏗️ `Bölüm sonu proje 4/` klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
 
-### Bölüm 5: Python ile Web Geliştirme
+### 🌐 Bölüm 5: Python ile Web Geliştirme
 
-`Bölüm sonu proje 5/` klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
+🏗️ `Bölüm sonu proje 5/` klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
 
-## Ek Dosyalar ve Sertifikalar
+## 📜 Ek Dosyalar ve Sertifikalar
 
 - [Kisisel-Ozet.txt](Kisisel-Ozet.txt): Eğitime ve çalışmalara ilişkin kişisel özet metni.
 - [Kisisel-Ozet.docx](Kisisel-Ozet.docx): Kişisel özetin Word belgesi sürümü.
@@ -88,7 +88,7 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
 - [Temel Programlama Sertifikası](Sertifikalar/1-%20Temel%20Programlama.pdf)
 - [Mantıksal Kontrol Yapıları ve Akış Yönetimi Sertifikası](Sertifikalar/2-%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi.pdf)
 
-## Çalıştırma
+## 🚀 Çalıştırma
 
 Sisteminizde Python 3 yüklüyse, bir betiği depo kök dizininden aşağıdaki biçimde çalıştırabilirsiniz:
 
