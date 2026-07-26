@@ -1,99 +1,105 @@
-# ! Burdaki içerikler Coderspace pro sayesinde ve eğitimi ile yapılmıştır. !
+# Temelden İleri Seviye Projelerle Python
 
----
+Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik uygulamalarla öğrenmek için hazırlanan CoderSpace Pro çalışmalarını içerir. İçerik; veri tipleri, kontrol akışı, fonksiyonlar, hata yönetimi ve nesne yönelimli programlama başlıklarında ilerler.
 
-# Temelden İleri Seviye Projelerle Python 🚀
+## Kazanımlar
 
-Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar gerçek senaryolar, pratik uygulamalar ve kapsamlı projelerle öğrenmek amacıyla geliştirilen tüm çalışmaları içermektedir. CoderSpace kapsamında gerçekleştirilen bu eğitim serisinde; veri yapılarından nesne yönelimli programlamaya, mantıksal kontrol yapılarından dosya bazlı kalıcılık sistemlerine kadar geniş bir yelpazede uygulamalar bulunmaktadır.
+- Gerçek senaryolara dayalı mini uygulamalar ve bölüm sonu projeleri
+- Python veri yapıları, koşullar, döngüler ve fonksiyonlar
+- `try` / `except` ile hata yönetimi
+- Sınıflar, kalıtım, kapsülleme ve polimorfizm temelleri
+- JSON ile kalıcı veri saklama ve CRUD işlemleri
 
----
+## Kullanılan Teknolojiler
 
-## 🔥 Temel Özellikler & Kazanımlar
-- **Gerçekçi Senaryolar:** E-ticaret sepet hesaplamaları, finansal analiz motoru, e-posta doğrulama araçları ve dizi/film takip uygulaması gibi gerçek hayata uygun senaryolar üzerinde çalışma.
-- **Tip Güvenliği (Type Hints):** Modern Python pratiklerine uygun olarak geliştirilmiş tip bildirimleri ve kontrollü veri akışı.
-- **Veri Kalıcılığı:** JSON entegrasyonuyla dinamik veri saklama, güncelleme ve arşivleme.
-- **Modüler Yapı:** Her bölüm sonunda edinilen bilgileri harmanlayan kapsamlı capstone projeleri.
-- **Sertifikasyon:** Başarıyla tamamlanan bölümlere dair doğrulanmış başarı sertifikaları ile tescillenmiş yetkinlikler.
+- Python 3.10+
+- Standart kütüphaneler: `json`, `os`, `typing`
+- Veri yapıları: list, tuple, set ve dictionary
+- Programlama yaklaşımları: fonksiyonel yapılar, OOP, dosya işlemleri ve hata yönetimi
 
----
+## Proje Yapısı ve Dosyalar
 
-## 🛠️ Kullanılan Teknolojiler ve Yapılar
-- **Programlama Dili:** Python 3.10+
-- **Standart Kütüphaneler:** json, os, typing, sys, math, datetime
-- **Programlama Pratikleri:** Fonksiyonel Yapılar, Hata Yönetimi (Try-Except), Veri Yapıları Yönetimi (List Comprehension, Sets, Dicts, Tuples), CRUD Operasyonları (Oluşturma, Okuma, Güncelleme, Silme), Dosya Okuma/Yazma İşlemleri.
+### Bölüm 1: Temel Programlama
 
----
+Değişkenler, temel veri tipleri, koleksiyonlar, metin işlemleri ve aritmetik hesaplamalara odaklanır.
 
-## 📂 Proje Yapısı ve Dosyalar
+- [Değişken Tanımlama ve Formatlı Çıktı Üretme.py](1.%20Bölüm%20Temel%20Programlama/Değişken%20Tanımlama%20ve%20Formatlı%20Çıktı%20Üretme.py): Değişken atama ve f-string ile biçimlendirilmiş çıktı.
+- [E-posta Doğrulama ve Domain İşlemleri.py](1.%20Bölüm%20Temel%20Programlama/E-posta%20Doğrulama%20ve%20Domain%20İşlemleri.py): E-posta metnini doğrulama ve domain bilgisini ayırma.
+- [E-ticaret Sepeti ve Kampanya Yönetimi.py](1.%20Bölüm%20Temel%20Programlama/E-ticaret%20Sepeti%20ve%20Kampanya%20Yönetimi.py): Sözlük tabanlı sepet ve kampanya hesaplama mantığı.
+- [E-ticaret Ürün Fiyatları İşleme.py](1.%20Bölüm%20Temel%20Programlama/E-ticaret%20Ürün%20Fiyatları%20İşleme.py): Ürün fiyatları üzerinde sayısal işlemler.
+- [Film Sözlüğü ve Etiket Seti.py](1.%20Bölüm%20Temel%20Programlama/Film%20Sözlüğü%20ve%20Etiket%20Seti.py): Dictionary ve set veri yapılarıyla film verisi yönetimi.
+- [Film İzleme Listesi.py](1.%20Bölüm%20Temel%20Programlama/Film%20İzleme%20Listesi.py): Listeye film ekleme ve liste işlemleri.
+- [List Comprehension ve Slice İşlemleri.py](1.%20Bölüm%20Temel%20Programlama/List%20Comprehension%20ve%20Slice%20İşlemleri.py): Liste filtreleme, üretme ve dilimleme.
+- [Ürün Fiyatı ve Adet Alıp Toplam Tutarı Hesapla.py](1.%20Bölüm%20Temel%20Programlama/Ürün%20Fiyatı%20ve%20Adet%20Alıp%20Toplam%20Tutarı%20Hesapla.py): Kullanıcı girdisiyle toplam tutar hesaplama.
+- [Şifre Güçlülük Kontrolü.py](1.%20Bölüm%20Temel%20Programlama/Şifre%20Güçlülük%20Kontrolü.py): Karakter analizine dayalı şifre gücü kontrolü.
+- [Finansal Analiz Motoru.py](1.%20Bölüm%20Temel%20Programlama/Bölüm%20sonu%20proje%201/Finansal%20Analiz%20Motoru.py): Gelir-gider kayıtlarını doğrulayan ve analiz eden bölüm sonu projesi.
 
-Tüm uygulamalar ve kaynak kodlar modüler bir şekilde bölümlere ayrılmıştır. Aşağıda bölümler, içerdiği egzersizler ve her bölümün büyük final projesi listelenmiştir:
+### Bölüm 2: Mantıksal Kontrol Yapıları ve Akış Yönetimi
 
-### 📚 Bölüm 1: Temel Programlama (Basic Programming)
-Bu bölümde değişken tanımlama, veri tipleri, temel matematiksel işlemler ve koşullu ifadelerin temelleri ele alınmıştır.
+Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmalarını kapsar.
 
-- **Değişken Tanımlama ve Çıktı:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/Değişken Tanımlama ve Formatlı Çıktı Üretme.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/De%C4%9Fi%C5%9Fken%20Tan%C4%B1mlama%20ve%20Formatl%C4%B1%20%C3%87%C4%B1kt%C4%B1%20%C3%9Cretme.py) — Değişken atamaları ve dinamik string formatlama işlemleri.
-- **E-posta Doğrulama:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/E-posta Doğrulama ve Domain İşlemleri.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/E-posta%20Do%C4%9Frulama%20ve%20Domain%20%C4%B0%C5%9Flemleri.py) — String analizi ve domain adresi çıkarımı araçları.
-- **E-Ticaret Sepeti:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/E-ticaret Sepeti ve Kampanya Yönetimi.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/E-ticaret%20Sepeti%20ve%20Kampanya%20Y%C3%B6netimi.py) — Sözlük tabanlı alışveriş sepeti ve dinamik kampanya mantığı.
-- **Fiyat İşleme:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/E-ticaret Ürün Fiyatları İşleme.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/E-ticaret%20%C3%9Cr%C3%BCn%20Fiyatlar%C4%B1%20%C4%B0%C5%9Fleme.py) — Sayısal değerler ve döviz / fiyat hesaplamaları.
-- **Sözlük ve Etiket Yönetimi:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/Film Sözlüğü ve Etiket Seti.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/Film%20S%C3%B6zl%C3%BC%C4%9F%C3%BC%20ve%20Etiket%20Seti.py) — Gelişmiş veri yapıları kullanımı (Dictionary ve Set).
-- **Film İzleme Listesi:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/Film İzleme Listesi.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/Film%20%C4%B0zleme%20Listesi.py) — Liste işlemleri ve izleme listesi manipülasyonu.
-- **List Comprehension:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/List Comprehension ve Slice İşlemleri.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/List%20Comprehension%20ve%20Slice%20%C4%B0%C5%9Flemleri.py) — Listeleri filtreleme ve dilimleme teknikleri.
-- **Matematiksel Hesaplayıcı:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/Ürün Fiyatı ve Adet Alıp Toplam Tutarı Hesapla.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/%C3%9Cr%C3%BCn%20Fiyat%C4%B1%20ve%20Adet%20Al%C4%B1p%20Toplam%20Tutar%C4%B1%20Hesapla.py) — Kullanıcı girişi ve aritmetik işlemler.
-- **Şifre Güvenlik Kontrolü:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/Şifre Güçlülük Kontrolü.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/%C5%9Eifre%20G%C3%BC%C3%A7l%C3%BCl%C3%BCk%20Kontrol%C3%BC.py) — Metin mimarisi ve karakter analiziyle şifre gücü denetimi.
-- **🏆 Bölüm Sonu Projesi 1:** [Temelden-Ileri seviye projelerle Python/1. Bölüm/Bölüm sonu proje 1/Finansal Analiz Motoru.py](Temelden-Ileri%20seviye%20projelerle%20Python/1.%20B%C3%B6l%C3%BCm/B%C3%B6l%C3%BCm%20sonu%20proje%201/Finansal%20Analiz%20Motoru.py) — Modern tip belirteçleri ve gelişmiş finansal analitik mantığı içeren, gelir-gider takibi sağlayan kapsamlı bir motor uygulaması.
+- [Banka Müşteri Sözlüğü ile Bilgi Sorgulama.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Banka%20Müşteri%20Sözlüğü%20ile%20Bilgi%20Sorgulama.py): Müşteri numarasıyla sözlükten kayıt sorgulama.
+- [Döngü ile Mini Veri İşleme Örneği.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Döngü%20ile%20Mini%20Veri%20İşleme%20Örneği.py): Döngüyle listedeki değerlerin karesini alma.
+- [E-ticaret Ürün Fiyatlarında İndirim Uygulama.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/E-ticaret%20Ürün%20Fiyatlarında%20İndirim%20Uygulama.py): Dictionary comprehension ile indirimli fiyat üretme.
+- [Kampanya Mail Listelerinde Kesişim ve Fark.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Kampanya%20Mail%20Listelerinde%20Kesişim%20ve%20Fark.py): Kümelerle ortak ve farklı e-posta kayıtlarını bulma.
+- [Metin Analizi ile Harf Frekansı Hesaplama.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Metin%20Analizi%20ile%20Harf%20Frekansı%20Hesaplama.py): Metindeki en sık geçen harfleri sıralama.
+- [Sayıları Toplama Break ve Continue Kullanımı.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Sayıları%20Toplama%20Break%20ve%20Continue%20Kullanımı.py): `break` ve `continue` ile giriş akışını yönetme.
+- [Sepet Tutarına Göre Müşteri Segmenti Belirleme.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Sepet%20Tutarına%20Göre%20Müşteri%20Segmenti%20Belirleme.py): Sipariş tutarına göre müşteri segmenti atama.
+- [Sipariş Tuple'ı ile Sipariş Sınıflandırma.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Sipariş%20Tuple'ı%20ile%20Sipariş%20Sınıflandırma.py): Tuple açılımıyla sipariş tutarını sınıflandırma.
+- [Sipariş Tutarına ve Şehre Göre Kargo Ücreti Hesaplama.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Sipariş%20Tutarına%20ve%20Şehre%20Göre%20Kargo%20Ücreti%20Hesaplama.py): Tutar ve şehir kurallarına göre kargo ücreti belirleme.
+- [Yaşa Göre Kayıt Koşulu Belirleme.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Yaşa%20Göre%20Kayıt%20Koşulu%20Belirleme.py): Yaş sınırlarına göre kayıt uygunluğunu değerlendirme.
+- [Ürün ve Fiyat Listesini Döngü ile işleme.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Ürün%20ve%20Fiyat%20Listesini%20Döngü%20ile%20işleme.py): `zip` ile ürün-fiyat çiftlerini işleme.
+- [Şehir ve Yaşa Göre Etkinlik Uygunluğu.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Şehir%20ve%20Yaşa%20Göre%20Etkinlik%20Uygunluğu.py): Birden fazla koşulla etkinlik uygunluğu denetimi.
+- [Dizi & Film Takip Sistemi.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Bölüm%20sonu%20proje%202/Dizi%20%26%20Film%20Takip%20Sistemi.py): JSON tabanlı ekleme, silme, arama, listeleme ve durum güncelleme işlemleri yapan bölüm sonu projesi.
 
----
+### Bölüm 3: Fonksiyonlar ve Modüler Programlama Temelleri
 
-### 🔄 Bölüm 2: Mantıksal Kontrol Yapıları ve Akış Yönetimi (Logic & Control Flow)
-Karar mekanizmaları, döngüler ve veri setlerini manipüle eden fonksiyonellikler üzerine yoğunlaşılmıştır.
+Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüler kod yazma pratiklerini içerir.
 
-- **Banka Müşteri Sorgulama:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Banka Müşteri Sözlüğü ile Bilgi Sorgulama.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Banka%20M%C3%BC%C5%9Fteri%20S%C3%B6zl%C3%BC%C4%9F%C3%BC%20ile%20Bilgi%20Sorgulama.py) — Sözlük aramaları ve müşteri veri filtreleri.
-- **Mini Veri İşleme:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Döngü ile Mini Veri İşleme Örneği.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/D%C3%B6ng%C3%BC%20ile%20Mini%20Veri%20%C4%B0%C5%9Fleme%20%C3%96rne%C4%9Fi.py) — Döngüler yardımıyla ham veri setlerinin filtrelenmesi ve optimize edilmesi.
-- **İndirim Uygulayıcı:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/E-ticaret Ürün Fiyatlarında İndirim Uygulama.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/E-ticaret%20%C3%9Cr%C3%BCn%20Fiyatlar%C4%B1nda%20%C4%B0ndirim%20Uygulama.py) — Fiyat eşiklerine göre kademeli indirim hesaplama mantığı.
-- **Mail Listesi Kesişimi:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Kampanya Mail Listelerinde Kesişim ve Fark.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Kampanya%20Mail%20Listelerinde%20Kesi%C5%9Fim%20ve%20Fark.py) — Küme kavramlarını (union, intersection, difference) kullanarak kampanya hedefleme.
-- **Karakter Frekansı Analizi:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Metin Analizi ile Harf Frekansı Hesaplama.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Metin%20Analizi%20ile%20Harf%20Frekans%C4%B1%20Hesaplama.py) — Bir metindeki harflerin sıklıklarını analiz ederek istatistik çıkaran algoritma.
-- **Döngü Kontrolleri (Break & Continue):** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Sayıları Toplama Break ve Continue Kullanımı.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Say%C4%B1lar%C4%B1%20Toplama%20Break%20ve%20Continue%20Kullan%C4%B1m%C4%B1.py) — Döngü kontrol akışları ve atlama filtreleme komutları.
-- **Müşteri Segmentasyonu:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Sepet Tutarına Göre Müşteri Segmenti Belirleme.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Sepet%20Tutar%C4%B1na%20G%C3%B6re%20M%C3%BC%C5%9Fteri%20Segmenti%20Belirleme.py) — Alışveriş hacmine göre müşterileri dinamik sınıflandırma kuralları.
-- **Sipariş Sınıflandırma:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Sipariş Tuple'ı ile Sipariş Sınıflandırma.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Sipari%C5%9F%20Tuple'%C4%B1%20ile%20Sipari%C5%9F%20S%C4%B1n%C4%B1fland%C4%B1rma.py) — Değiştirilemez Tuple veri yapısıyla sipariş eşleştirme.
-- **Kargo Ücreti Hesaplayıcı:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Sipariş Tutarına ve Şehre Göre Kargo Ücreti Hesaplama.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Sipari%C5%9F%20Tutar%C4%B1na%20ve%20%C5%9Eehre%20G%C3%B6re%20Kargo%20%C3%9Ccreti%20Hesaplama.py) — İç içe koşullu yapılarla lokasyon ve sipariş tutarı bazlı lojistik maliyeti bulma.
-- **Kayıt Koşulu / Yaş Doğrulama:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Yaşa Göre Kayıt Koşulu Belirleme.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/Ya%C5%9Fa%20G%C3%B6re%20Kay%C4%B1t%20Ko%C5%9Fulu%20Belirleme.py) — Koşullu kontrol mekanizmalarıyla üyelik ve kayıt sınırı tespiti.
-- **Döngü ile Ürün Listeleme:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Ürün ve Fiyat Listesini Döngü ile işleme.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/%C3%9Cr%C3%BCn%20ve%20Fiyat%20Listesini%20D%C3%B6ng%C3%BC%20ile%20i%C5%9Fleme.py) — Verilerin ekrana dinamik ve biçimlendirilmiş bir biçimde listelenmesi.
-- **Etkinlik Uygunluğu:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Şehir ve Yaşa Göre Etkinlik Uygunluğu.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/%C5%9Eehir%20ve%20Ya%C5%9Fa%20G%C3%B6re%20Etkinlik%20Uygunlu%C4%9Fu.py) — Birden fazla koşula bağlı mantık süzgeçleri.
-- **🏆 Bölüm Sonu Projesi 2:** [Temelden-Ileri seviye projelerle Python/2.Bölüm/Bölüm sonu proje 2/Dizi & Film Takip Sistemi.py](Temelden-Ileri%20seviye%20projelerle%20Python/2.B%C3%B6l%C3%BCm/B%C3%B6l%C3%BCm%20sonu%20proje%202/Dizi%20%26%20Film%20Takip%20Sistemi.py) — Depolama olarak JSON dosyasını kullanan, tüm ekleme, silme, arama, listeleme, izleme durumu günleme (CRUD) işlemlerini gerçekleştirebileceğiniz gelişmiş bir takip sistemi.
+- [Banka Masraf Hesaplayıcı Fonksiyonu.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Banka%20Masraf%20Hesaplayıcı%20Fonksiyonu.py): İşlem türüne göre komisyon hesaplayan fonksiyon.
+- [Book Sınıfı Tasarımı ve summary() Metodu.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Book%20Sınıfı%20Tasarımı%20ve%20summary%28%29%20Metodu.py): Kitap nesnesi oluşturma ve özet metni üretme.
+- [Customer Sınıfı ve Segment Bazlı Çıktı.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Customer%20Sınıfı%20ve%20Segment%20Bazlı%20Çıktı.py): Müşteri sınıfı ve özel metin temsili.
+- [Fiyat Listesinde KDV ve Filtreleme İşlemleri.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Fiyat%20Listesinde%20KDV%20ve%20Filtreleme%20İşlemleri.py): `map`, `filter` ve lambda kullanarak fiyatları dönüştürme.
+- [Kullanıcıdan Sayı Alma ve ValueError Yakalama.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Kullanıcıdan%20Sayı%20Alma%20ve%20ValueError%20Yakalama.py): Sayısal girdi doğrulama ve `ValueError` yönetimi.
+- [Kullanıcıdan İsim Alıp Selamlama Mesajı Üretme.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Kullanıcıdan%20İsim%20Alıp%20Selamlama%20Mesajı%20Üretme.py): Kullanıcı girdisiyle biçimlendirilmiş selamlama mesajı.
+- [Negatif Sayı Kontrolü ile Kare Hesaplama Fonksiyonu.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Negatif%20Sayı%20Kontrolü%20ile%20Kare%20Hesaplama%20Fonksiyonu.py): Negatif değerleri reddeden kare alma fonksiyonu.
+- [Sipariş Sistemi Sınıf Tasarımı.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Sipariş%20Sistemi%20Sınıf%20Tasarımı.py): Ürün, sepet ve sipariş sınıflarıyla sipariş özeti üretme.
+- [Task Sınıfına __str__ Metodu Ekleme.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Task%20Sınıfına%20__str__%20Metodu%20Ekleme.py): Görev nesnesini okunabilir metne dönüştüren `__str__` metodu.
+- [TodoApp Görev Ekleme, Listeleme ve Tamamlama.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/TodoApp%20Görev%20Ekleme,%20Listeleme%20ve%20Tamamlama.py): Görev ekleme, listeleme ve tamamlama işlevleri sunan sınıf.
+- [URL Oluşturucu Fonksiyon.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/URL%20Oluşturucu%20Fonksiyon.py): URL parçalarını güvenli biçimde birleştiren yardımcı fonksiyon.
+- [Wallet Sınıfı Bakiye Yönetimi ve Erişim Kontrolü.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Wallet%20Sınıfı%20Bakiye%20Yönetimi%20ve%20Erişim%20Kontrolü.py): Para yatırma, çekme ve bakiye erişimini kapsayan cüzdan sınıfı.
+- [Ödeme Sistemi Payment Alt Sınıfları ile Polimorfizm.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Ödeme%20Sistemi%20Payment%20Alt%20Sınıfları%20ile%20Polimorfizm.py): Kart ve havale ödeme sınıflarıyla polimorfizm örneği.
+- [İki Sayı Üzerinde Matematiksel İşlemler Yapan Fonksiyon.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/İki%20Sayı%20Üzerinde%20Matematiksel%20İşlemler%20Yapan%20Fonksiyon.py): İki sayı üzerinde parametrik matematik işlemleri.
+- `Bölüm sonu proje 3/`: Final proje klasörü oluşturuldu; henüz kaynak dosya içermiyor.
 
----
+### Bölüm 4: Veri Sorgulama ve Entegrasyon
 
-### ⚙️ Bölüm 3: Fonksiyonlar ve Exception Handling (Functions & Error Handling)
-Hatalardan arındırılmış, modüler, tip güvenli ve sürdürülebilir fonksiyonlar tasarlama aşaması.
+`Bölüm sonu proje 4/` klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
 
-- **KDV Filtreleme:** [Temelden-Ileri seviye projelerle Python/3.Bölüm/Fiyat Listesinde KDV ve Filtreleme İşlemleri.py](Temelden-Ileri%20seviye%20projelerle%20Python/3.B%C3%B6l%C3%BCm/Fiyat%20Listesinde%20KDV%20ve%20Filtreleme%20%C4%B0%C5%9Flemleri.py) — KDV uygulanmış fiyatları süzüp yeni listeler dönen modüler yaklaşım.
-- **Hata Yakalama (ValueError):** [Temelden-Ileri seviye projelerle Python/3.Bölüm/Kullanıcıdan Sayı Alma ve ValueError Yakalama.py](Temelden-Ileri%20seviye%20projelerle%20Python/3.B%C3%B6l%C3%BCm/Kullan%C4%B1c%C4%B1dan%20Say%C4%B1%20Alma%20ve%20ValueError%20Yakalama.py) — Hatalı input durumlarında uygulamanın çökmesini engelleyen güvenli yakalama mimarisi.
-- **Kare Hesaplayıcı:** [Temelden-Ileri seviye projelerle Python/3.Bölüm/Negatif Sayı Kontrolü ile Kare Hesaplama Fonksiyonu.py](Temelden-Ileri%20seviye%20projelerle%20Python/3.B%C3%B6l%C3%BCm/Negatif%20Say%C4%B1%20Kontrol%C3%BC%20ile%20Kare%20Hesaplama%20Fonksiyonu.py) — Özel hata fırlatma rutinleri içeren parametre doğrulaması.
-- **Matematik Motoru:** [Temelden-Ileri seviye projelerle Python/3.Bölüm/İki Sayı Üzerinde Matematiksel İşlemler Yapan Fonksiyon.py](Temelden-Ileri%20seviye%20projelerle%20Python/3.B%C3%B6l%C3%BCm/%C4%B0ki%20Say%C4%B1%20%C3%9Czerinde%20Matematiksel%20%C4%B0%C5%9Flemler%20Yapan%20Fonksiyon.py) — Matematiksel işlemleri parametrik yürüten fonksiyon motoru.
-- *Bölüm Sonu Projesi 3:* Yapım aşamasındadır 🛠️.
+### Bölüm 5: Python ile Web Geliştirme
 
----
+`Bölüm sonu proje 5/` klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
 
-## 📜 Başarı Sertifikaları
-Eğitim adımlarındaki yetkinliklerimizi belgeleyen doğrulanmış ve tamamlanmış başarı sertifikalarına aşağıdaki bağlantılardan erişebilirsiniz:
+## Ek Dosyalar ve Sertifikalar
 
-1. **Temel Programlama Sertifikası:** [Temelden-Ileri seviye projelerle Python/Sertifikalar/1- Temel Programlama.pdf](Temelden-Ileri%20seviye%20projelerle%20Python/Sertifikalar/1-%20Temel%20Programlama.pdf)
-2. **Mantıksal Kontrol Yapıları Sertifikası:** [Temelden-Ileri seviye projelerle Python/Sertifikalar/2- Mantıksal Kontrol Yapıları ve Akış Yönetimi.pdf](Temelden-Ileri%20seviye%20projelerle%20Python/Sertifikalar/2-%20Mant%C4%B1ksal%20Kontrol%20Yap%C4%B1lar%20ve%20Ak%C4%B1%C5%9F%20Y%C3%B6netimi.pdf)
+- [Kisisel-Ozet.txt](Kisisel-Ozet.txt): Eğitime ve çalışmalara ilişkin kişisel özet metni.
+- [Kisisel-Ozet.docx](Kisisel-Ozet.docx): Kişisel özetin Word belgesi sürümü.
+- [.gitattributes](.gitattributes): Git öznitelik ve satır sonu yapılandırması.
+- [Temel Programlama Sertifikası](Sertifikalar/1-%20Temel%20Programlama.pdf)
+- [Mantıksal Kontrol Yapıları ve Akış Yönetimi Sertifikası](Sertifikalar/2-%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi.pdf)
 
----
+## Çalıştırma
 
-## 🚀 Çalıştırma ve Test Etme
-Herhangi bir betiği yerel makinenizde çalıştırmak için sisteminizde Python 3 yüklü olmalıdır. Ardından terminal üzerinden ilgili dosyanın yolunu belirterek çalıştırabilirsiniz:
+Sisteminizde Python 3 yüklüyse, bir betiği depo kök dizininden aşağıdaki biçimde çalıştırabilirsiniz:
 
-Örnek çalıştırma:
 ```bash
-python "Temelden-Ileri seviye projelerle Python/1. Bölüm/Bölüm sonu proje 1/Finansal Analiz Motoru.py"
+python "1. Bölüm Temel Programlama/Bölüm sonu proje 1/Finansal Analiz Motoru.py"
 ```
 
-Ya da CRUD projesini çalıştırmak için:
+JSON tabanlı takip uygulaması için:
+
 ```bash
-python "Temelden-Ileri seviye projelerle Python/2.Bölüm/Bölüm sonu proje 2/Dizi & Film Takip Sistemi.py"
+python "2. Bölüm Mantıksal Kontrol Yapıları ve Akış Yönetimi/Bölüm sonu proje 2/Dizi & Film Takip Sistemi.py"
 ```
 
----
-Bu harika projeyi hazırlayan ve dersleri sunan **CoderSpace Pro** ailesine içtenlikle teşekkür ederim! ⭐
+Bu içerikler CoderSpace Pro eğitimi kapsamında hazırlanmıştır.
