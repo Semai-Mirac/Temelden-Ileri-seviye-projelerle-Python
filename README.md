@@ -48,6 +48,8 @@ Değişkenler, temel veri tipleri, koleksiyonlar, metin işlemleri ve aritmetik 
   - **İçeriği:** İşlem ekleme, örnek veri yükleme, finansal özet, tablo halinde kayıt listeleme ve Riskli / Kontrol Edilmeli / Sağlıklı durum değerlendirmesi.
   - **Ne işe yarar?** Kişisel bütçe verisini kurallı biçimde takip etmeyi ve harcama risklerini görünür kılmayı öğretir.
 
+  --------------------------------------------------------------------------------------------------
+
 ### 🔄 Bölüm 2: Mantıksal Kontrol Yapıları ve Akış Yönetimi
 
 Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmalarını kapsar.
@@ -69,6 +71,8 @@ Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmaları
   - **Ne yapar?** Film ve dizi kayıtlarını JSON dosyasında saklar; ekleme, başlığa göre arama, izlenenleri filtreleme ve ortalama puan hesaplama işlemlerini sunar.
   - **İçeriği:** JSON dosyasından veri yükleme-kaydetme, benzersiz başlık kontrolü, film/dizi ve durum doğrulaması, dinamik tablo görünümü, arama ve puan istatistikleri.
   - **Ne işe yarar?** Kalıcı veri yönetimi, girdi doğrulama ve menü tabanlı CRUD uygulaması geliştirme pratiği kazandırır.
+
+----------------------------------------------------------------------------------------------------
 
 ### ⚙️ Bölüm 3: Fonksiyonlar ve Modüler Programlama Temelleri
 
@@ -98,9 +102,13 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
   - **İçeriği:** Task sınıfında başlık, öncelik ve durum property doğrulamaları; TaskReport sınıfında toplam skor, tamamlanan ve tamamlanmayan görev sayısı hesapları.
   - **Ne işe yarar?** Property doğrulaması, sınıf tasarımı ve nesne koleksiyonlarından rapor üretme yaklaşımını somutlaştırır.
 
+----------------------------------------------------------------------------------------------------
+
 ### 🔎 Bölüm 4: Veri Sorgulama ve Entegrasyon
 
 🏗️ Bölüm sonu proje 4/ klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
+
+----------------------------------------------------------------------------------------------------
 
 ### 🌐 Bölüm 5: Python ile Web Geliştirme
 
