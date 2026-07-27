@@ -33,6 +33,9 @@ Değişkenler, temel veri tipleri, koleksiyonlar, metin işlemleri ve aritmetik 
 - [Ürün Fiyatı ve Adet Alıp Toplam Tutarı Hesapla.py](1.%20Bölüm%20Temel%20Programlama/Ürün%20Fiyatı%20ve%20Adet%20Alıp%20Toplam%20Tutarı%20Hesapla.py): Kullanıcı girdisiyle toplam tutar hesaplama.
 - [Şifre Güçlülük Kontrolü.py](1.%20Bölüm%20Temel%20Programlama/Şifre%20Güçlülük%20Kontrolü.py): Karakter analizine dayalı şifre gücü kontrolü.
 - [Finansal Analiz Motoru.py](1.%20Bölüm%20Temel%20Programlama/Bölüm%20sonu%20proje%201/Finansal%20Analiz%20Motoru.py): Gelir-gider kayıtlarını doğrulayan ve analiz eden bölüm sonu projesi.
+  - **Ne yapar?** Gelir ve gider kayıtlarını doğrular; toplamları, net bakiyeyi, sabit/değişken giderleri ve finansal durumu raporlar.
+  - **İçeriği:** İşlem ekleme, örnek veri yükleme, finansal özet, tablo halinde kayıt listeleme ve `Riskli` / `Kontrol Edilmeli` / `Sağlıklı` durum değerlendirmesi.
+  - **Ne işe yarar?** Kişisel bütçe verisini kurallı biçimde takip etmeyi ve harcama risklerini görünür kılmayı öğretir.
 
 ### 🔄 Bölüm 2: Mantıksal Kontrol Yapıları ve Akış Yönetimi
 
@@ -51,6 +54,9 @@ Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmaları
 - [Ürün ve Fiyat Listesini Döngü ile işleme.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Ürün%20ve%20Fiyat%20Listesini%20Döngü%20ile%20işleme.py): `zip` ile ürün-fiyat çiftlerini işleme.
 - [Şehir ve Yaşa Göre Etkinlik Uygunluğu.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Şehir%20ve%20Yaşa%20Göre%20Etkinlik%20Uygunluğu.py): Birden fazla koşulla etkinlik uygunluğu denetimi.
 - [Dizi & Film Takip Sistemi.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Bölüm%20sonu%20proje%202/Dizi%20%26%20Film%20Takip%20Sistemi.py): JSON tabanlı ekleme, silme, arama, listeleme ve durum güncelleme işlemleri yapan bölüm sonu projesi.
+  - **Ne yapar?** Film ve dizi kayıtlarını JSON dosyasında saklar; ekleme, başlığa göre arama, izlenenleri filtreleme ve ortalama puan hesaplama işlemlerini sunar.
+  - **İçeriği:** JSON dosyasından veri yükleme-kaydetme, benzersiz başlık kontrolü, film/dizi ve durum doğrulaması, dinamik tablo görünümü, arama ve puan istatistikleri.
+  - **Ne işe yarar?** Kalıcı veri yönetimi, girdi doğrulama ve menü tabanlı CRUD uygulaması geliştirme pratiği kazandırır.
 
 ### ⚙️ Bölüm 3: Fonksiyonlar ve Modüler Programlama Temelleri
 
@@ -60,8 +66,11 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
 - [Book Sınıfı Tasarımı ve summary() Metodu.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Book%20Sınıfı%20Tasarımı%20ve%20summary%28%29%20Metodu.py): Kitap nesnesi oluşturma ve özet metni üretme.
 - [Customer Sınıfı ve Segment Bazlı Çıktı.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Customer%20Sınıfı%20ve%20Segment%20Bazlı%20Çıktı.py): Müşteri sınıfı ve özel metin temsili.
 - [Fiyat Listesinde KDV ve Filtreleme İşlemleri.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Fiyat%20Listesinde%20KDV%20ve%20Filtreleme%20İşlemleri.py): `map`, `filter` ve lambda kullanarak fiyatları dönüştürme.
+- [Fonksiyon Yaz ve Farklı Girdilerle Test Et.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Fonksiyon%20Yaz%20ve%20Farklı%20Girdilerle%20Test%20Et.py): Metni temizleyip kelime sayısını hesaplayan fonksiyon.
 - [Kullanıcıdan Sayı Alma ve ValueError Yakalama.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Kullanıcıdan%20Sayı%20Alma%20ve%20ValueError%20Yakalama.py): Sayısal girdi doğrulama ve `ValueError` yönetimi.
 - [Kullanıcıdan İsim Alıp Selamlama Mesajı Üretme.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Kullanıcıdan%20İsim%20Alıp%20Selamlama%20Mesajı%20Üretme.py): Kullanıcı girdisiyle biçimlendirilmiş selamlama mesajı.
+- [Liste Oluşturma ve İlk 3 Elemanı Yazdırma.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Liste%20Oluşturma%20ve%20İlk%203%20Elemanı%20Yazdırma.py): Boşlukla ayrılan sayıları listeye dönüştürüp ilk üç elemanı yazdırma.
+- [Matris Çarpımı ve Süre Ölçümü.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Matris%20Çarpımı%20ve%20Süre%20Ölçümü.py): Üçlü döngüyle matris çarpımı yapıp çalışma süresini ölçme.
 - [Negatif Sayı Kontrolü ile Kare Hesaplama Fonksiyonu.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Negatif%20Sayı%20Kontrolü%20ile%20Kare%20Hesaplama%20Fonksiyonu.py): Negatif değerleri reddeden kare alma fonksiyonu.
 - [Sipariş Sistemi Sınıf Tasarımı.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Sipariş%20Sistemi%20Sınıf%20Tasarımı.py): Ürün, sepet ve sipariş sınıflarıyla sipariş özeti üretme.
 - [Task Sınıfına __str__ Metodu Ekleme.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Task%20Sınıfına%20__str__%20Metodu%20Ekleme.py): Görev nesnesini okunabilir metne dönüştüren `__str__` metodu.
@@ -70,7 +79,11 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
 - [Wallet Sınıfı Bakiye Yönetimi ve Erişim Kontrolü.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Wallet%20Sınıfı%20Bakiye%20Yönetimi%20ve%20Erişim%20Kontrolü.py): Para yatırma, çekme ve bakiye erişimini kapsayan cüzdan sınıfı.
 - [Ödeme Sistemi Payment Alt Sınıfları ile Polimorfizm.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Ödeme%20Sistemi%20Payment%20Alt%20Sınıfları%20ile%20Polimorfizm.py): Kart ve havale ödeme sınıflarıyla polimorfizm örneği.
 - [İki Sayı Üzerinde Matematiksel İşlemler Yapan Fonksiyon.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/İki%20Sayı%20Üzerinde%20Matematiksel%20İşlemler%20Yapan%20Fonksiyon.py): İki sayı üzerinde parametrik matematik işlemleri.
-- 🏗️ `Bölüm sonu proje 3/`: Final proje klasörü oluşturuldu; henüz kaynak dosya içermiyor.
+- [Çok ortamlı profesyonel projelerde; kod versiyonlama, ortam farklarını yönetme ve tekrar çalıştırılab.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/%C3%87ok%20ortaml%C4%B1%20profesyonel%20projelerde%3B%20kod%20versiyonlama%2C%20ortam%20farklar%C4%B1n%C4%B1%20y%C3%B6netme%20ve%20tekrar%20%C3%A7al%C4%B1%C5%9Ft%C4%B1r%C4%B1lab.py): Standart girdiden CSV başlık ve ilk kayıt verisini okuyup alanları yazdırma.
+- [Task Puanlama ve Raporlama Sistemi.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/B%C3%B6l%C3%BCm%20sonu%20proje%203/Task%20Puanlama%20ve%20Raporlama%20Sistemi.py): Doğrulamalı görev nesneleriyle öncelik puanı, tamamlanma durumu ve özet rapor üretme.
+  - **Ne yapar?** Görev başlığı, öncelik ve tamamlanma bilgisini doğrular; tamamlanmayan görevlerin puanını hesaplayıp görev özetini üretir.
+  - **İçeriği:** `Task` sınıfında başlık, öncelik ve durum property doğrulamaları; `TaskReport` sınıfında toplam skor, tamamlanan ve tamamlanmayan görev sayısı hesapları.
+  - **Ne işe yarar?** Property doğrulaması, sınıf tasarımı ve nesne koleksiyonlarından rapor üretme yaklaşımını somutlaştırır.
 
 ### 🔎 Bölüm 4: Veri Sorgulama ve Entegrasyon
 
@@ -100,6 +113,12 @@ JSON tabanlı takip uygulaması için:
 
 ```bash
 python "2. Bölüm Mantıksal Kontrol Yapıları ve Akış Yönetimi/Bölüm sonu proje 2/Dizi & Film Takip Sistemi.py"
+```
+
+Görev puanlama ve raporlama uygulaması için:
+
+```bash
+python "3. Bölüm Fonksiyonlar ve Modüler Programlama Temelleri/Bölüm sonu proje 3/Task Puanlama ve Raporlama Sistemi.py"
 ```
 
 Bu içerikler CoderSpace Pro eğitimi kapsamında hazırlanmıştır.
