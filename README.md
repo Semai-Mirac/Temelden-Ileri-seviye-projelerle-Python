@@ -111,14 +111,4 @@ Sisteminizde Python 3 yüklüyse, bir betiği depo kök dizininden aşağıdaki 
 
 ```bash
 python "1. Bölüm Temel Programlama/Bölüm sonu proje 1/Finansal Analiz Motoru.py"
-
-python "2. Bölüm Mantıksal Kontrol Yapıları ve Akış Yönetimi/Bölüm sonu proje 2/Dizi & Film Takip Sistemi.py"
-
-python "3. Bölüm Fonksiyonlar ve Modüler Programlama Temelleri/Bölüm sonu proje 3/Task Puanlama ve Raporlama Sistemi.py"
-
-python "4. Bölüm Veri Sorgulama ve Entegrasyon/Bölüm sonu proje 4/
-
-python "5. Bölüm Python ile Web Geliştirme/Bölüm sonu proje 5/
-
-
 ```
