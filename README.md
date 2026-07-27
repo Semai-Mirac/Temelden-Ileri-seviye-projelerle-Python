@@ -10,6 +10,16 @@ Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik u
 - Sınıflar, kalıtım, kapsülleme ve polimorfizm temelleri
 - JSON ile kalıcı veri saklama ve CRUD işlemleri
 
+## 🏅 Kazanılan Yetkinlikler
+
+Eğitim sürecinde her bölümün tamamlanmasıyla elde edilen yetkinlikler ve kullanılan araçlar:
+
+| Bölüm / Aşama | Kazanılan Yetkinlikler & Araçlar |
+| :--- | :--- |
+| **Bölüm 1: Temel Programlama** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Data Structure](https://img.shields.io/badge/Data%20Structure-blue?style=flat-square) |
+| **Bölüm 2: Mantıksal Kontrol Yapıları** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) ![Control Flow](https://img.shields.io/badge/Control%20Flow-orange?style=flat-square) |
+| **Bölüm 3: Fonksiyonlar ve OOP** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) <br> ![OOP](https://img.shields.io/badge/OOP-green?style=flat-square) ![Functional Programming](https://img.shields.io/badge/Functional%20Programming-magenta?style=flat-square) |
+
 ## 🧰 Kullanılan Teknolojiler
 
 - Python 3.10+
