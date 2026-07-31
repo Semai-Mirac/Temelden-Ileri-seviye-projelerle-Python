@@ -9,6 +9,9 @@ Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik u
 - try / except ile hata yönetimi
 - Sınıflar, kalıtım, kapsülleme ve polimorfizm temelleri
 - JSON ile kalıcı veri saklama ve CRUD işlemleri
+- SQL ile tablo oluşturma, CRUD işlemleri ve parametreli sorgular
+- SQLite ile veritabanı bağlantısı, sorgulama ve raporlama
+- pandas ile SQL verisini DataFrame'e aktarma ve analiz etme
 
 ## 🏅 Kazanılan Yetkinlikler
 
@@ -19,11 +22,14 @@ Eğitim sürecinde her bölümün tamamlanmasıyla elde edilen yetkinlikler ve k
 | **Bölüm 1: Temel Programlama** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Data Structure](https://img.shields.io/badge/Data%20Structure-blue?style=flat-square) |
 | **Bölüm 2: Mantıksal Kontrol Yapıları** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) ![Control Flow](https://img.shields.io/badge/Control%20Flow-orange?style=flat-square) |
 | **Bölüm 3: Fonksiyonlar ve OOP** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) <br> ![OOP](https://img.shields.io/badge/OOP-green?style=flat-square) ![Functional Programming](https://img.shields.io/badge/Functional%20Programming-magenta?style=flat-square) |
+| **Bölüm 4: Veri Sorgulama ve Entegrasyon** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square) ![Data Algorithms](https://img.shields.io/badge/Data%20Algorithms-155EEF?style=flat-square) |
 
 ## 🧰 Kullanılan Teknolojiler
 
 - Python 3.10+
-- Standart kütüphaneler: json, os, typing
+- Standart kütüphaneler: json, os, typing, sqlite3
+- Veri sorgulama ve veritabanı: SQL, SQLite
+- Veri analizi: pandas
 - Veri yapıları: list, tuple, set ve dictionary
 - Programlama yaklaşımları: fonksiyonel yapılar, OOP, dosya işlemleri ve hata yönetimi
 
@@ -43,7 +49,7 @@ Değişkenler, temel veri tipleri, koleksiyonlar, metin işlemleri ve aritmetik 
 - [List Comprehension ve Slice İşlemleri.py](1.%20Bölüm%20Temel%20Programlama/List%20Comprehension%20ve%20Slice%20İşlemleri.py): Liste filtreleme, üretme ve dilimleme.
 - [Ürün Fiyatı ve Adet Alıp Toplam Tutarı Hesapla.py](1.%20Bölüm%20Temel%20Programlama/Ürün%20Fiyatı%20ve%20Adet%20Alıp%20Toplam%20Tutarı%20Hesapla.py): Kullanıcı girdisiyle toplam tutar hesaplama.
 - [Şifre Güçlülük Kontrolü.py](1.%20Bölüm%20Temel%20Programlama/Şifre%20Güçlülük%20Kontrolü.py): Karakter analizine dayalı şifre gücü kontrolü.
-
+------
 - [Bölüm sonu proje 1/Finansal Analiz Motoru.py](1.%20Bölüm%20Temel%20Programlama/Bölüm%20sonu%20proje%201/Finansal%20Analiz%20Motoru.py): Gelir-gider kayıtlarını doğrulayan ve analiz eden bölüm sonu projesi.
   - **Ne yapar?** Gelir ve gider kayıtlarını doğrular; toplamları, net bakiyeyi, sabit/değişken giderleri ve finansal durumu raporlar.
   - **İçeriği:** İşlem ekleme, örnek veri yükleme, finansal özet, tablo halinde kayıt listeleme ve Riskli / Kontrol Edilmeli / Sağlıklı durum değerlendirmesi.
@@ -68,7 +74,7 @@ Koşullar, döngüler, koleksiyon karşılaştırmaları ve karar mekanizmaları
 - [Yaşa Göre Kayıt Koşulu Belirleme.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Yaşa%20Göre%20Kayıt%20Koşulu%20Belirleme.py): Yaş sınırlarına göre kayıt uygunluğunu değerlendirme.
 - [Ürün ve Fiyat Listesini Döngü ile işleme.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Ürün%20ve%20Fiyat%20Listesini%20Döngü%20ile%20işleme.py): zip ile ürün-fiyat çiftlerini işleme.
 - [Şehir ve Yaşa Göre Etkinlik Uygunluğu.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Şehir%20ve%20Yaşa%20Göre%20Etkinlik%20Uygunluğu.py): Birden fazla koşulla etkinlik uygunluğu denetimi.
-
+------
 - [Bölüm sonu proje 2/Dizi & Film Takip Sistemi.py](2.%20Bölüm%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi/Bölüm%20sonu%20proje%202/Dizi%20%26%20Film%20Takip%20Sistemi.py): JSON tabanlı ekleme, silme, arama, listeleme ve durum güncelleme işlemleri yapan bölüm sonu projesi.
   - **Ne yapar?** Film ve dizi kayıtlarını JSON dosyasında saklar; ekleme, başlığa göre arama, izlenenleri filtreleme ve ortalama puan hesaplama işlemlerini sunar.
   - **İçeriği:** JSON dosyasından veri yükleme-kaydetme, benzersiz başlık kontrolü, film/dizi ve durum doğrulaması, dinamik tablo görünümü, arama ve puan istatistikleri.
@@ -99,7 +105,7 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
 - [Çok ortamlı profesyonel projelerde; kod versiyonlama, ortam farklarını yönetme ve tekrar çalıştırılab.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Çok%20ortamlı%20profesyonel%20projelerde;%20kod%20versiyonlama,%20ortam%20farklarını%20yönetme%20ve%20tekrar%20çalıştırılab.py): Standart girdiden CSV başlık ve ilk kayıt verisini okuyup alanları yazdırma.
 - [Ödeme Sistemi Payment Alt Sınıfları ile Polimorfizm.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Ödeme%20Sistemi%20Payment%20Alt%20Sınıfları%20ile%20Polimorfizm.py): Kart ve havale ödeme sınıflarıyla polimorfizm örneği.
 - [İki Sayı Üzerinde Matematiksel İşlemler Yapan Fonksiyon.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/İki%20Sayı%20Üzerinde%20Matematiksel%20İşlemler%20Yapan%20Fonksiyon.py): İki sayı üzerinde parametrik matematik işlemleri.
-
+------
 - [Bölüm sonu proje 3/Task Puanlama ve Raporlama Sistemi.py](3.%20Bölüm%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri/Bölüm%20sonu%20proje%203/Task%20Puanlama%20ve%20Raporlama%20Sistemi.py): Doğrulamalı görev nesneleriyle öncelik puanı, tamamlanma durumu ve özet rapor üretme.
   - **Ne yapar?** Görev başlığı, öncelik ve tamamlanma bilgisini doğrular; tamamlanmayan görevlerin puanını hesaplayıp görev özetini üretir.
   - **İçeriği:** Task sınıfında başlık, öncelik ve durum property doğrulamaları; TaskReport sınıfında toplam skor, tamamlanan ve tamamlanmayan görev sayısı hesapları.
@@ -109,7 +115,23 @@ Fonksiyon tasarımı, hata yönetimi ve nesne yönelimli programlama ile modüle
 
 ### 🔎 Bölüm 4: Veri Sorgulama ve Entegrasyon
 
-🏗️ Bölüm sonu proje 4/ klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
+SQL sorguları, SQLite ile in-memory veritabanı kullanımı ve pandas ile veri okuma pratiklerini kapsar.
+
+- [4. Bölüm Veri Sorgulama ve Entegrasyon/coderspace_sertifika_veri_sorgulama_ve_entegrasyon_mhn37vo0.pdf](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/coderspace_sertifika_veri_sorgulama_ve_entegrasyon_mhn37vo0.pdf): 4. Bölüm başarı sertifikası.
+- [Departman Bazlı Ortalama Maaş Hesaplama.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Departman%20Bazlı%20Ortalama%20Maaş%20Hesaplama.py): Departmanlara göre ortalama maaş hesaplayan SQL sorgusu.
+- [Insert, Update, Delete Adımlarını Takip Etme.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Insert,%20Update,%20Delete%20Adımlarını%20Takip%20Etme.py): Hesap kaydında ekleme, güncelleme ve silme işlemlerini sırasıyla uygular.
+- [Kategori ve Fiyat Aralığıyla Ürün Filtreleme.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Kategori%20ve%20Fiyat%20Aralığıyla%20Ürün%20Filtreleme.py): Kategori ve fiyat aralığına göre ürün filtreleyen SQL sorgusu.
+- [Mini Banka Raporu Bakiye ve İşlem Analizi.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Mini%20Banka%20Raporu%20Bakiye%20ve%20İşlem%20Analizi.py): Toplam bakiye, en aktif hesap ve son işlemleri raporlar.
+- [Müşteri Tablosu Oluşturma ve Sorgulama.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Müşteri%20Tablosu%20Oluşturma%20ve%20Sorgulama.py): Kullanıcı girdileriyle müşteri tablosu oluşturur ve kayıtları listeler.
+- [Parametreli Sorgu ile Bakiye Filtreleme.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Parametreli%20Sorgu%20ile%20Bakiye%20Filtreleme.py): Minimum bakiye değerine göre hesapları parametreli sorguyla filtreler.
+- [read_sql ile En Yüksek Bakiyeli Hesapları Listeleme.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/read_sql%20ile%20En%20Yüksek%20Bakiyeli%20Hesapları%20Listeleme.py): pandas `read_sql` ile hesapları sıralayıp en yüksek üç bakiyeyi listeler.
+- [SQLite ile Hesap Tablosu Oluşturma ve Filtreleme.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/SQLite%20ile%20Hesap%20Tablosu%20Oluşturma%20ve%20Filtreleme.py): SQLite hesap tablosunda minimum bakiyeye göre filtreleme yapar.
+- [Yüksek Tutarlı Siparişleri Sorgulama.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Yüksek%20Tutarlı%20Siparişleri%20Sorgulama.py): Yüksek tutarlı siparişleri tarihe göre azalan sıralayan SQL sorgusu.
+------
+- [Bölüm sonu proje 4/Müşteri Segmentasyonu ve Önceliklendirme Sistemi.py](4.%20Bölüm%20Veri%20Sorgulama%20ve%20Entegrasyon/Bölüm%20sonu%20proje%204/Müşteri%20Segmentasyonu%20ve%20Önceliklendirme%20Sistemi.py): SQLite verisinden müşteri risk ve öncelik segmentleri üreten bölüm sonu projesi.
+  - **Ne yapar?** Aktif müşterileri veritabanından çeker; son giriş süresi ve işlem sayısına göre riskli ve öncelikli inceleme gruplarını belirleyip raporlar.
+  - **İçeriği:** SQLite bağlantısı ve `Row` factory, aktif müşteri sorgusu, list comprehension ile risk analizi, `filter()` ile öncelik filtresi, özet ve detay raporu, hata yönetimi.
+  - **Ne işe yarar?** SQL verisini Python'da analiz etmeyi, müşteri segmentasyonu yapmayı ve veritabanı bağlantısını güvenli biçimde yönetmeyi öğretir.
 
 ----------------------------------------------------------------------------------------------------
 
