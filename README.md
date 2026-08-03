@@ -1,6 +1,6 @@
 # 🎓 Temelden İleri Seviye Projelerle Python
 
-Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik uygulamalarla öğrenmek için hazırlanan CoderSpace Pro çalışmalarını içerir. İçerik; veri tipleri, kontrol akışı, fonksiyonlar, hata yönetimi ve nesne yönelimli programlama başlıklarında ilerler.
+Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik uygulamalarla öğrenmek için hazırlanan CoderSpace Pro çalışmalarını içerir. İçerik; veri tipleri, kontrol akışı, fonksiyonlar, hata yönetimi, nesne yönelimli programlama, veri entegrasyonu ve web API geliştirme başlıklarında ilerler.
 
 ## 🎯 Kazanımlar
 
@@ -12,6 +12,8 @@ Bu depo, Python programlama dilini temel seviyeden ileri seviyeye kadar pratik u
 - SQL ile tablo oluşturma, CRUD işlemleri ve parametreli sorgular
 - SQLite ile veritabanı bağlantısı, sorgulama ve raporlama
 - pandas ile SQL verisini DataFrame'e aktarma ve analiz etme
+- Flask ile REST API geliştirme, rota tanımlama ve JSON yanıt üretme
+- JSON istek gövdesini doğrulama, sorgu parametreleriyle filtreleme ve uygun HTTP durum kodlarını kullanma
 
 ## 🏅 Kazanılan Yetkinlikler
 
@@ -23,6 +25,7 @@ Eğitim sürecinde her bölümün tamamlanmasıyla elde edilen yetkinlikler ve k
 | **Bölüm 2: Mantıksal Kontrol Yapıları** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) ![Control Flow](https://img.shields.io/badge/Control%20Flow-orange?style=flat-square) |
 | **Bölüm 3: Fonksiyonlar ve OOP** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) <br> ![OOP](https://img.shields.io/badge/OOP-green?style=flat-square) ![Functional Programming](https://img.shields.io/badge/Functional%20Programming-magenta?style=flat-square) |
 | **Bölüm 4: Veri Sorgulama ve Entegrasyon** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square) ![Data Algorithms](https://img.shields.io/badge/Data%20Algorithms-155EEF?style=flat-square) |
+| **Bölüm 5: Python ile Web Geliştirme** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![API Development](https://img.shields.io/badge/API%20Development-155EEF?style=flat-square) |
 
 ## 🧰 Kullanılan Teknolojiler
 
@@ -30,6 +33,7 @@ Eğitim sürecinde her bölümün tamamlanmasıyla elde edilen yetkinlikler ve k
 - Standart kütüphaneler: json, os, typing, sqlite3
 - Veri sorgulama ve veritabanı: SQL, SQLite
 - Veri analizi: pandas
+- Web geliştirme: Flask, REST API, HTTP ve JSON
 - Veri yapıları: list, tuple, set ve dictionary
 - Programlama yaklaşımları: fonksiyonel yapılar, OOP, dosya işlemleri ve hata yönetimi
 
@@ -133,7 +137,16 @@ SQL sorguları, SQLite ile in-memory veritabanı kullanımı ve pandas ile veri 
 
 ### 🌐 Bölüm 5: Python ile Web Geliştirme
 
-🏗️ Bölüm sonu proje 5/ klasörü oluşturuldu. Bu bölüm için kaynak dosyalar henüz eklenmedi.
+Flask ile REST API tasarımı, HTTP istekleri, JSON veri alışverişi ve uç nokta geliştirme pratiklerini kapsar.
+
+- [5. Bölüm Phyton ile Web Geliştirme/coderspace_sertifika_python_ile_web_geliştirme.pdf](5.%20Bölüm%20Phyton%20ile%20Web%20Geliştirme/coderspace_sertifika_python_ile_web_geliştirme.pdf): 5. Bölüm başarı sertifikası.
+- [Not.txt](5.%20Bölüm%20Phyton%20ile%20Web%20Geliştirme/Not.txt): Bölüm uygulamalarının web ortamında geliştirildiğine ilişkin not.
+- [🏁 Bitirme Projesi 5: Yapay Zekâ Prompt Kütüphanesi API’si.py](5.%20Bölüm%20Phyton%20ile%20Web%20Geliştirme/Bölüm%20sonu%20proje%205/Yapay%20Zekâ%20Prompt%20Kütüphanesi%20API’si.py): Prompt kayıtlarını oluşturan, listeleyen, filtreleyen ve kullanım sayısını izleyen Flask REST API projesi.
+  - **Ne yapar?** Prompt kayıtlarını JSON verisiyle oluşturur; kategoriye veya popülerliğe göre listeler, tekil kayıtları getirir ve kullanım sayısını artırır.
+  - **İçeriği:** Flask, POST ve GET uç noktaları, JSON istek gövdesi doğrulaması, sorgu parametreleri, sıralama, hata yanıtları ve HTTP durum kodları.
+  - **Ne işe yarar?** REST API tasarımını, kaynak odaklı rota geliştirmeyi ve istemciye tutarlı JSON yanıtları sunmayı öğretir.
+
+----------------------------------------------------------------------------------------------------
 
 ## 📜 Ek Dosyalar ve Sertifikalar
 
@@ -144,6 +157,7 @@ SQL sorguları, SQLite ile in-memory veritabanı kullanımı ve pandas ile veri 
 - [Sertifikalar/2- Mantıksal Kontrol Yapıları ve Akış Yönetimi.pdf](Sertifikalar/2-%20Mantıksal%20Kontrol%20Yapıları%20ve%20Akış%20Yönetimi.pdf): 2. Bölüm başarı sertifikası.
 - [Sertifikalar/3- Fonksiyonlar ve Modüler Programlama Temelleri.pdf](Sertifikalar/3-%20Fonksiyonlar%20ve%20Modüler%20Programlama%20Temelleri.pdf): 3. Bölüm başarı sertifikası.
 - [Sertifikalar/4- Veri Sorgulama ve Entegrasyon.pdf](Sertifikalar/4-%20Veri%20Sorgulama%20ve%20Entegrasyon.pdf): 4. Bölüm başarı sertifikası.
+- [Sertifikalar/5- Python ile Web Geliştirme.pdf](Sertifikalar/5-%20Python%20ile%20Web%20Geliştirme.pdf): 5. Bölüm başarı sertifikası.
 
 ## 🚀 Çalıştırma
 
